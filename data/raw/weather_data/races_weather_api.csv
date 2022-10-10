@@ -1,0 +1,1074 @@
+,raceId,year,circuitId,name,date,time,url,quali_date,quali_time,sprint_date,sprint_time,lat,lng,race_temp,race_precip,race_humidity,race_condition
+0,1,2009,1,Australian Grand Prix,2009-03-29,06:00:00,http://en.wikipedia.org/wiki/2009_Australian_Grand_Prix,,,,,-37.8497,144.968,10.425,0.0,57.2275,Clear
+1,18,2008,1,Australian Grand Prix,2008-03-16,04:30:00,http://en.wikipedia.org/wiki/2008_Australian_Grand_Prix,,,,,-37.8497,144.968,19.5,0.0,60.0875,Clear
+2,36,2007,1,Australian Grand Prix,2007-03-18,03:00:00,http://en.wikipedia.org/wiki/2007_Australian_Grand_Prix,,,,,-37.8497,144.968,11.05,0.0,79.9525,Partially cloudy
+3,55,2006,1,Australian Grand Prix,2006-04-02,14:00:00,http://en.wikipedia.org/wiki/2006_Australian_Grand_Prix,,,,,-37.8497,144.968,15.200000000000001,0.0,53.32999999999999,Partially cloudy
+4,71,2005,1,Australian Grand Prix,2005-03-06,14:00:00,http://en.wikipedia.org/wiki/2005_Australian_Grand_Prix,,,,,-37.8497,144.968,17.166666666666668,0.0,54.376666666666665,"['Clear', 'Overcast', 'Partially cloudy']"
+5,90,2004,1,Australian Grand Prix,2004-03-07,,http://en.wikipedia.org/wiki/2004_Australian_Grand_Prix,,,,,-37.8497,144.968,15.1,0.7,81.47,"Rain, Partially cloudy"
+6,108,2003,1,Australian Grand Prix,2003-03-09,,http://en.wikipedia.org/wiki/2003_Australian_Grand_Prix,,,,,-37.8497,144.968,16.5,4.76,82.56,"Rain, Partially cloudy"
+7,124,2002,1,Australian Grand Prix,2002-03-03,,http://en.wikipedia.org/wiki/2002_Australian_Grand_Prix,,,,,-37.8497,144.968,15.3,1.04,80.64,"Rain, Partially cloudy"
+8,141,2001,1,Australian Grand Prix,2001-03-04,,http://en.wikipedia.org/wiki/2001_Australian_Grand_Prix,,,,,-37.8497,144.968,20.1,0.09,77.47,"Rain, Partially cloudy"
+9,158,2000,1,Australian Grand Prix,2000-03-12,,http://en.wikipedia.org/wiki/2000_Australian_Grand_Prix,,,,,-37.8497,144.968,21.7,0.0,71.95,Clear
+10,175,1999,1,Australian Grand Prix,1999-03-07,,http://en.wikipedia.org/wiki/1999_Australian_Grand_Prix,,,,,-37.8497,144.968,16.4,0.0,68.3,Partially cloudy
+11,191,1998,1,Australian Grand Prix,1998-03-08,,http://en.wikipedia.org/wiki/1998_Australian_Grand_Prix,,,,,-37.8497,144.968,14.4,0.0,66.2,Clear
+12,207,1997,1,Australian Grand Prix,1997-03-09,,http://en.wikipedia.org/wiki/1997_Australian_Grand_Prix,,,,,-37.8497,144.968,15.2,0.0,50.09,Partially cloudy
+13,224,1996,1,Australian Grand Prix,1996-03-10,,http://en.wikipedia.org/wiki/1996_Australian_Grand_Prix,,,,,-37.8497,144.968,17.5,0.0,71.23,Clear
+14,338,2010,1,Australian Grand Prix,2010-03-28,06:00:00,http://en.wikipedia.org/wiki/2010_Australian_Grand_Prix,,,,,-37.8497,144.968,19.1,0.0,66.88,Clear
+15,841,2011,1,Australian Grand Prix,2011-03-27,06:00:00,http://en.wikipedia.org/wiki/2011_Australian_Grand_Prix,,,,,-37.8497,144.968,13.45,0.0125,91.25000000000001,Partially cloudy
+16,860,2012,1,Australian Grand Prix,2012-03-18,06:00:00,http://en.wikipedia.org/wiki/2012_Australian_Grand_Prix,,,,,-37.8497,144.968,12.475,0.025,93.295,Partially cloudy
+17,880,2013,1,Australian Grand Prix,2013-03-17,06:00:00,http://en.wikipedia.org/wiki/2013_Australian_Grand_Prix,,,,,-37.8497,144.968,12.25,0.275,74.9075,Partially cloudy
+18,900,2014,1,Australian Grand Prix,2014-03-16,06:00:00,http://en.wikipedia.org/wiki/2014_Australian_Grand_Prix,,,,,-37.8497,144.968,12.675,0.0,71.05,Clear
+19,926,2015,1,Australian Grand Prix,2015-03-15,05:00:00,http://en.wikipedia.org/wiki/2015_Australian_Grand_Prix,,,,,-37.8497,144.968,14.45,0.0,61.455,"['Partially cloudy', 'Clear', 'Clear', 'Partially cloudy']"
+20,948,2016,1,Australian Grand Prix,2016-03-20,05:00:00,http://en.wikipedia.org/wiki/2016_Australian_Grand_Prix,,,,,-37.8497,144.968,11.350000000000001,0.0,87.66,Clear
+21,969,2017,1,Australian Grand Prix,2017-03-26,05:00:00,http://en.wikipedia.org/wiki/2017_Australian_Grand_Prix,,,,,-37.8497,144.968,19.5,0.0,83.06,Clear
+22,989,2018,1,Australian Grand Prix,2018-03-25,05:10:00,http://en.wikipedia.org/wiki/2018_Australian_Grand_Prix,,,,,-37.8497,144.968,21.725,0.0,67.1525,Clear
+23,1010,2019,1,Australian Grand Prix,2019-03-17,05:10:00,http://en.wikipedia.org/wiki/2019_Australian_Grand_Prix,,,,,-37.8497,144.968,15.95,0.0,95.145,Clear
+24,1076,2022,1,Australian Grand Prix,2022-04-10,05:00:00,http://en.wikipedia.org/wiki/2022_Australian_Grand_Prix,2022-04-09,06:00:00,,,-37.8497,144.968,17.55,0.0,80.3075,Clear
+25,2,2009,2,Malaysian Grand Prix,2009-04-05,09:00:00,http://en.wikipedia.org/wiki/2009_Malaysian_Grand_Prix,,,,,2.76083,101.738,30.025,0.0,77.03,Partially cloudy
+26,19,2008,2,Malaysian Grand Prix,2008-03-23,07:00:00,http://en.wikipedia.org/wiki/2008_Malaysian_Grand_Prix,,,,,2.76083,101.738,25.025,0.0,91.535,Partially cloudy
+27,37,2007,2,Malaysian Grand Prix,2007-04-08,07:00:00,http://en.wikipedia.org/wiki/2007_Malaysian_Grand_Prix,,,,,2.76083,101.738,26.35,0.0,87.015,Partially cloudy
+28,54,2006,2,Malaysian Grand Prix,2006-03-19,15:00:00,http://en.wikipedia.org/wiki/2006_Malaysian_Grand_Prix,,,,,2.76083,101.738,29.96666666666667,0.0,69.30666666666666,Partially cloudy
+29,72,2005,2,Malaysian Grand Prix,2005-03-20,15:00:00,http://en.wikipedia.org/wiki/2005_Malaysian_Grand_Prix,,,,,2.76083,101.738,32.46666666666667,0.0,56.849999999999994,Partially cloudy
+30,91,2004,2,Malaysian Grand Prix,2004-03-21,,http://en.wikipedia.org/wiki/2004_Malaysian_Grand_Prix,,,,,2.76083,101.738,28.9,0.0,77.21,Partially cloudy
+31,109,2003,2,Malaysian Grand Prix,2003-03-23,,http://en.wikipedia.org/wiki/2003_Malaysian_Grand_Prix,,,,,2.76083,101.738,29.3,0.76,75.76,"Rain, Partially cloudy"
+32,125,2002,2,Malaysian Grand Prix,2002-03-17,,http://en.wikipedia.org/wiki/2002_Malaysian_Grand_Prix,,,,,2.76083,101.738,29.0,0.2,78.89,"Rain, Partially cloudy"
+33,142,2001,2,Malaysian Grand Prix,2001-03-18,,http://en.wikipedia.org/wiki/2001_Malaysian_Grand_Prix,,,,,2.76083,101.738,27.7,17.52,81.59,"Rain, Partially cloudy"
+34,174,2000,2,Malaysian Grand Prix,2000-10-22,,http://en.wikipedia.org/wiki/2000_Malaysian_Grand_Prix,,,,,2.76083,101.738,28.5,5.98,79.36,"Rain, Overcast"
+35,189,1999,2,Malaysian Grand Prix,1999-10-17,,http://en.wikipedia.org/wiki/1999_Malaysian_Grand_Prix,,,,,2.76083,101.738,28.0,0.1,79.38,"Rain, Partially cloudy"
+36,339,2010,2,Malaysian Grand Prix,2010-04-04,08:00:00,http://en.wikipedia.org/wiki/2010_Malaysian_Grand_Prix,,,,,2.76083,101.738,28.0,0.0,83.3125,Partially cloudy
+37,842,2011,2,Malaysian Grand Prix,2011-04-10,08:00:00,http://en.wikipedia.org/wiki/2011_Malaysian_Grand_Prix,,,,,2.76083,101.738,26.299999999999997,0.075,91.0525,Partially cloudy
+38,861,2012,2,Malaysian Grand Prix,2012-03-25,08:00:00,http://en.wikipedia.org/wiki/2012_Malaysian_Grand_Prix,,,,,2.76083,101.738,27.475,0.0025,86.845,Partially cloudy
+39,881,2013,2,Malaysian Grand Prix,2013-03-24,08:00:00,http://en.wikipedia.org/wiki/2013_Malaysian_Grand_Prix,,,,,2.76083,101.738,28.924999999999997,0.0,76.38,Partially cloudy
+40,901,2014,2,Malaysian Grand Prix,2014-03-30,08:00:00,http://en.wikipedia.org/wiki/2014_Malaysian_Grand_Prix,,,,,2.76083,101.738,26.975,0.0,85.255,Partially cloudy
+41,927,2015,2,Malaysian Grand Prix,2015-03-29,07:00:00,http://en.wikipedia.org/wiki/2015_Malaysian_Grand_Prix,,,,,2.76083,101.738,27.725,0.0,76.05,Partially cloudy
+42,963,2016,2,Malaysian Grand Prix,2016-10-02,07:00:00,http://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix,,,,,2.76083,101.738,26.975,0.0,79.325,Partially cloudy
+43,983,2017,2,Malaysian Grand Prix,2017-10-01,07:00:00,http://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix,,,,,2.76083,101.738,27.7,0.0,82.9475,Partially cloudy
+44,3,2009,17,Chinese Grand Prix,2009-04-19,07:00:00,http://en.wikipedia.org/wiki/2009_Chinese_Grand_Prix,,,,,31.3389,121.22,19.95,0.0,82.095,Partially cloudy
+45,34,2008,17,Chinese Grand Prix,2008-10-19,07:00:00,http://en.wikipedia.org/wiki/2008_Chinese_Grand_Prix,,,,,31.3389,121.22,23.975,0.0,83.6275,Partially cloudy
+46,51,2007,17,Chinese Grand Prix,2007-10-07,06:00:00,http://en.wikipedia.org/wiki/2007_Chinese_Grand_Prix,,,,,31.3389,121.22,27.225,0.0,83.2625,Overcast
+47,68,2006,17,Chinese Grand Prix,2006-10-01,14:00:00,http://en.wikipedia.org/wiki/2006_Chinese_Grand_Prix,,,,,31.3389,121.22,20.266666666666666,0.0,89.79,Overcast
+48,89,2005,17,Chinese Grand Prix,2005-10-16,14:00:00,http://en.wikipedia.org/wiki/2005_Chinese_Grand_Prix,,,,,31.3389,121.22,23.066666666666666,0.0,27.27333333333333,Clear
+49,105,2004,17,Chinese Grand Prix,2004-09-26,,http://en.wikipedia.org/wiki/2004_Chinese_Grand_Prix,,,,,31.3389,121.22,23.8,0.0,71.32,Partially cloudy
+50,340,2010,17,Chinese Grand Prix,2010-04-18,06:00:00,http://en.wikipedia.org/wiki/2010_Chinese_Grand_Prix,,,,,31.3389,121.22,15.675,0.0,81.7325,"['Partially cloudy', 'Clear', 'Partially cloudy', 'Clear']"
+51,843,2011,17,Chinese Grand Prix,2011-04-17,07:00:00,http://en.wikipedia.org/wiki/2011_Chinese_Grand_Prix,,,,,31.3389,121.22,13.925,0.0,56.662499999999994,Clear
+52,862,2012,17,Chinese Grand Prix,2012-04-15,07:00:00,http://en.wikipedia.org/wiki/2012_Chinese_Grand_Prix,,,,,31.3389,121.22,15.475,0.0,75.37750000000001,Clear
+53,882,2013,17,Chinese Grand Prix,2013-04-14,07:00:00,http://en.wikipedia.org/wiki/2013_Chinese_Grand_Prix,,,,,31.3389,121.22,21.9,0.0,36.627500000000005,Clear
+54,903,2014,17,Chinese Grand Prix,2014-04-20,07:00:00,http://en.wikipedia.org/wiki/2014_Chinese_Grand_Prix,,,,,31.3389,121.22,15.25,0.025,77.5975,Partially cloudy
+55,928,2015,17,Chinese Grand Prix,2015-04-12,06:00:00,http://en.wikipedia.org/wiki/2015_Chinese_Grand_Prix,,,,,31.3389,121.22,14.399999999999999,0.0,72.7,Clear
+56,950,2016,17,Chinese Grand Prix,2016-04-17,06:00:00,http://en.wikipedia.org/wiki/2016_Chinese_Grand_Prix,,,,,31.3389,121.22,16.375,0.0,72.965,Partially cloudy
+57,970,2017,17,Chinese Grand Prix,2017-04-09,06:00:00,http://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix,,,,,31.3389,121.22,12.225,0.0,91.83500000000001,Partially cloudy
+58,991,2018,17,Chinese Grand Prix,2018-04-15,06:10:00,http://en.wikipedia.org/wiki/2018_Chinese_Grand_Prix,,,,,31.3389,121.22,13.775,0.025,74.1375,Clear
+59,1012,2019,17,Chinese Grand Prix,2019-04-14,06:10:00,http://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix,,,,,31.3389,121.22,16.0,0.0,83.1925,Clear
+60,4,2009,3,Bahrain Grand Prix,2009-04-26,12:00:00,http://en.wikipedia.org/wiki/2009_Bahrain_Grand_Prix,,,,,26.0325,50.5106,36.300000000000004,,17.236666666666668,Clear
+61,20,2008,3,Bahrain Grand Prix,2008-04-06,11:30:00,http://en.wikipedia.org/wiki/2008_Bahrain_Grand_Prix,,,,,26.0325,50.5106,28.866666666666664,,29.883333333333336,Clear
+62,38,2007,3,Bahrain Grand Prix,2007-04-15,11:30:00,http://en.wikipedia.org/wiki/2007_Bahrain_Grand_Prix,,,,,26.0325,50.5106,28.133333333333336,,33.92333333333334,Clear
+63,53,2006,3,Bahrain Grand Prix,2006-03-12,14:30:00,http://en.wikipedia.org/wiki/2006_Bahrain_Grand_Prix,,,,,26.0325,50.5106,20.5,,43.28,Clear
+64,73,2005,3,Bahrain Grand Prix,2005-04-03,14:30:00,http://en.wikipedia.org/wiki/2005_Bahrain_Grand_Prix,,,,,26.0325,50.5106,34.900000000000006,,23.36666666666667,Clear
+65,92,2004,3,Bahrain Grand Prix,2004-04-04,,http://en.wikipedia.org/wiki/2004_Bahrain_Grand_Prix,,,,,26.0325,50.5106,25.4,,64.13,Partially cloudy
+66,337,2010,3,Bahrain Grand Prix,2010-03-14,12:00:00,http://en.wikipedia.org/wiki/2010_Bahrain_Grand_Prix,,,,,26.0325,50.5106,33.166666666666664,0.0,26.810000000000002,Clear
+67,863,2012,3,Bahrain Grand Prix,2012-04-22,12:00:00,http://en.wikipedia.org/wiki/2012_Bahrain_Grand_Prix,,,,,26.0325,50.5106,27.0,0.0,34.49666666666667,Partially cloudy
+68,883,2013,3,Bahrain Grand Prix,2013-04-21,12:00:00,http://en.wikipedia.org/wiki/2013_Bahrain_Grand_Prix,,,,,26.0325,50.5106,30.5,0.0,37.98,Clear
+69,902,2014,3,Bahrain Grand Prix,2014-04-06,15:00:00,http://en.wikipedia.org/wiki/2014_Bahrain_Grand_Prix,,,,,26.0325,50.5106,25.3,0.0,30.423333333333332,Clear
+70,929,2015,3,Bahrain Grand Prix,2015-04-19,15:00:00,http://en.wikipedia.org/wiki/2015_Bahrain_Grand_Prix,,,,,26.0325,50.5106,26.7,0.0,34.906666666666666,Clear
+71,949,2016,3,Bahrain Grand Prix,2016-04-03,15:00:00,http://en.wikipedia.org/wiki/2016_Bahrain_Grand_Prix,,,,,26.0325,50.5106,24.23333333333333,0.0,25.026666666666667,Clear
+72,971,2017,3,Bahrain Grand Prix,2017-04-16,15:00:00,http://en.wikipedia.org/wiki/2017_Bahrain_Grand_Prix,,,,,26.0325,50.5106,26.7,0.0,54.10666666666666,Clear
+73,990,2018,3,Bahrain Grand Prix,2018-04-08,15:10:00,http://en.wikipedia.org/wiki/2018_Bahrain_Grand_Prix,,,,,26.0325,50.5106,26.8,0.0,57.526666666666664,Clear
+74,1011,2019,3,Bahrain Grand Prix,2019-03-31,15:10:00,http://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix,,,,,26.0325,50.5106,24.96666666666667,0.0,62.673333333333325,Clear
+75,1045,2020,3,Bahrain Grand Prix,2020-11-29,14:10:00,http://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix,,,,,26.0325,50.5106,26.433333333333334,0.0,56.60666666666666,Partially cloudy
+76,1046,2020,3,Sakhir Grand Prix,2020-12-06,17:10:00,http://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix,,,,,26.0325,50.5106,21.433333333333334,0.0,56.54666666666666,Partially cloudy
+77,1074,2022,3,Bahrain Grand Prix,2022-03-20,15:00:00,http://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix,2022-03-19,15:00:00,,,26.0325,50.5106,23.8,0.0,30.513333333333332,Clear
+78,1052,2021,3,Bahrain Grand Prix,2021-03-28,15:00:00,http://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix,2021-03-27,,,,26.0325,50.5106,21.333333333333332,0.0,48.096666666666664,Clear
+79,5,2009,4,Spanish Grand Prix,2009-05-10,12:00:00,http://en.wikipedia.org/wiki/2009_Spanish_Grand_Prix,,,,,41.57,2.26111,20.1,0.0,67.24333333333334,Partially cloudy
+80,21,2008,4,Spanish Grand Prix,2008-04-27,12:00:00,http://en.wikipedia.org/wiki/2008_Spanish_Grand_Prix,,,,,41.57,2.26111,20.033333333333335,0.0,42.12,Clear
+81,39,2007,4,Spanish Grand Prix,2007-05-13,12:00:00,http://en.wikipedia.org/wiki/2007_Spanish_Grand_Prix,,,,,41.57,2.26111,25.400000000000002,0.0,42.96666666666666,Clear
+82,58,2006,4,Spanish Grand Prix,2006-05-14,14:00:00,http://en.wikipedia.org/wiki/2006_Spanish_Grand_Prix,,,,,41.57,2.26111,24.099999999999998,0.0,43.94,Partially cloudy
+83,75,2005,4,Spanish Grand Prix,2005-05-08,14:00:00,http://en.wikipedia.org/wiki/2005_Spanish_Grand_Prix,,,,,41.57,2.26111,20.53333333333333,0.0,61.28666666666667,Partially cloudy
+84,94,2004,4,Spanish Grand Prix,2004-05-09,,http://en.wikipedia.org/wiki/2004_Spanish_Grand_Prix,,,,,41.57,2.26111,14.2,0.0,75.34,Partially cloudy
+85,112,2003,4,Spanish Grand Prix,2003-05-04,,http://en.wikipedia.org/wiki/2003_Spanish_Grand_Prix,,,,,41.57,2.26111,18.0,0.0,69.53,Partially cloudy
+86,128,2002,4,Spanish Grand Prix,2002-04-28,,http://en.wikipedia.org/wiki/2002_Spanish_Grand_Prix,,,,,41.57,2.26111,14.6,0.0,82.23,Partially cloudy
+87,145,2001,4,Spanish Grand Prix,2001-04-29,,http://en.wikipedia.org/wiki/2001_Spanish_Grand_Prix,,,,,41.57,2.26111,14.7,0.0,75.78,Partially cloudy
+88,162,2000,4,Spanish Grand Prix,2000-05-07,,http://en.wikipedia.org/wiki/2000_Spanish_Grand_Prix,,,,,41.57,2.26111,17.1,0.0,80.57,Partially cloudy
+89,179,1999,4,Spanish Grand Prix,1999-05-30,,http://en.wikipedia.org/wiki/1999_Spanish_Grand_Prix,,,,,41.57,2.26111,20.8,0.0,83.02,Partially cloudy
+90,195,1998,4,Spanish Grand Prix,1998-05-10,,http://en.wikipedia.org/wiki/1998_Spanish_Grand_Prix,,,,,41.57,2.26111,17.5,0.0,71.67,Partially cloudy
+91,212,1997,4,Spanish Grand Prix,1997-05-25,,http://en.wikipedia.org/wiki/1997_Spanish_Grand_Prix,,,,,41.57,2.26111,20.0,0.0,65.89,Partially cloudy
+92,230,1996,4,Spanish Grand Prix,1996-06-02,,http://en.wikipedia.org/wiki/1996_Spanish_Grand_Prix,,,,,41.57,2.26111,15.5,0.0,96.0,Overcast
+93,243,1995,4,Spanish Grand Prix,1995-05-14,,http://en.wikipedia.org/wiki/1995_Spanish_Grand_Prix,,,,,41.57,2.26111,13.4,0.0,47.87,Clear
+94,261,1994,4,Spanish Grand Prix,1994-05-29,,http://en.wikipedia.org/wiki/1994_Spanish_Grand_Prix,,,,,41.57,2.26111,18.7,0.0,81.26,Partially cloudy
+95,277,1993,4,Spanish Grand Prix,1993-05-09,,http://en.wikipedia.org/wiki/1993_Spanish_Grand_Prix,,,,,41.57,2.26111,17.1,0.0,82.75,Partially cloudy
+96,292,1992,4,Spanish Grand Prix,1992-05-03,,http://en.wikipedia.org/wiki/1992_Spanish_Grand_Prix,,,,,41.57,2.26111,11.2,2.91,83.46,"Rain, Partially cloudy"
+97,318,1991,4,Spanish Grand Prix,1991-09-29,,http://en.wikipedia.org/wiki/1991_Spanish_Grand_Prix,,,,,41.57,2.26111,15.8,1.59,73.49,"Rain, Partially cloudy"
+98,341,2010,4,Spanish Grand Prix,2010-05-09,12:00:00,http://en.wikipedia.org/wiki/2010_Spanish_Grand_Prix,,,,,41.57,2.26111,19.133333333333333,0.0,58.75333333333333,Partially cloudy
+99,845,2011,4,Spanish Grand Prix,2011-05-22,12:00:00,http://en.wikipedia.org/wiki/2011_Spanish_Grand_Prix,,,,,41.57,2.26111,25.46666666666667,0.0,32.96666666666667,Partially cloudy
+100,864,2012,4,Spanish Grand Prix,2012-05-13,12:00:00,http://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix,,,,,41.57,2.26111,22.73333333333333,0.0,64.74666666666667,Partially cloudy
+101,884,2013,4,Spanish Grand Prix,2013-05-12,12:00:00,http://en.wikipedia.org/wiki/2013_Spanish_Grand_Prix,,,,,41.57,2.26111,18.76666666666667,0.0,58.620000000000005,Partially cloudy
+102,904,2014,4,Spanish Grand Prix,2014-05-11,12:00:00,http://en.wikipedia.org/wiki/2014_Spanish_Grand_Prix,,,,,41.57,2.26111,23.2,0.0,50.64000000000001,Partially cloudy
+103,930,2015,4,Spanish Grand Prix,2015-05-10,12:00:00,http://en.wikipedia.org/wiki/2015_Spanish_Grand_Prix,,,,,41.57,2.26111,26.866666666666664,0.0,45.64000000000001,Clear
+104,952,2016,4,Spanish Grand Prix,2016-05-15,12:00:00,http://en.wikipedia.org/wiki/2016_Spanish_Grand_Prix,,,,,41.57,2.26111,22.666666666666668,0.0,52.23333333333334,Partially cloudy
+105,973,2017,4,Spanish Grand Prix,2017-05-14,12:00:00,http://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix,,,,,41.57,2.26111,23.666666666666668,0.0,45.53666666666667,Partially cloudy
+106,993,2018,4,Spanish Grand Prix,2018-05-13,13:10:00,http://en.wikipedia.org/wiki/2018_Spanish_Grand_Prix,,,,,41.57,2.26111,16.0,0.09333333333333334,53.88333333333333,Partially cloudy
+107,1014,2019,4,Spanish Grand Prix,2019-05-12,13:10:00,http://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix,,,,,41.57,2.26111,20.2,0.0,51.723333333333336,Clear
+108,1036,2020,4,Spanish Grand Prix,2020-08-16,13:10:00,http://en.wikipedia.org/wiki/2020_Spanish_Grand_Prix,,,,,41.57,2.26111,28.666666666666668,0.0,62.19666666666666,Partially cloudy
+109,1055,2021,4,Spanish Grand Prix,2021-05-09,13:00:00,http://en.wikipedia.org/wiki/2021_Spanish_Grand_Prix,2021-05-08,,,,41.57,2.26111,20.8,0.0,66.79666666666668,Clear
+110,1079,2022,4,Spanish Grand Prix,2022-05-22,13:00:00,http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix,2022-05-21,14:00:00,,,41.57,2.26111,35.266666666666666,0.0,13.293333333333331,Clear
+111,6,2009,6,Monaco Grand Prix,2009-05-24,12:00:00,http://en.wikipedia.org/wiki/2009_Monaco_Grand_Prix,,,,,43.7347,7.42056,24.3,0.0,66.80333333333333,Partially cloudy
+112,23,2008,6,Monaco Grand Prix,2008-05-25,12:00:00,http://en.wikipedia.org/wiki/2008_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.9,0.8300000000000001,88.67333333333333,"['Partially cloudy', 'Rain, Overcast', 'Rain, Partially cloudy']"
+113,40,2007,6,Monaco Grand Prix,2007-05-27,12:00:00,http://en.wikipedia.org/wiki/2007_Monaco_Grand_Prix,,,,,43.7347,7.42056,21.03333333333333,0.0,71.26666666666667,Clear
+114,59,2006,6,Monaco Grand Prix,2006-05-28,14:00:00,http://en.wikipedia.org/wiki/2006_Monaco_Grand_Prix,,,,,43.7347,7.42056,20.833333333333332,0.0,74.94,Clear
+115,76,2005,6,Monaco Grand Prix,2005-05-22,14:00:00,http://en.wikipedia.org/wiki/2005_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.333333333333332,0.0,75.88,Clear
+116,95,2004,6,Monaco Grand Prix,2004-05-23,,http://en.wikipedia.org/wiki/2004_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.6,0.15,77.81,"Rain, Partially cloudy"
+117,114,2003,6,Monaco Grand Prix,2003-06-01,,http://en.wikipedia.org/wiki/2003_Monaco_Grand_Prix,,,,,43.7347,7.42056,20.0,0.0,86.71,Partially cloudy
+118,130,2002,6,Monaco Grand Prix,2002-05-26,,http://en.wikipedia.org/wiki/2002_Monaco_Grand_Prix,,,,,43.7347,7.42056,18.5,0.0,73.44,Partially cloudy
+119,147,2001,6,Monaco Grand Prix,2001-05-27,,http://en.wikipedia.org/wiki/2001_Monaco_Grand_Prix,,,,,43.7347,7.42056,21.8,0.0,66.76,Partially cloudy
+120,164,2000,6,Monaco Grand Prix,2000-06-04,,http://en.wikipedia.org/wiki/2000_Monaco_Grand_Prix,,,,,43.7347,7.42056,22.8,0.0,71.44,Clear
+121,178,1999,6,Monaco Grand Prix,1999-05-16,,http://en.wikipedia.org/wiki/1999_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.1,0.0,80.53,Partially cloudy
+122,196,1998,6,Monaco Grand Prix,1998-05-24,,http://en.wikipedia.org/wiki/1998_Monaco_Grand_Prix,,,,,43.7347,7.42056,18.3,0.0,82.3,Partially cloudy
+123,211,1997,6,Monaco Grand Prix,1997-05-11,,http://en.wikipedia.org/wiki/1997_Monaco_Grand_Prix,,,,,43.7347,7.42056,14.7,0.0,69.24,Partially cloudy
+124,229,1996,6,Monaco Grand Prix,1996-05-19,,http://en.wikipedia.org/wiki/1996_Monaco_Grand_Prix,,,,,43.7347,7.42056,16.6,0.16,88.73,"Rain, Partially cloudy"
+125,244,1995,6,Monaco Grand Prix,1995-05-28,,http://en.wikipedia.org/wiki/1995_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.9,0.0,82.02,Partially cloudy
+126,260,1994,6,Monaco Grand Prix,1994-05-15,,http://en.wikipedia.org/wiki/1994_Monaco_Grand_Prix,,,,,43.7347,7.42056,16.1,0.0,78.62,Partially cloudy
+127,278,1993,6,Monaco Grand Prix,1993-05-23,,http://en.wikipedia.org/wiki/1993_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.0,0.0,74.05,Partially cloudy
+128,294,1992,6,Monaco Grand Prix,1992-05-31,,http://en.wikipedia.org/wiki/1992_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.7,0.16,87.12,"Rain, Partially cloudy"
+129,308,1991,6,Monaco Grand Prix,1991-05-12,,http://en.wikipedia.org/wiki/1991_Monaco_Grand_Prix,,,,,43.7347,7.42056,14.4,0.0,84.79,Partially cloudy
+130,324,1990,6,Monaco Grand Prix,1990-05-27,,http://en.wikipedia.org/wiki/1990_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.7,1.28,79.55,"Rain, Partially cloudy"
+131,342,2010,6,Monaco Grand Prix,2010-05-16,12:00:00,http://en.wikipedia.org/wiki/2010_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.733333333333334,0.0,58.64666666666667,Partially cloudy
+132,358,1989,6,Monaco Grand Prix,1989-05-07,,http://en.wikipedia.org/wiki/1989_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.3,0.0,76.68,Partially cloudy
+133,374,1988,6,Monaco Grand Prix,1988-05-15,,http://en.wikipedia.org/wiki/1988_Monaco_Grand_Prix,,,,,43.7347,7.42056,18.0,0.79,88.05,"Rain, Partially cloudy"
+134,391,1987,6,Monaco Grand Prix,1987-05-31,,http://en.wikipedia.org/wiki/1987_Monaco_Grand_Prix,,,,,43.7347,7.42056,18.5,0.0,74.74,Partially cloudy
+135,407,1986,6,Monaco Grand Prix,1986-05-11,,http://en.wikipedia.org/wiki/1986_Monaco_Grand_Prix,,,,,43.7347,7.42056,16.7,0.0,84.68,Partially cloudy
+136,423,1985,6,Monaco Grand Prix,1985-05-19,,http://en.wikipedia.org/wiki/1985_Monaco_Grand_Prix,,,,,43.7347,7.42056,15.4,0.07,81.47,"Rain, Partially cloudy"
+137,441,1984,6,Monaco Grand Prix,1984-06-03,,http://en.wikipedia.org/wiki/1984_Monaco_Grand_Prix,,,,,43.7347,7.42056,15.1,7.25,87.48,"Rain, Partially cloudy"
+138,456,1983,6,Monaco Grand Prix,1983-05-15,,http://en.wikipedia.org/wiki/1983_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.4,3.05,85.55,"Rain, Partially cloudy"
+139,472,1982,6,Monaco Grand Prix,1982-05-23,,http://en.wikipedia.org/wiki/1982_Monaco_Grand_Prix,,,,,43.7347,7.42056,18.6,1.85,87.43,"Rain, Partially cloudy"
+140,488,1981,6,Monaco Grand Prix,1981-05-31,,http://en.wikipedia.org/wiki/1981_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.7,0.0,65.09,Clear
+141,503,1980,6,Monaco Grand Prix,1980-05-18,,http://en.wikipedia.org/wiki/1980_Monaco_Grand_Prix,,,,,43.7347,7.42056,13.9,0.0,79.91,Partially cloudy
+142,518,1979,6,Monaco Grand Prix,1979-05-27,,http://en.wikipedia.org/wiki/1979_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.4,1.3,85.85,"Rain, Partially cloudy"
+143,531,1978,6,Monaco Grand Prix,1978-05-07,,http://en.wikipedia.org/wiki/1978_Monaco_Grand_Prix,,,,,43.7347,7.42056,13.2,0.0,85.64,Partially cloudy
+144,548,1977,6,Monaco Grand Prix,1977-05-22,,http://en.wikipedia.org/wiki/1977_Monaco_Grand_Prix,,,,,43.7347,7.42056,16.5,0.0,72.37,Partially cloudy
+145,565,1976,6,Monaco Grand Prix,1976-05-30,,http://en.wikipedia.org/wiki/1976_Monaco_Grand_Prix,,,,,43.7347,7.42056,18.1,0.0,80.86,Partially cloudy
+146,580,1975,6,Monaco Grand Prix,1975-05-11,,http://en.wikipedia.org/wiki/1975_Monaco_Grand_Prix,,,,,43.7347,7.42056,13.6,11.08,83.98,"Rain, Partially cloudy"
+147,595,1974,6,Monaco Grand Prix,1974-05-26,,http://en.wikipedia.org/wiki/1974_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.6,0.0,61.55,Clear
+148,610,1973,6,Monaco Grand Prix,1973-06-03,,http://en.wikipedia.org/wiki/1973_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.4,0.0,81.95,Partially cloudy
+149,623,1972,6,Monaco Grand Prix,1972-05-14,,http://en.wikipedia.org/wiki/1972_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+150,634,1971,6,Monaco Grand Prix,1971-05-23,,http://en.wikipedia.org/wiki/1971_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+151,645,1970,6,Monaco Grand Prix,1970-05-10,,http://en.wikipedia.org/wiki/1970_Monaco_Grand_Prix,,,,,43.7347,7.42056,12.9,0.0,73.34,Partially cloudy
+152,658,1969,6,Monaco Grand Prix,1969-05-18,,http://en.wikipedia.org/wiki/1969_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+153,669,1968,6,Monaco Grand Prix,1968-05-26,,http://en.wikipedia.org/wiki/1968_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+154,680,1967,6,Monaco Grand Prix,1967-05-07,,http://en.wikipedia.org/wiki/1967_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+155,690,1966,6,Monaco Grand Prix,1966-05-22,,http://en.wikipedia.org/wiki/1966_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+156,700,1965,6,Monaco Grand Prix,1965-05-30,,http://en.wikipedia.org/wiki/1965_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+157,709,1964,6,Monaco Grand Prix,1964-05-10,,http://en.wikipedia.org/wiki/1964_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+158,719,1963,6,Monaco Grand Prix,1963-05-26,,http://en.wikipedia.org/wiki/1963_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+159,730,1962,6,Monaco Grand Prix,1962-06-03,,http://en.wikipedia.org/wiki/1962_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+160,738,1961,6,Monaco Grand Prix,1961-05-14,,http://en.wikipedia.org/wiki/1961_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+161,747,1960,6,Monaco Grand Prix,1960-05-29,,http://en.wikipedia.org/wiki/1960_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+162,756,1959,6,Monaco Grand Prix,1959-05-10,,http://en.wikipedia.org/wiki/1959_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+163,766,1958,6,Monaco Grand Prix,1958-05-18,,http://en.wikipedia.org/wiki/1958_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+164,777,1957,6,Monaco Grand Prix,1957-05-19,,http://en.wikipedia.org/wiki/1957_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+165,785,1956,6,Monaco Grand Prix,1956-05-13,,http://en.wikipedia.org/wiki/1956_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+166,793,1955,6,Monaco Grand Prix,1955-05-22,,http://en.wikipedia.org/wiki/1955_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+167,834,1950,6,Monaco Grand Prix,1950-05-21,,http://en.wikipedia.org/wiki/1950_Monaco_Grand_Prix,,,,,43.7347,7.42056,,,,
+168,846,2011,6,Monaco Grand Prix,2011-05-29,12:00:00,http://en.wikipedia.org/wiki/2011_Monaco_Grand_Prix,,,,,43.7347,7.42056,21.933333333333337,0.0,69.72333333333334,Partially cloudy
+169,865,2012,6,Monaco Grand Prix,2012-05-27,12:00:00,http://en.wikipedia.org/wiki/2012_Monaco_Grand_Prix,,,,,43.7347,7.42056,20.599999999999998,0.0,70.48666666666668,Partially cloudy
+170,885,2013,6,Monaco Grand Prix,2013-05-26,12:00:00,http://en.wikipedia.org/wiki/2013_Monaco_Grand_Prix,,,,,43.7347,7.42056,16.866666666666664,0.0,53.419999999999995,Clear
+171,905,2014,6,Monaco Grand Prix,2014-05-25,12:00:00,http://en.wikipedia.org/wiki/2014_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.5,0.0,56.74,Partially cloudy
+172,931,2015,6,Monaco Grand Prix,2015-05-24,12:00:00,http://en.wikipedia.org/wiki/2015_Monaco_Grand_Prix,,,,,43.7347,7.42056,19.333333333333332,0.0,63.79666666666666,Partially cloudy
+173,953,2016,6,Monaco Grand Prix,2016-05-29,12:00:00,http://en.wikipedia.org/wiki/2016_Monaco_Grand_Prix,,,,,43.7347,7.42056,17.200000000000003,1.2266666666666666,87.07333333333334,"Rain, Partially cloudy"
+174,974,2017,6,Monaco Grand Prix,2017-05-28,12:00:00,http://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix,,,,,43.7347,7.42056,24.099999999999998,0.0,59.98,Clear
+175,994,2018,6,Monaco Grand Prix,2018-05-27,13:10:00,http://en.wikipedia.org/wiki/2018_Monaco_Grand_Prix,,,,,43.7347,7.42056,23.8,0.0,66.94333333333334,Partially cloudy
+176,1015,2019,6,Monaco Grand Prix,2019-05-26,13:10:00,http://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix,,,,,43.7347,7.42056,20.666666666666668,0.0,67.75333333333333,Partially cloudy
+177,1056,2021,6,Monaco Grand Prix,2021-05-23,13:00:00,http://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix,2021-05-22,,,,43.7347,7.42056,21.399999999999995,0.0,55.903333333333336,Partially cloudy
+178,1080,2022,6,Monaco Grand Prix,2022-05-29,13:00:00,http://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix,2022-05-28,14:00:00,,,43.7347,7.42056,23.53333333333333,0.0,72.83,Partially cloudy
+179,7,2009,5,Turkish Grand Prix,2009-06-07,12:00:00,http://en.wikipedia.org/wiki/2009_Turkish_Grand_Prix,,,,,40.9517,29.405,29.3,0.0,27.88,Clear
+180,22,2008,5,Turkish Grand Prix,2008-05-11,12:00:00,http://en.wikipedia.org/wiki/2008_Turkish_Grand_Prix,,,,,40.9517,29.405,16.433333333333334,0.0,50.276666666666664,Partially cloudy
+181,47,2007,5,Turkish Grand Prix,2007-08-26,12:00:00,http://en.wikipedia.org/wiki/2007_Turkish_Grand_Prix,,,,,40.9517,29.405,32.93333333333333,0.0,34.88333333333333,Partially cloudy
+182,66,2006,5,Turkish Grand Prix,2006-08-27,15:00:00,http://en.wikipedia.org/wiki/2006_Turkish_Grand_Prix,,,,,40.9517,29.405,32.0,0.0,30.73333333333333,Clear
+183,84,2005,5,Turkish Grand Prix,2005-08-21,15:00:00,http://en.wikipedia.org/wiki/2005_Turkish_Grand_Prix,,,,,40.9517,29.405,26.03333333333333,0.0,56.60333333333333,Partially cloudy
+184,343,2010,5,Turkish Grand Prix,2010-05-30,11:00:00,http://en.wikipedia.org/wiki/2010_Turkish_Grand_Prix,,,,,40.9517,29.405,27.266666666666666,0.0,44.580000000000005,Clear
+185,844,2011,5,Turkish Grand Prix,2011-05-08,12:00:00,http://en.wikipedia.org/wiki/2011_Turkish_Grand_Prix,,,,,40.9517,29.405,16.533333333333335,0.0,45.21666666666666,Partially cloudy
+186,1044,2020,5,Turkish Grand Prix,2020-11-15,10:10:00,http://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix,,,,,40.9517,29.405,13.475,0.0,77.245,Partially cloudy
+187,1067,2021,5,Turkish Grand Prix,2021-10-10,12:00:00,http://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix,2021-10-09,,,,40.9517,29.405,16.233333333333334,0.016666666666666666,97.08666666666666,Partially cloudy
+188,8,2009,9,British Grand Prix,2009-06-21,12:00:00,http://en.wikipedia.org/wiki/2009_British_Grand_Prix,,,,,52.0786,-1.01694,16.3,0.0,66.00333333333333,Partially cloudy
+189,26,2008,9,British Grand Prix,2008-07-06,12:00:00,http://en.wikipedia.org/wiki/2008_British_Grand_Prix,,,,,52.0786,-1.01694,15.5,1.1766666666666665,84.62,Partially cloudy
+190,44,2007,9,British Grand Prix,2007-07-08,12:00:00,http://en.wikipedia.org/wiki/2007_British_Grand_Prix,,,,,52.0786,-1.01694,19.066666666666666,0.0,52.39666666666667,Partially cloudy
+191,60,2006,9,British Grand Prix,2006-06-11,12:00:00,http://en.wikipedia.org/wiki/2006_British_Grand_Prix,,,,,52.0786,-1.01694,24.53333333333333,0.0,55.98333333333333,Partially cloudy
+192,81,2005,9,British Grand Prix,2005-07-10,14:00:00,http://en.wikipedia.org/wiki/2005_British_Grand_Prix,,,,,52.0786,-1.01694,27.166666666666668,0.0,44.300000000000004,Clear
+193,100,2004,9,British Grand Prix,2004-07-11,,http://en.wikipedia.org/wiki/2004_British_Grand_Prix,,,,,52.0786,-1.01694,13.2,1.28,78.17,"Rain, Partially cloudy"
+194,118,2003,9,British Grand Prix,2003-07-20,,http://en.wikipedia.org/wiki/2003_British_Grand_Prix,,,,,52.0786,-1.01694,17.9,0.0,66.32,Clear
+195,133,2002,9,British Grand Prix,2002-07-07,,http://en.wikipedia.org/wiki/2002_British_Grand_Prix,,,,,52.0786,-1.01694,15.4,0.33,82.44,"Rain, Partially cloudy"
+196,151,2001,9,British Grand Prix,2001-07-15,,http://en.wikipedia.org/wiki/2001_British_Grand_Prix,,,,,52.0786,-1.01694,12.7,0.21,68.82,Rain
+197,161,2000,9,British Grand Prix,2000-04-23,,http://en.wikipedia.org/wiki/2000_British_Grand_Prix,,,,,52.0786,-1.01694,8.7,1.18,84.03,Rain
+198,182,1999,9,British Grand Prix,1999-07-11,,http://en.wikipedia.org/wiki/1999_British_Grand_Prix,,,,,52.0786,-1.01694,19.6,0.0,57.89,Clear
+199,199,1998,9,British Grand Prix,1998-07-12,,http://en.wikipedia.org/wiki/1998_British_Grand_Prix,,,,,52.0786,-1.01694,16.2,4.54,88.31,"Rain, Partially cloudy"
+200,215,1997,9,British Grand Prix,1997-07-13,,http://en.wikipedia.org/wiki/1997_British_Grand_Prix,,,,,52.0786,-1.01694,17.6,4.84,76.99,Rain
+201,233,1996,9,British Grand Prix,1996-07-14,,http://en.wikipedia.org/wiki/1996_British_Grand_Prix,,,,,52.0786,-1.01694,19.3,0.02,77.07,Rain
+202,247,1995,9,British Grand Prix,1995-07-16,,http://en.wikipedia.org/wiki/1995_British_Grand_Prix,,,,,52.0786,-1.01694,17.2,0.0,75.16,Partially cloudy
+203,264,1994,9,British Grand Prix,1994-07-10,,http://en.wikipedia.org/wiki/1994_British_Grand_Prix,,,,,52.0786,-1.01694,17.6,0.0,65.48,Clear
+204,281,1993,9,British Grand Prix,1993-07-11,,http://en.wikipedia.org/wiki/1993_British_Grand_Prix,,,,,52.0786,-1.01694,10.8,0.66,76.69,Rain
+205,297,1992,9,British Grand Prix,1992-07-12,,http://en.wikipedia.org/wiki/1992_British_Grand_Prix,,,,,52.0786,-1.01694,16.1,1.57,73.37,Rain
+206,312,1991,9,British Grand Prix,1991-07-14,,http://en.wikipedia.org/wiki/1991_British_Grand_Prix,,,,,52.0786,-1.01694,17.0,0.0,70.35,Clear
+207,328,1990,9,British Grand Prix,1990-07-15,,http://en.wikipedia.org/wiki/1990_British_Grand_Prix,,,,,52.0786,-1.01694,19.0,0.0,63.84,Clear
+208,346,2010,9,British Grand Prix,2010-07-11,12:00:00,http://en.wikipedia.org/wiki/2010_British_Grand_Prix,,,,,52.0786,-1.01694,22.46666666666667,0.0,41.690000000000005,Clear
+209,363,1989,9,British Grand Prix,1989-07-16,,http://en.wikipedia.org/wiki/1989_British_Grand_Prix,,,,,52.0786,-1.01694,18.1,0.0,73.86,Clear
+210,379,1988,9,British Grand Prix,1988-07-10,,http://en.wikipedia.org/wiki/1988_British_Grand_Prix,,,,,52.0786,-1.01694,16.1,0.9,86.65,"Rain, Partially cloudy"
+211,394,1987,9,British Grand Prix,1987-07-12,,http://en.wikipedia.org/wiki/1987_British_Grand_Prix,,,,,52.0786,-1.01694,16.2,0.0,72.61,Clear
+212,427,1985,9,British Grand Prix,1985-07-21,,http://en.wikipedia.org/wiki/1985_British_Grand_Prix,,,,,52.0786,-1.01694,12.8,0.13,79.18,Rain
+213,460,1983,9,British Grand Prix,1983-07-16,,http://en.wikipedia.org/wiki/1983_British_Grand_Prix,,,,,52.0786,-1.01694,24.5,0.0,63.14,Partially cloudy
+214,491,1981,9,British Grand Prix,1981-07-18,,http://en.wikipedia.org/wiki/1981_British_Grand_Prix,,,,,52.0786,-1.01694,14.1,0.36,70.12,"Rain, Partially cloudy"
+215,520,1979,9,British Grand Prix,1979-07-14,,http://en.wikipedia.org/wiki/1979_British_Grand_Prix,,,,,52.0786,-1.01694,16.4,0.0,62.07,Partially cloudy
+216,552,1977,9,British Grand Prix,1977-07-16,,http://en.wikipedia.org/wiki/1977_British_Grand_Prix,,,,,52.0786,-1.01694,15.5,0.0,71.5,Partially cloudy
+217,585,1975,9,British Grand Prix,1975-07-19,,http://en.wikipedia.org/wiki/1975_British_Grand_Prix,,,,,52.0786,-1.01694,17.2,0.32,81.14,"Rain, Partially cloudy"
+218,613,1973,9,British Grand Prix,1973-07-14,,http://en.wikipedia.org/wiki/1973_British_Grand_Prix,,,,,52.0786,-1.01694,16.7,0.0,80.98,Partially cloudy
+219,637,1971,9,British Grand Prix,1971-07-17,,http://en.wikipedia.org/wiki/1971_British_Grand_Prix,,,,,52.0786,-1.01694,13.9,,65.52,Partially cloudy
+220,661,1969,9,British Grand Prix,1969-07-19,,http://en.wikipedia.org/wiki/1969_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+221,684,1967,9,British Grand Prix,1967-07-15,,http://en.wikipedia.org/wiki/1967_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+222,703,1965,9,British Grand Prix,1965-07-10,,http://en.wikipedia.org/wiki/1965_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+223,723,1963,9,British Grand Prix,1963-07-20,,http://en.wikipedia.org/wiki/1963_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+224,752,1960,9,British Grand Prix,1960-07-16,,http://en.wikipedia.org/wiki/1960_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+225,771,1958,9,British Grand Prix,1958-07-19,,http://en.wikipedia.org/wiki/1958_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+226,789,1956,9,British Grand Prix,1956-07-14,,http://en.wikipedia.org/wiki/1956_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+227,803,1954,9,British Grand Prix,1954-07-17,,http://en.wikipedia.org/wiki/1954_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+228,813,1953,9,British Grand Prix,1953-07-18,,http://en.wikipedia.org/wiki/1953_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+229,821,1952,9,British Grand Prix,1952-07-19,,http://en.wikipedia.org/wiki/1952_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+230,829,1951,9,British Grand Prix,1951-07-14,,http://en.wikipedia.org/wiki/1951_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+231,833,1950,9,British Grand Prix,1950-05-13,,http://en.wikipedia.org/wiki/1950_British_Grand_Prix,,,,,52.0786,-1.01694,,,,
+232,849,2011,9,British Grand Prix,2011-07-10,12:00:00,http://en.wikipedia.org/wiki/2011_British_Grand_Prix,,,,,52.0786,-1.01694,20.033333333333335,0.0,55.32999999999999,Partially cloudy
+233,868,2012,9,British Grand Prix,2012-07-08,12:00:00,http://en.wikipedia.org/wiki/2012_British_Grand_Prix,,,,,52.0786,-1.01694,17.6,0.17,77.19666666666667,Partially cloudy
+234,887,2013,9,British Grand Prix,2013-06-30,12:00:00,http://en.wikipedia.org/wiki/2013_British_Grand_Prix,,,,,52.0786,-1.01694,20.96666666666667,0.0,63.356666666666676,Partially cloudy
+235,908,2014,9,British Grand Prix,2014-07-06,12:00:00,http://en.wikipedia.org/wiki/2014_British_Grand_Prix,,,,,52.0786,-1.01694,18.566666666666666,0.0,49.98333333333333,Partially cloudy
+236,934,2015,9,British Grand Prix,2015-07-05,12:00:00,http://en.wikipedia.org/wiki/2015_British_Grand_Prix,,,,,52.0786,-1.01694,19.333333333333332,0.0,57.26333333333333,Partially cloudy
+237,957,2016,9,British Grand Prix,2016-07-10,12:00:00,http://en.wikipedia.org/wiki/2016_British_Grand_Prix,,,,,52.0786,-1.01694,20.333333333333332,0.21,67.49,Partially cloudy
+238,978,2017,9,British Grand Prix,2017-07-16,12:00:00,http://en.wikipedia.org/wiki/2017_British_Grand_Prix,,,,,52.0786,-1.01694,21.766666666666666,0.0,74.83333333333333,Overcast
+239,998,2018,9,British Grand Prix,2018-07-08,13:10:00,http://en.wikipedia.org/wiki/2018_British_Grand_Prix,,,,,52.0786,-1.01694,28.7,0.0,36.626666666666665,Clear
+240,1019,2019,9,British Grand Prix,2019-07-14,13:10:00,http://en.wikipedia.org/wiki/2019_British_Grand_Prix,,,,,52.0786,-1.01694,18.933333333333334,0.0,66.35333333333334,Partially cloudy
+241,1034,2020,9,British Grand Prix,2020-08-02,13:10:00,http://en.wikipedia.org/wiki/2020_British_Grand_Prix,,,,,52.0786,-1.01694,21.166666666666668,0.0,46.870000000000005,Partially cloudy
+242,1035,2020,9,70th Anniversary Grand Prix,2020-08-09,13:10:00,http://en.wikipedia.org/wiki/70th_Anniversary_Grand_Prix,,,,,52.0786,-1.01694,26.2,0.0,57.47,Clear
+243,1061,2021,9,British Grand Prix,2021-07-18,14:00:00,http://en.wikipedia.org/wiki/2021_British_Grand_Prix,2021-07-16,,2021-07-17,,52.0786,-1.01694,29.166666666666668,0.0,45.18,Clear
+244,1083,2022,9,British Grand Prix,2022-07-03,14:00:00,http://en.wikipedia.org/wiki/2022_British_Grand_Prix,2022-07-02,14:00:00,,,52.0786,-1.01694,17.73333333333333,0.2333333333333333,64.75666666666666,Overcast
+245,9,2009,20,German Grand Prix,2009-07-12,12:00:00,http://en.wikipedia.org/wiki/2009_German_Grand_Prix,,,,,50.3356,6.9475,18.23333333333333,0.31666666666666665,77.77333333333333,"Rain, Partially cloudy"
+246,45,2007,20,European Grand Prix,2007-07-22,12:00:00,http://en.wikipedia.org/wiki/2007_European_Grand_Prix,,,,,50.3356,6.9475,17.366666666666664,0.27999999999999997,57.800000000000004,Partially cloudy
+247,57,2006,20,European Grand Prix,2006-05-07,14:00:00,http://en.wikipedia.org/wiki/2006_European_Grand_Prix,,,,,50.3356,6.9475,19.433333333333334,0.0,36.04666666666666,Partially cloudy
+248,77,2005,20,European Grand Prix,2005-05-29,14:00:00,http://en.wikipedia.org/wiki/2005_European_Grand_Prix,,,,,50.3356,6.9475,24.333333333333332,0.0,52.410000000000004,Partially cloudy
+249,96,2004,20,European Grand Prix,2004-05-30,,http://en.wikipedia.org/wiki/2004_European_Grand_Prix,,,,,50.3356,6.9475,15.7,0.0,48.05,Partially cloudy
+250,116,2003,20,European Grand Prix,2003-06-29,,http://en.wikipedia.org/wiki/2003_European_Grand_Prix,,,,,50.3356,6.9475,18.2,0.0,60.44,Partially cloudy
+251,132,2002,20,European Grand Prix,2002-06-23,,http://en.wikipedia.org/wiki/2002_European_Grand_Prix,,,,,50.3356,6.9475,17.8,0.8,68.89,"Rain, Partially cloudy"
+252,149,2001,20,European Grand Prix,2001-06-24,,http://en.wikipedia.org/wiki/2001_European_Grand_Prix,,,,,50.3356,6.9475,17.5,0.7,58.23,Rain
+253,163,2000,20,European Grand Prix,2000-05-21,,http://en.wikipedia.org/wiki/2000_European_Grand_Prix,,,,,50.3356,6.9475,7.8,5.1,83.18,"Rain, Partially cloudy"
+254,188,1999,20,European Grand Prix,1999-09-26,,http://en.wikipedia.org/wiki/1999_European_Grand_Prix,,,,,50.3356,6.9475,13.3,0.0,89.87,Partially cloudy
+255,205,1998,20,Luxembourg Grand Prix,1998-09-27,,http://en.wikipedia.org/wiki/1998_Luxembourg_Grand_Prix,,,,,50.3356,6.9475,13.0,1.68,88.74,"Rain, Partially cloudy"
+256,221,1997,20,Luxembourg Grand Prix,1997-09-28,,http://en.wikipedia.org/wiki/1997_Luxembourg_Grand_Prix,,,,,50.3356,6.9475,14.3,0.0,71.22,Partially cloudy
+257,227,1996,20,European Grand Prix,1996-04-28,,http://en.wikipedia.org/wiki/1996_European_Grand_Prix,,,,,50.3356,6.9475,11.3,0.19,70.1,"Rain, Partially cloudy"
+258,253,1995,20,European Grand Prix,1995-10-01,,http://en.wikipedia.org/wiki/1995_European_Grand_Prix,,,,,50.3356,6.9475,8.8,1.15,96.86,"Rain, Partially cloudy"
+259,428,1985,20,German Grand Prix,1985-08-04,,http://en.wikipedia.org/wiki/1985_German_Grand_Prix,,,,,50.3356,6.9475,11.9,0.5,81.06,"Rain, Partially cloudy"
+260,450,1984,20,European Grand Prix,1984-10-07,,http://en.wikipedia.org/wiki/1984_European_Grand_Prix,,,,,50.3356,6.9475,7.8,0.5,79.81,"Rain, Partially cloudy"
+261,569,1976,20,German Grand Prix,1976-08-01,,http://en.wikipedia.org/wiki/1976_German_Grand_Prix,,,,,50.3356,6.9475,10.7,4.0,74.77,"Rain, Partially cloudy"
+262,586,1975,20,German Grand Prix,1975-08-03,,http://en.wikipedia.org/wiki/1975_German_Grand_Prix,,,,,50.3356,6.9475,22.3,0.0,53.91,Clear
+263,600,1974,20,German Grand Prix,1974-08-04,,http://en.wikipedia.org/wiki/1974_German_Grand_Prix,,,,,50.3356,6.9475,18.2,0.0,81.77,Partially cloudy
+264,615,1973,20,German Grand Prix,1973-08-05,,http://en.wikipedia.org/wiki/1973_German_Grand_Prix,,,,,50.3356,6.9475,16.1,0.0,78.37,Partially cloudy
+265,627,1972,20,German Grand Prix,1972-07-30,,http://en.wikipedia.org/wiki/1972_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+266,638,1971,20,German Grand Prix,1971-08-01,,http://en.wikipedia.org/wiki/1971_German_Grand_Prix,,,,,50.3356,6.9475,18.8,,65.16,Partially cloudy
+267,662,1969,20,German Grand Prix,1969-08-03,,http://en.wikipedia.org/wiki/1969_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+268,674,1968,20,German Grand Prix,1968-08-04,,http://en.wikipedia.org/wiki/1968_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+269,685,1967,20,German Grand Prix,1967-08-06,,http://en.wikipedia.org/wiki/1967_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+270,695,1966,20,German Grand Prix,1966-08-07,,http://en.wikipedia.org/wiki/1966_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+271,705,1965,20,German Grand Prix,1965-08-01,,http://en.wikipedia.org/wiki/1965_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+272,714,1964,20,German Grand Prix,1964-08-02,,http://en.wikipedia.org/wiki/1964_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+273,724,1963,20,German Grand Prix,1963-08-04,,http://en.wikipedia.org/wiki/1963_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+274,734,1962,20,German Grand Prix,1962-08-05,,http://en.wikipedia.org/wiki/1962_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+275,743,1961,20,German Grand Prix,1961-08-06,,http://en.wikipedia.org/wiki/1961_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+276,772,1958,20,German Grand Prix,1958-08-03,,http://en.wikipedia.org/wiki/1958_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+277,781,1957,20,German Grand Prix,1957-08-04,,http://en.wikipedia.org/wiki/1957_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+278,790,1956,20,German Grand Prix,1956-08-05,,http://en.wikipedia.org/wiki/1956_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+279,804,1954,20,German Grand Prix,1954-08-01,,http://en.wikipedia.org/wiki/1954_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+280,814,1953,20,German Grand Prix,1953-08-02,,http://en.wikipedia.org/wiki/1953_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+281,822,1952,20,German Grand Prix,1952-08-03,,http://en.wikipedia.org/wiki/1952_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+282,830,1951,20,German Grand Prix,1951-07-29,,http://en.wikipedia.org/wiki/1951_German_Grand_Prix,,,,,50.3356,6.9475,,,,
+283,850,2011,20,German Grand Prix,2011-07-24,12:00:00,http://en.wikipedia.org/wiki/2011_German_Grand_Prix,,,,,50.3356,6.9475,12.199999999999998,0.2733333333333333,87.47666666666667,"['Overcast', 'Rain, Overcast', 'Partially cloudy']"
+284,888,2013,20,German Grand Prix,2013-07-07,12:00:00,http://en.wikipedia.org/wiki/2013_German_Grand_Prix,,,,,50.3356,6.9475,24.133333333333336,0.0,48.379999999999995,Clear
+285,1041,2020,20,Eifel Grand Prix,2020-10-11,13:10:00,http://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix,,,,,50.3356,6.9475,9.633333333333333,0.0,63.59,Clear
+286,10,2009,11,Hungarian Grand Prix,2009-07-26,12:00:00,http://en.wikipedia.org/wiki/2009_Hungarian_Grand_Prix,,,,,47.5789,19.2486,23.833333333333332,0.0,37.98666666666667,Clear
+287,28,2008,11,Hungarian Grand Prix,2008-08-03,12:00:00,http://en.wikipedia.org/wiki/2008_Hungarian_Grand_Prix,,,,,47.5789,19.2486,28.7,0.0,45.776666666666664,Clear
+288,46,2007,11,Hungarian Grand Prix,2007-08-05,12:00:00,http://en.wikipedia.org/wiki/2007_Hungarian_Grand_Prix,,,,,47.5789,19.2486,26.133333333333336,0.0,41.35333333333333,Clear
+289,65,2006,11,Hungarian Grand Prix,2006-08-06,14:00:00,http://en.wikipedia.org/wiki/2006_Hungarian_Grand_Prix,,,,,47.5789,19.2486,18.73333333333333,0.0,77.24000000000001,Partially cloudy
+290,83,2005,11,Hungarian Grand Prix,2005-07-31,14:00:00,http://en.wikipedia.org/wiki/2005_Hungarian_Grand_Prix,,,,,47.5789,19.2486,32.93333333333333,0.0,47.03333333333333,Clear
+291,102,2004,11,Hungarian Grand Prix,2004-08-15,,http://en.wikipedia.org/wiki/2004_Hungarian_Grand_Prix,,,,,47.5789,19.2486,18.6,0.0,71.25,Clear
+292,120,2003,11,Hungarian Grand Prix,2003-08-24,,http://en.wikipedia.org/wiki/2003_Hungarian_Grand_Prix,,,,,47.5789,19.2486,23.6,0.0,50.72,Clear
+293,136,2002,11,Hungarian Grand Prix,2002-08-18,,http://en.wikipedia.org/wiki/2002_Hungarian_Grand_Prix,,,,,47.5789,19.2486,23.5,0.0,64.53,Clear
+294,153,2001,11,Hungarian Grand Prix,2001-08-19,,http://en.wikipedia.org/wiki/2001_Hungarian_Grand_Prix,,,,,47.5789,19.2486,25.0,0.0,67.44,Clear
+295,169,2000,11,Hungarian Grand Prix,2000-08-13,,http://en.wikipedia.org/wiki/2000_Hungarian_Grand_Prix,,,,,47.5789,19.2486,26.1,0.0,52.38,Partially cloudy
+296,185,1999,11,Hungarian Grand Prix,1999-08-15,,http://en.wikipedia.org/wiki/1999_Hungarian_Grand_Prix,,,,,47.5789,19.2486,18.5,0.0,70.52,Partially cloudy
+297,202,1998,11,Hungarian Grand Prix,1998-08-16,,http://en.wikipedia.org/wiki/1998_Hungarian_Grand_Prix,,,,,47.5789,19.2486,26.6,0.0,52.28,Partially cloudy
+298,217,1997,11,Hungarian Grand Prix,1997-08-10,,http://en.wikipedia.org/wiki/1997_Hungarian_Grand_Prix,,,,,47.5789,19.2486,20.6,0.28,73.22,Rain
+299,235,1996,11,Hungarian Grand Prix,1996-08-11,,http://en.wikipedia.org/wiki/1996_Hungarian_Grand_Prix,,,,,47.5789,19.2486,21.5,0.0,50.87,Clear
+300,249,1995,11,Hungarian Grand Prix,1995-08-13,,http://en.wikipedia.org/wiki/1995_Hungarian_Grand_Prix,,,,,47.5789,19.2486,20.2,0.0,53.21,Clear
+301,266,1994,11,Hungarian Grand Prix,1994-08-14,,http://en.wikipedia.org/wiki/1994_Hungarian_Grand_Prix,,,,,47.5789,19.2486,19.4,1.3,53.52,"Rain, Partially cloudy"
+302,283,1993,11,Hungarian Grand Prix,1993-08-15,,http://en.wikipedia.org/wiki/1993_Hungarian_Grand_Prix,,,,,47.5789,19.2486,25.1,0.0,42.75,Clear
+303,299,1992,11,Hungarian Grand Prix,1992-08-16,,http://en.wikipedia.org/wiki/1992_Hungarian_Grand_Prix,,,,,47.5789,19.2486,21.3,0.59,50.3,Rain
+304,314,1991,11,Hungarian Grand Prix,1991-08-11,,http://en.wikipedia.org/wiki/1991_Hungarian_Grand_Prix,,,,,47.5789,19.2486,23.5,0.0,54.76,Clear
+305,330,1990,11,Hungarian Grand Prix,1990-08-12,,http://en.wikipedia.org/wiki/1990_Hungarian_Grand_Prix,,,,,47.5789,19.2486,20.4,0.0,56.59,Clear
+306,348,2010,11,Hungarian Grand Prix,2010-08-01,12:00:00,http://en.wikipedia.org/wiki/2010_Hungarian_Grand_Prix,,,,,47.5789,19.2486,28.433333333333334,0.0,51.77,Clear
+307,365,1989,11,Hungarian Grand Prix,1989-08-13,,http://en.wikipedia.org/wiki/1989_Hungarian_Grand_Prix,,,,,47.5789,19.2486,20.4,0.03,69.05,"Rain, Partially cloudy"
+308,381,1988,11,Hungarian Grand Prix,1988-08-07,,http://en.wikipedia.org/wiki/1988_Hungarian_Grand_Prix,,,,,47.5789,19.2486,18.4,0.0,62.29,Clear
+309,396,1987,11,Hungarian Grand Prix,1987-08-09,,http://en.wikipedia.org/wiki/1987_Hungarian_Grand_Prix,,,,,47.5789,19.2486,17.4,0.0,63.71,Clear
+310,414,1986,11,Hungarian Grand Prix,1986-08-10,,http://en.wikipedia.org/wiki/1986_Hungarian_Grand_Prix,,,,,47.5789,19.2486,23.6,0.0,58.21,Clear
+311,851,2011,11,Hungarian Grand Prix,2011-07-31,12:00:00,http://en.wikipedia.org/wiki/2011_Hungarian_Grand_Prix,,,,,47.5789,19.2486,17.166666666666668,0.17333333333333334,78.31,Partially cloudy
+312,870,2012,11,Hungarian Grand Prix,2012-07-29,12:00:00,http://en.wikipedia.org/wiki/2012_Hungarian_Grand_Prix,,,,,47.5789,19.2486,30.23333333333333,0.013333333333333334,51.65333333333333,Clear
+313,890,2013,11,Hungarian Grand Prix,2013-07-28,12:00:00,http://en.wikipedia.org/wiki/2013_Hungarian_Grand_Prix,,,,,47.5789,19.2486,35.333333333333336,0.0,25.00333333333333,Clear
+314,910,2014,11,Hungarian Grand Prix,2014-07-27,12:00:00,http://en.wikipedia.org/wiki/2014_Hungarian_Grand_Prix,,,,,47.5789,19.2486,23.8,1.07,75.54666666666667,Partially cloudy
+315,936,2015,11,Hungarian Grand Prix,2015-07-26,12:00:00,http://en.wikipedia.org/wiki/2015_Hungarian_Grand_Prix,,,,,47.5789,19.2486,23.633333333333336,0.0,38.026666666666664,Partially cloudy
+316,958,2016,11,Hungarian Grand Prix,2016-07-24,12:00:00,http://en.wikipedia.org/wiki/2016_Hungarian_Grand_Prix,,,,,47.5789,19.2486,28.96666666666667,0.0,50.56666666666666,Clear
+317,979,2017,11,Hungarian Grand Prix,2017-07-30,12:00:00,http://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix,,,,,47.5789,19.2486,30.2,0.0,37.406666666666666,Clear
+318,1000,2018,11,Hungarian Grand Prix,2018-07-29,13:10:00,http://en.wikipedia.org/wiki/2018_Hungarian_Grand_Prix,,,,,47.5789,19.2486,32.199999999999996,0.0,40.46666666666667,Clear
+319,1021,2019,11,Hungarian Grand Prix,2019-08-04,13:10:00,http://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix,,,,,47.5789,19.2486,24.96666666666667,0.0,40.06,Clear
+320,1033,2020,11,Hungarian Grand Prix,2020-07-19,13:10:00,http://en.wikipedia.org/wiki/2020_Hungarian_Grand_Prix,,,,,47.5789,19.2486,20.466666666666665,0.8033333333333333,81.52333333333333,Partially cloudy
+321,1062,2021,11,Hungarian Grand Prix,2021-08-01,13:00:00,http://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix,2021-07-31,,,,47.5789,19.2486,28.599999999999998,1.5666666666666667,62.24,Clear
+322,1086,2022,11,Hungarian Grand Prix,2022-07-31,13:00:00,http://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix,2022-07-30,14:00:00,,,47.5789,19.2486,20.099999999999998,0.06,64.02333333333333,Partially cloudy
+323,11,2009,12,European Grand Prix,2009-08-23,12:00:00,http://en.wikipedia.org/wiki/2009_European_Grand_Prix,,,,,39.4589,-0.331667,33.06666666666667,0.0,31.313333333333333,Clear
+324,29,2008,12,European Grand Prix,2008-08-24,12:00:00,http://en.wikipedia.org/wiki/2008_European_Grand_Prix,,,,,39.4589,-0.331667,29.8,0.0,53.45333333333334,Partially cloudy
+325,345,2010,12,European Grand Prix,2010-06-27,12:00:00,http://en.wikipedia.org/wiki/2010_European_Grand_Prix,,,,,39.4589,-0.331667,28.366666666666664,0.0,27.813333333333333,Partially cloudy
+326,848,2011,12,European Grand Prix,2011-06-26,12:00:00,http://en.wikipedia.org/wiki/2011_European_Grand_Prix,,,,,39.4589,-0.331667,29.0,0.0,44.48666666666666,Clear
+327,867,2012,12,European Grand Prix,2012-06-24,12:00:00,http://en.wikipedia.org/wiki/2012_European_Grand_Prix,,,,,39.4589,-0.331667,29.400000000000002,0.0,38.96,Clear
+328,12,2009,13,Belgian Grand Prix,2009-08-30,12:00:00,http://en.wikipedia.org/wiki/2009_Belgian_Grand_Prix,,,,,50.4372,5.97139,15.0,0.0,59.419999999999995,Partially cloudy
+329,30,2008,13,Belgian Grand Prix,2008-09-07,12:00:00,http://en.wikipedia.org/wiki/2008_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.333333333333334,0.15666666666666665,83.98666666666666,"['Partially cloudy', 'Rain, Partially cloudy', 'Clear']"
+330,49,2007,13,Belgian Grand Prix,2007-09-16,12:00:00,http://en.wikipedia.org/wiki/2007_Belgian_Grand_Prix,,,,,50.4372,5.97139,18.133333333333333,0.0,60.879999999999995,Partially cloudy
+331,86,2005,13,Belgian Grand Prix,2005-09-11,14:00:00,http://en.wikipedia.org/wiki/2005_Belgian_Grand_Prix,,,,,50.4372,5.97139,14.866666666666667,0.0,98.28666666666668,Overcast
+332,103,2004,13,Belgian Grand Prix,2004-08-29,,http://en.wikipedia.org/wiki/2004_Belgian_Grand_Prix,,,,,50.4372,5.97139,14.6,0.0,80.37,Partially cloudy
+333,137,2002,13,Belgian Grand Prix,2002-09-01,,http://en.wikipedia.org/wiki/2002_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.7,0.0,77.27,Partially cloudy
+334,154,2001,13,Belgian Grand Prix,2001-09-02,,http://en.wikipedia.org/wiki/2001_Belgian_Grand_Prix,,,,,50.4372,5.97139,10.6,1.16,90.07,"Rain, Partially cloudy"
+335,170,2000,13,Belgian Grand Prix,2000-08-27,,http://en.wikipedia.org/wiki/2000_Belgian_Grand_Prix,,,,,50.4372,5.97139,15.3,16.75,91.15,"Rain, Partially cloudy"
+336,186,1999,13,Belgian Grand Prix,1999-08-29,,http://en.wikipedia.org/wiki/1999_Belgian_Grand_Prix,,,,,50.4372,5.97139,14.7,0.0,78.92,Partially cloudy
+337,203,1998,13,Belgian Grand Prix,1998-08-30,,http://en.wikipedia.org/wiki/1998_Belgian_Grand_Prix,,,,,50.4372,5.97139,10.7,1.04,96.16,"Rain, Overcast"
+338,218,1997,13,Belgian Grand Prix,1997-08-24,,http://en.wikipedia.org/wiki/1997_Belgian_Grand_Prix,,,,,50.4372,5.97139,21.7,0.0,75.98,Partially cloudy
+339,236,1996,13,Belgian Grand Prix,1996-08-25,,http://en.wikipedia.org/wiki/1996_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.7,2.71,82.91,"Rain, Partially cloudy"
+340,250,1995,13,Belgian Grand Prix,1995-08-27,,http://en.wikipedia.org/wiki/1995_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.4,0.99,89.65,"Rain, Overcast"
+341,267,1994,13,Belgian Grand Prix,1994-08-28,,http://en.wikipedia.org/wiki/1994_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.1,8.06,76.84,"Rain, Partially cloudy"
+342,284,1993,13,Belgian Grand Prix,1993-08-29,,http://en.wikipedia.org/wiki/1993_Belgian_Grand_Prix,,,,,50.4372,5.97139,9.5,0.0,73.75,Partially cloudy
+343,300,1992,13,Belgian Grand Prix,1992-08-30,,http://en.wikipedia.org/wiki/1992_Belgian_Grand_Prix,,,,,50.4372,5.97139,12.9,0.0,84.31,Partially cloudy
+344,315,1991,13,Belgian Grand Prix,1991-08-25,,http://en.wikipedia.org/wiki/1991_Belgian_Grand_Prix,,,,,50.4372,5.97139,14.9,0.0,73.67,Partially cloudy
+345,331,1990,13,Belgian Grand Prix,1990-08-26,,http://en.wikipedia.org/wiki/1990_Belgian_Grand_Prix,,,,,50.4372,5.97139,16.4,0.03,84.93,"Rain, Partially cloudy"
+346,349,2010,13,Belgian Grand Prix,2010-08-29,12:00:00,http://en.wikipedia.org/wiki/2010_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.6,0.0,68.37,Partially cloudy
+347,366,1989,13,Belgian Grand Prix,1989-08-27,,http://en.wikipedia.org/wiki/1989_Belgian_Grand_Prix,,,,,50.4372,5.97139,12.4,20.3,95.7,"Rain, Overcast"
+348,382,1988,13,Belgian Grand Prix,1988-08-28,,http://en.wikipedia.org/wiki/1988_Belgian_Grand_Prix,,,,,50.4372,5.97139,18.7,0.08,80.26,"Rain, Partially cloudy"
+349,390,1987,13,Belgian Grand Prix,1987-05-17,,http://en.wikipedia.org/wiki/1987_Belgian_Grand_Prix,,,,,50.4372,5.97139,5.6,0.0,73.8,Partially cloudy
+350,408,1986,13,Belgian Grand Prix,1986-05-25,,http://en.wikipedia.org/wiki/1986_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.7,0.0,58.58,Clear
+351,432,1985,13,Belgian Grand Prix,1985-09-15,,http://en.wikipedia.org/wiki/1985_Belgian_Grand_Prix,,,,,50.4372,5.97139,10.5,8.35,84.76,"Rain, Partially cloudy"
+352,457,1983,13,Belgian Grand Prix,1983-05-22,,http://en.wikipedia.org/wiki/1983_Belgian_Grand_Prix,,,,,50.4372,5.97139,8.5,1.01,75.57,"Rain, Partially cloudy"
+353,646,1970,13,Belgian Grand Prix,1970-06-07,,http://en.wikipedia.org/wiki/1970_Belgian_Grand_Prix,,,,,50.4372,5.97139,18.4,0.3,61.99,"Rain, Partially cloudy"
+354,670,1968,13,Belgian Grand Prix,1968-06-09,,http://en.wikipedia.org/wiki/1968_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+355,682,1967,13,Belgian Grand Prix,1967-06-18,,http://en.wikipedia.org/wiki/1967_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+356,691,1966,13,Belgian Grand Prix,1966-06-12,,http://en.wikipedia.org/wiki/1966_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+357,701,1965,13,Belgian Grand Prix,1965-06-13,,http://en.wikipedia.org/wiki/1965_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+358,711,1964,13,Belgian Grand Prix,1964-06-14,,http://en.wikipedia.org/wiki/1964_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+359,720,1963,13,Belgian Grand Prix,1963-06-09,,http://en.wikipedia.org/wiki/1963_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+360,731,1962,13,Belgian Grand Prix,1962-06-17,,http://en.wikipedia.org/wiki/1962_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+361,740,1961,13,Belgian Grand Prix,1961-06-18,,http://en.wikipedia.org/wiki/1961_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+362,750,1960,13,Belgian Grand Prix,1960-06-19,,http://en.wikipedia.org/wiki/1960_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+363,769,1958,13,Belgian Grand Prix,1958-06-15,,http://en.wikipedia.org/wiki/1958_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+364,787,1956,13,Belgian Grand Prix,1956-06-03,,http://en.wikipedia.org/wiki/1956_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+365,795,1955,13,Belgian Grand Prix,1955-06-05,,http://en.wikipedia.org/wiki/1955_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+366,801,1954,13,Belgian Grand Prix,1954-06-20,,http://en.wikipedia.org/wiki/1954_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+367,811,1953,13,Belgian Grand Prix,1953-06-21,,http://en.wikipedia.org/wiki/1953_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+368,819,1952,13,Belgian Grand Prix,1952-06-22,,http://en.wikipedia.org/wiki/1952_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+369,827,1951,13,Belgian Grand Prix,1951-06-17,,http://en.wikipedia.org/wiki/1951_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+370,837,1950,13,Belgian Grand Prix,1950-06-18,,http://en.wikipedia.org/wiki/1950_Belgian_Grand_Prix,,,,,50.4372,5.97139,,,,
+371,852,2011,13,Belgian Grand Prix,2011-08-28,12:00:00,http://en.wikipedia.org/wiki/2011_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.366666666666667,0.0,67.29,Partially cloudy
+372,871,2012,13,Belgian Grand Prix,2012-09-02,12:00:00,http://en.wikipedia.org/wiki/2012_Belgian_Grand_Prix,,,,,50.4372,5.97139,17.833333333333332,0.0,50.346666666666664,Clear
+373,891,2013,13,Belgian Grand Prix,2013-08-25,12:00:00,http://en.wikipedia.org/wiki/2013_Belgian_Grand_Prix,,,,,50.4372,5.97139,16.166666666666668,0.0,75.98,Partially cloudy
+374,911,2014,13,Belgian Grand Prix,2014-08-24,12:00:00,http://en.wikipedia.org/wiki/2014_Belgian_Grand_Prix,,,,,50.4372,5.97139,13.700000000000001,0.0,64.55333333333333,Partially cloudy
+375,937,2015,13,Belgian Grand Prix,2015-08-23,12:00:00,http://en.wikipedia.org/wiki/2015_Belgian_Grand_Prix,,,,,50.4372,5.97139,22.866666666666664,0.0,43.06,Clear
+376,960,2016,13,Belgian Grand Prix,2016-08-28,12:00:00,http://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix,,,,,50.4372,5.97139,24.700000000000003,0.0,59.75333333333333,Partially cloudy
+377,980,2017,13,Belgian Grand Prix,2017-08-27,12:00:00,http://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix,,,,,50.4372,5.97139,21.333333333333332,0.0,63.49666666666667,Partially cloudy
+378,1001,2018,13,Belgian Grand Prix,2018-08-26,13:10:00,http://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix,,,,,50.4372,5.97139,15.866666666666667,0.0,43.580000000000005,Partially cloudy
+379,1022,2019,13,Belgian Grand Prix,2019-09-01,13:10:00,http://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix,,,,,50.4372,5.97139,15.0,0.0,72.81333333333333,Clear
+380,1037,2020,13,Belgian Grand Prix,2020-08-30,13:10:00,http://en.wikipedia.org/wiki/2020_Belgian_Grand_Prix,,,,,50.4372,5.97139,16.0,0.0,64.57000000000001,Partially cloudy
+381,1063,2021,13,Belgian Grand Prix,2021-08-29,13:00:00,http://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix,2021-08-28,,,,50.4372,5.97139,11.6,1.6033333333333333,99.39333333333333,"Rain, Partially cloudy"
+382,1087,2022,13,Belgian Grand Prix,2022-08-28,13:00:00,http://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix,2022-08-27,14:00:00,,,50.4372,5.97139,19.400000000000002,0.0,47.45333333333334,Clear
+383,13,2009,14,Italian Grand Prix,2009-09-13,12:00:00,http://en.wikipedia.org/wiki/2009_Italian_Grand_Prix,,,,,45.6156,9.28111,26.23333333333333,0.0,47.01666666666667,Clear
+384,31,2008,14,Italian Grand Prix,2008-09-14,12:00:00,http://en.wikipedia.org/wiki/2008_Italian_Grand_Prix,,,,,45.6156,9.28111,14.666666666666666,0.22999999999999998,90.92333333333333,Partially cloudy
+385,48,2007,14,Italian Grand Prix,2007-09-09,12:00:00,http://en.wikipedia.org/wiki/2007_Italian_Grand_Prix,,,,,45.6156,9.28111,24.666666666666668,0.0,48.343333333333334,Clear
+386,67,2006,14,Italian Grand Prix,2006-09-10,14:00:00,http://en.wikipedia.org/wiki/2006_Italian_Grand_Prix,,,,,45.6156,9.28111,26.2,0.0,39.06666666666666,Clear
+387,85,2005,14,Italian Grand Prix,2005-09-04,14:00:00,http://en.wikipedia.org/wiki/2005_Italian_Grand_Prix,,,,,45.6156,9.28111,26.733333333333334,0.0,49.580000000000005,Partially cloudy
+388,104,2004,14,Italian Grand Prix,2004-09-12,,http://en.wikipedia.org/wiki/2004_Italian_Grand_Prix,,,,,45.6156,9.28111,19.6,8.92,79.73,"Rain, Partially cloudy"
+389,121,2003,14,Italian Grand Prix,2003-09-14,,http://en.wikipedia.org/wiki/2003_Italian_Grand_Prix,,,,,45.6156,9.28111,18.7,19.65,62.21,Rain
+390,138,2002,14,Italian Grand Prix,2002-09-15,,http://en.wikipedia.org/wiki/2002_Italian_Grand_Prix,,,,,45.6156,9.28111,18.0,0.0,72.39,Clear
+391,155,2001,14,Italian Grand Prix,2001-09-16,,http://en.wikipedia.org/wiki/2001_Italian_Grand_Prix,,,,,45.6156,9.28111,16.2,0.0,65.91,Partially cloudy
+392,171,2000,14,Italian Grand Prix,2000-09-10,,http://en.wikipedia.org/wiki/2000_Italian_Grand_Prix,,,,,45.6156,9.28111,19.5,0.0,71.82,Clear
+393,187,1999,14,Italian Grand Prix,1999-09-12,,http://en.wikipedia.org/wiki/1999_Italian_Grand_Prix,,,,,45.6156,9.28111,21.9,0.0,73.66,Clear
+394,204,1998,14,Italian Grand Prix,1998-09-13,,http://en.wikipedia.org/wiki/1998_Italian_Grand_Prix,,,,,45.6156,9.28111,14.6,0.0,58.63,Partially cloudy
+395,219,1997,14,Italian Grand Prix,1997-09-07,,http://en.wikipedia.org/wiki/1997_Italian_Grand_Prix,,,,,45.6156,9.28111,22.3,0.01,76.96,"Rain, Partially cloudy"
+396,237,1996,14,Italian Grand Prix,1996-09-08,,http://en.wikipedia.org/wiki/1996_Italian_Grand_Prix,,,,,45.6156,9.28111,15.0,0.0,54.15,Clear
+397,251,1995,14,Italian Grand Prix,1995-09-10,,http://en.wikipedia.org/wiki/1995_Italian_Grand_Prix,,,,,45.6156,9.28111,17.1,0.65,86.04,"Rain, Partially cloudy"
+398,268,1994,14,Italian Grand Prix,1994-09-11,,http://en.wikipedia.org/wiki/1994_Italian_Grand_Prix,,,,,45.6156,9.28111,19.8,0.0,71.25,Partially cloudy
+399,285,1993,14,Italian Grand Prix,1993-09-12,,http://en.wikipedia.org/wiki/1993_Italian_Grand_Prix,,,,,45.6156,9.28111,18.4,5.8,77.2,"Rain, Partially cloudy"
+400,301,1992,14,Italian Grand Prix,1992-09-13,,http://en.wikipedia.org/wiki/1992_Italian_Grand_Prix,,,,,45.6156,9.28111,21.0,0.0,68.4,Clear
+401,316,1991,14,Italian Grand Prix,1991-09-08,,http://en.wikipedia.org/wiki/1991_Italian_Grand_Prix,,,,,45.6156,9.28111,19.9,0.0,71.15,Partially cloudy
+402,332,1990,14,Italian Grand Prix,1990-09-09,,http://en.wikipedia.org/wiki/1990_Italian_Grand_Prix,,,,,45.6156,9.28111,16.7,0.0,65.39,Clear
+403,350,2010,14,Italian Grand Prix,2010-09-12,12:00:00,http://en.wikipedia.org/wiki/2010_Italian_Grand_Prix,,,,,45.6156,9.28111,23.366666666666664,0.0,49.86000000000001,Clear
+404,367,1989,14,Italian Grand Prix,1989-09-10,,http://en.wikipedia.org/wiki/1989_Italian_Grand_Prix,,,,,45.6156,9.28111,16.5,0.0,76.4,Partially cloudy
+405,383,1988,14,Italian Grand Prix,1988-09-11,,http://en.wikipedia.org/wiki/1988_Italian_Grand_Prix,,,,,45.6156,9.28111,20.0,0.0,68.79,Clear
+406,398,1987,14,Italian Grand Prix,1987-09-06,,http://en.wikipedia.org/wiki/1987_Italian_Grand_Prix,,,,,45.6156,9.28111,20.2,34.83,75.08,"Rain, Partially cloudy"
+407,416,1986,14,Italian Grand Prix,1986-09-07,,http://en.wikipedia.org/wiki/1986_Italian_Grand_Prix,,,,,45.6156,9.28111,18.8,0.0,78.48,Partially cloudy
+408,431,1985,14,Italian Grand Prix,1985-09-08,,http://en.wikipedia.org/wiki/1985_Italian_Grand_Prix,,,,,45.6156,9.28111,18.3,0.0,75.98,Partially cloudy
+409,449,1984,14,Italian Grand Prix,1984-09-09,,http://en.wikipedia.org/wiki/1984_Italian_Grand_Prix,,,,,45.6156,9.28111,16.0,0.0,76.78,Partially cloudy
+410,464,1983,14,Italian Grand Prix,1983-09-11,,http://en.wikipedia.org/wiki/1983_Italian_Grand_Prix,,,,,45.6156,9.28111,20.4,16.31,75.04,"Rain, Partially cloudy"
+411,481,1982,14,Italian Grand Prix,1982-09-12,,http://en.wikipedia.org/wiki/1982_Italian_Grand_Prix,,,,,45.6156,9.28111,22.2,0.08,80.2,Rain
+412,495,1981,14,Italian Grand Prix,1981-09-13,,http://en.wikipedia.org/wiki/1981_Italian_Grand_Prix,,,,,45.6156,9.28111,19.5,2.87,88.52,"Rain, Partially cloudy"
+413,524,1979,14,Italian Grand Prix,1979-09-09,,http://en.wikipedia.org/wiki/1979_Italian_Grand_Prix,,,,,45.6156,9.28111,19.7,0.0,68.38,Clear
+414,540,1978,14,Italian Grand Prix,1978-09-10,,http://en.wikipedia.org/wiki/1978_Italian_Grand_Prix,,,,,45.6156,9.28111,20.7,0.0,78.65,Partially cloudy
+415,556,1977,14,Italian Grand Prix,1977-09-11,,http://en.wikipedia.org/wiki/1977_Italian_Grand_Prix,,,,,45.6156,9.28111,18.0,0.0,78.78,Clear
+416,572,1976,14,Italian Grand Prix,1976-09-12,,http://en.wikipedia.org/wiki/1976_Italian_Grand_Prix,,,,,45.6156,9.28111,14.3,0.4,85.9,"Rain, Partially cloudy"
+417,588,1975,14,Italian Grand Prix,1975-09-07,,http://en.wikipedia.org/wiki/1975_Italian_Grand_Prix,,,,,45.6156,9.28111,18.3,7.39,85.7,"Rain, Partially cloudy"
+418,602,1974,14,Italian Grand Prix,1974-09-08,,http://en.wikipedia.org/wiki/1974_Italian_Grand_Prix,,,,,45.6156,9.28111,18.3,0.0,72.44,Clear
+419,617,1973,14,Italian Grand Prix,1973-09-09,,http://en.wikipedia.org/wiki/1973_Italian_Grand_Prix,,,,,45.6156,9.28111,22.1,0.0,78.27,Clear
+420,629,1972,14,Italian Grand Prix,1972-09-10,,http://en.wikipedia.org/wiki/1972_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+421,640,1971,14,Italian Grand Prix,1971-09-05,,http://en.wikipedia.org/wiki/1971_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+422,652,1970,14,Italian Grand Prix,1970-09-06,,http://en.wikipedia.org/wiki/1970_Italian_Grand_Prix,,,,,45.6156,9.28111,23.8,0.0,70.67,Clear
+423,663,1969,14,Italian Grand Prix,1969-09-07,,http://en.wikipedia.org/wiki/1969_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+424,675,1968,14,Italian Grand Prix,1968-09-08,,http://en.wikipedia.org/wiki/1968_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+425,687,1967,14,Italian Grand Prix,1967-09-10,,http://en.wikipedia.org/wiki/1967_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+426,696,1966,14,Italian Grand Prix,1966-09-04,,http://en.wikipedia.org/wiki/1966_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+427,706,1965,14,Italian Grand Prix,1965-09-12,,http://en.wikipedia.org/wiki/1965_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+428,716,1964,14,Italian Grand Prix,1964-09-06,,http://en.wikipedia.org/wiki/1964_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+429,725,1963,14,Italian Grand Prix,1963-09-08,,http://en.wikipedia.org/wiki/1963_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+430,735,1962,14,Italian Grand Prix,1962-09-16,,http://en.wikipedia.org/wiki/1962_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+431,744,1961,14,Italian Grand Prix,1961-09-10,,http://en.wikipedia.org/wiki/1961_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+432,754,1960,14,Italian Grand Prix,1960-09-04,,http://en.wikipedia.org/wiki/1960_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+433,763,1959,14,Italian Grand Prix,1959-09-13,,http://en.wikipedia.org/wiki/1959_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+434,774,1958,14,Italian Grand Prix,1958-09-07,,http://en.wikipedia.org/wiki/1958_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+435,783,1957,14,Italian Grand Prix,1957-09-08,,http://en.wikipedia.org/wiki/1957_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+436,791,1956,14,Italian Grand Prix,1956-09-02,,http://en.wikipedia.org/wiki/1956_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+437,798,1955,14,Italian Grand Prix,1955-09-11,,http://en.wikipedia.org/wiki/1955_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+438,806,1954,14,Italian Grand Prix,1954-09-05,,http://en.wikipedia.org/wiki/1954_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+439,816,1953,14,Italian Grand Prix,1953-09-13,,http://en.wikipedia.org/wiki/1953_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+440,824,1952,14,Italian Grand Prix,1952-09-07,,http://en.wikipedia.org/wiki/1952_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+441,831,1951,14,Italian Grand Prix,1951-09-16,,http://en.wikipedia.org/wiki/1951_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+442,839,1950,14,Italian Grand Prix,1950-09-03,,http://en.wikipedia.org/wiki/1950_Italian_Grand_Prix,,,,,45.6156,9.28111,,,,
+443,853,2011,14,Italian Grand Prix,2011-09-11,12:00:00,http://en.wikipedia.org/wiki/2011_Italian_Grand_Prix,,,,,45.6156,9.28111,28.23333333333333,0.0,53.04333333333333,Clear
+444,872,2012,14,Italian Grand Prix,2012-09-09,12:00:00,http://en.wikipedia.org/wiki/2012_Italian_Grand_Prix,,,,,45.6156,9.28111,27.633333333333336,0.0,46.586666666666666,Clear
+445,892,2013,14,Italian Grand Prix,2013-09-08,12:00:00,http://en.wikipedia.org/wiki/2013_Italian_Grand_Prix,,,,,45.6156,9.28111,22.7,0.2866666666666667,74.74666666666667,"Rain, Partially cloudy"
+446,912,2014,14,Italian Grand Prix,2014-09-07,12:00:00,http://en.wikipedia.org/wiki/2014_Italian_Grand_Prix,,,,,45.6156,9.28111,23.933333333333334,0.0,65.25,Clear
+447,938,2015,14,Italian Grand Prix,2015-09-06,12:00:00,http://en.wikipedia.org/wiki/2015_Italian_Grand_Prix,,,,,45.6156,9.28111,20.96666666666667,0.0,40.93333333333334,Clear
+448,961,2016,14,Italian Grand Prix,2016-09-04,12:00:00,http://en.wikipedia.org/wiki/2016_Italian_Grand_Prix,,,,,45.6156,9.28111,27.46666666666667,0.0,51.843333333333334,Clear
+449,981,2017,14,Italian Grand Prix,2017-09-03,12:00:00,http://en.wikipedia.org/wiki/2017_Italian_Grand_Prix,,,,,45.6156,9.28111,22.53333333333333,0.0,32.00333333333333,Clear
+450,1002,2018,14,Italian Grand Prix,2018-09-02,13:10:00,http://en.wikipedia.org/wiki/2018_Italian_Grand_Prix,,,,,45.6156,9.28111,19.666666666666668,0.45333333333333337,72.85,Partially cloudy
+451,1023,2019,14,Italian Grand Prix,2019-09-08,13:10:00,http://en.wikipedia.org/wiki/2019_Italian_Grand_Prix,,,,,45.6156,9.28111,16.866666666666667,0.7000000000000001,61.04666666666666,"Rain, Partially cloudy"
+452,1038,2020,14,Italian Grand Prix,2020-09-06,13:10:00,http://en.wikipedia.org/wiki/2020_Italian_Grand_Prix,,,,,45.6156,9.28111,25.86666666666667,0.0,47.13666666666666,Partially cloudy
+453,1065,2021,14,Italian Grand Prix,2021-09-12,13:00:00,http://en.wikipedia.org/wiki/2021_Italian_Grand_Prix,2021-09-10,,2021-09-11,,45.6156,9.28111,25.3,0.0,46.96666666666666,Clear
+454,1089,2022,14,Italian Grand Prix,2022-09-11,13:00:00,http://en.wikipedia.org/wiki/2022_Italian_Grand_Prix,2022-09-10,14:00:00,,,45.6156,9.28111,25.799999999999997,0.0,36.953333333333326,Clear
+455,14,2009,15,Singapore Grand Prix,2009-09-27,12:00:00,http://en.wikipedia.org/wiki/2009_Singapore_Grand_Prix,,,,,1.2914,103.864,32.0,0.0,61.32333333333333,Partially cloudy
+456,32,2008,15,Singapore Grand Prix,2008-09-28,12:00:00,http://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix,,,,,1.2914,103.864,31.96666666666667,0.0,61.11333333333334,Partially cloudy
+457,351,2010,15,Singapore Grand Prix,2010-09-26,12:00:00,http://en.wikipedia.org/wiki/2010_Singapore_Grand_Prix,,,,,1.2914,103.864,32.56666666666667,0.0,54.553333333333335,Partially cloudy
+458,854,2011,15,Singapore Grand Prix,2011-09-25,12:00:00,http://en.wikipedia.org/wiki/2011_Singapore_Grand_Prix,,,,,1.2914,103.864,32.4,0.0,60.336666666666666,Partially cloudy
+459,873,2012,15,Singapore Grand Prix,2012-09-23,12:00:00,http://en.wikipedia.org/wiki/2012_Singapore_Grand_Prix,,,,,1.2914,103.864,32.56666666666666,0.0,58.96666666666667,Partially cloudy
+460,893,2013,15,Singapore Grand Prix,2013-09-22,12:00:00,http://en.wikipedia.org/wiki/2013_Singapore_Grand_Prix,,,,,1.2914,103.864,32.266666666666666,0.0,60.56333333333333,Partially cloudy
+461,913,2014,15,Singapore Grand Prix,2014-09-21,12:00:00,http://en.wikipedia.org/wiki/2014_Singapore_Grand_Prix,,,,,1.2914,103.864,31.833333333333332,0.0,58.28,Partially cloudy
+462,939,2015,15,Singapore Grand Prix,2015-09-20,12:00:00,http://en.wikipedia.org/wiki/2015_Singapore_Grand_Prix,,,,,1.2914,103.864,32.5,0.0,61.67333333333334,Partially cloudy
+463,962,2016,15,Singapore Grand Prix,2016-09-18,12:00:00,http://en.wikipedia.org/wiki/2016_Singapore_Grand_Prix,,,,,1.2914,103.864,32.86666666666667,0.0,59.87,Partially cloudy
+464,982,2017,15,Singapore Grand Prix,2017-09-17,12:00:00,http://en.wikipedia.org/wiki/2017_Singapore_Grand_Prix,,,,,1.2914,103.864,32.46666666666666,0.0,53.61000000000001,Partially cloudy
+465,1003,2018,15,Singapore Grand Prix,2018-09-16,12:10:00,http://en.wikipedia.org/wiki/2018_Singapore_Grand_Prix,,,,,1.2914,103.864,30.433333333333337,0.0,57.32,Partially cloudy
+466,1024,2019,15,Singapore Grand Prix,2019-09-22,12:10:00,http://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix,,,,,1.2914,103.864,33.06666666666666,0.0,54.27333333333333,Partially cloudy
+468,15,2009,22,Japanese Grand Prix,2009-10-04,05:00:00,http://en.wikipedia.org/wiki/2009_Japanese_Grand_Prix,,,,,34.8431,136.541,17.725,0.0,78.36,Clear
+469,69,2006,22,Japanese Grand Prix,2006-10-08,14:00:00,http://en.wikipedia.org/wiki/2006_Japanese_Grand_Prix,,,,,34.8431,136.541,20.299999999999997,0.0,50.82,Clear
+470,88,2005,22,Japanese Grand Prix,2005-10-09,14:00:00,http://en.wikipedia.org/wiki/2005_Japanese_Grand_Prix,,,,,34.8431,136.541,23.233333333333334,0.0,50.78,Clear
+471,106,2004,22,Japanese Grand Prix,2004-10-10,,http://en.wikipedia.org/wiki/2004_Japanese_Grand_Prix,,,,,34.8431,136.541,22.2,2.1,83.66,Rain
+472,123,2003,22,Japanese Grand Prix,2003-10-12,,http://en.wikipedia.org/wiki/2003_Japanese_Grand_Prix,,,,,34.8431,136.541,20.3,0.37,84.94,Rain
+473,140,2002,22,Japanese Grand Prix,2002-10-13,,http://en.wikipedia.org/wiki/2002_Japanese_Grand_Prix,,,,,34.8431,136.541,19.1,0.0,64.69,Clear
+474,157,2001,22,Japanese Grand Prix,2001-10-14,,http://en.wikipedia.org/wiki/2001_Japanese_Grand_Prix,,,,,34.8431,136.541,17.8,0.0,61.77,Clear
+475,173,2000,22,Japanese Grand Prix,2000-10-08,,http://en.wikipedia.org/wiki/2000_Japanese_Grand_Prix,,,,,34.8431,136.541,19.5,5.68,78.15,Rain
+476,190,1999,22,Japanese Grand Prix,1999-10-31,,http://en.wikipedia.org/wiki/1999_Japanese_Grand_Prix,,,,,34.8431,136.541,15.6,0.0,69.69,Clear
+477,206,1998,22,Japanese Grand Prix,1998-11-01,,http://en.wikipedia.org/wiki/1998_Japanese_Grand_Prix,,,,,34.8431,136.541,16.6,0.0,76.24,Clear
+478,222,1997,22,Japanese Grand Prix,1997-10-12,,http://en.wikipedia.org/wiki/1997_Japanese_Grand_Prix,,,,,34.8431,136.541,15.3,0.0,56.62,Clear
+479,239,1996,22,Japanese Grand Prix,1996-10-13,,http://en.wikipedia.org/wiki/1996_Japanese_Grand_Prix,,,,,34.8431,136.541,18.8,0.0,78.54,Clear
+480,255,1995,22,Japanese Grand Prix,1995-10-29,,http://en.wikipedia.org/wiki/1995_Japanese_Grand_Prix,,,,,34.8431,136.541,16.6,0.0,76.9,Clear
+481,271,1994,22,Japanese Grand Prix,1994-11-06,,http://en.wikipedia.org/wiki/1994_Japanese_Grand_Prix,,,,,34.8431,136.541,15.9,0.0,89.06,Clear
+482,287,1993,22,Japanese Grand Prix,1993-10-24,,http://en.wikipedia.org/wiki/1993_Japanese_Grand_Prix,,,,,34.8431,136.541,13.4,0.0,64.05,Clear
+483,303,1992,22,Japanese Grand Prix,1992-10-25,,http://en.wikipedia.org/wiki/1992_Japanese_Grand_Prix,,,,,34.8431,136.541,15.2,0.0,62.94,Clear
+484,319,1991,22,Japanese Grand Prix,1991-10-20,,http://en.wikipedia.org/wiki/1991_Japanese_Grand_Prix,,,,,34.8431,136.541,15.5,0.0,58.09,Clear
+485,335,1990,22,Japanese Grand Prix,1990-10-21,,http://en.wikipedia.org/wiki/1990_Japanese_Grand_Prix,,,,,34.8431,136.541,17.2,0.0,64.17,Clear
+486,352,2010,22,Japanese Grand Prix,2010-10-10,06:00:00,http://en.wikipedia.org/wiki/2010_Japanese_Grand_Prix,,,,,34.8431,136.541,20.275,0.0,90.4225,Clear
+487,370,1989,22,Japanese Grand Prix,1989-10-22,,http://en.wikipedia.org/wiki/1989_Japanese_Grand_Prix,,,,,34.8431,136.541,15.7,0.0,77.53,Partially cloudy
+488,386,1988,22,Japanese Grand Prix,1988-10-30,,http://en.wikipedia.org/wiki/1988_Japanese_Grand_Prix,,,,,34.8431,136.541,10.2,0.0,60.54,Clear
+489,402,1987,22,Japanese Grand Prix,1987-11-01,,http://en.wikipedia.org/wiki/1987_Japanese_Grand_Prix,,,,,34.8431,136.541,13.6,0.0,73.89,Partially cloudy
+490,855,2011,22,Japanese Grand Prix,2011-10-09,06:00:00,http://en.wikipedia.org/wiki/2011_Japanese_Grand_Prix,,,,,34.8431,136.541,14.7,0.0,76.77000000000001,Clear
+491,874,2012,22,Japanese Grand Prix,2012-10-07,06:00:00,http://en.wikipedia.org/wiki/2012_Japanese_Grand_Prix,,,,,34.8431,136.541,19.55,0.0,69.8,Clear
+492,895,2013,22,Japanese Grand Prix,2013-10-13,06:00:00,http://en.wikipedia.org/wiki/2013_Japanese_Grand_Prix,,,,,34.8431,136.541,16.875,0.0,64.325,Clear
+493,914,2014,22,Japanese Grand Prix,2014-10-05,06:00:00,http://en.wikipedia.org/wiki/2014_Japanese_Grand_Prix,,,,,34.8431,136.541,18.025000000000002,0.945,94.8475,Clear
+494,940,2015,22,Japanese Grand Prix,2015-09-27,05:00:00,http://en.wikipedia.org/wiki/2015_Japanese_Grand_Prix,,,,,34.8431,136.541,21.275000000000002,0.0,90.2625,Clear
+495,964,2016,22,Japanese Grand Prix,2016-10-09,05:00:00,http://en.wikipedia.org/wiki/2016_Japanese_Grand_Prix,,,,,34.8431,136.541,20.375,0.0,90.1575,Clear
+496,984,2017,22,Japanese Grand Prix,2017-10-08,05:00:00,http://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix,,,,,34.8431,136.541,18.15,0.0,92.3425,Clear
+497,1005,2018,22,Japanese Grand Prix,2018-10-07,05:10:00,http://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix,,,,,34.8431,136.541,23.125,0.0,75.78,Clear
+498,1026,2019,22,Japanese Grand Prix,2019-10-13,05:10:00,http://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix,,,,,34.8431,136.541,20.55,0.0,68.6525,Clear
+500,16,2009,18,Brazilian Grand Prix,2009-10-18,16:00:00,http://en.wikipedia.org/wiki/2009_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,20.666666666666668,0.0,87.39,Overcast
+501,35,2008,18,Brazilian Grand Prix,2008-11-02,17:00:00,http://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,21.899999999999995,0.0,86.3,Overcast
+502,52,2007,18,Brazilian Grand Prix,2007-10-21,16:00:00,http://en.wikipedia.org/wiki/2007_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,32.53333333333334,0.0,28.48,Overcast
+503,70,2006,18,Brazilian Grand Prix,2006-10-22,14:00:00,http://en.wikipedia.org/wiki/2006_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,20.333333333333332,0.0,61.92666666666667,Partially cloudy
+504,87,2005,18,Brazilian Grand Prix,2005-09-25,14:00:00,http://en.wikipedia.org/wiki/2005_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,20.233333333333334,0.0,80.57,Overcast
+505,107,2004,18,Brazilian Grand Prix,2004-10-24,,http://en.wikipedia.org/wiki/2004_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,21.6,0.0,75.93,Partially cloudy
+506,110,2003,18,Brazilian Grand Prix,2003-04-06,,http://en.wikipedia.org/wiki/2003_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,20.6,0.0,88.08,Partially cloudy
+507,126,2002,18,Brazilian Grand Prix,2002-03-31,,http://en.wikipedia.org/wiki/2002_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,25.9,0.0,57.06,Clear
+508,143,2001,18,Brazilian Grand Prix,2001-04-01,,http://en.wikipedia.org/wiki/2001_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,22.9,0.0,75.96,Partially cloudy
+509,159,2000,18,Brazilian Grand Prix,2000-03-26,,http://en.wikipedia.org/wiki/2000_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,21.5,0.0,81.17,Overcast
+510,176,1999,18,Brazilian Grand Prix,1999-04-11,,http://en.wikipedia.org/wiki/1999_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,19.8,0.0,72.33,Partially cloudy
+511,192,1998,18,Brazilian Grand Prix,1998-03-29,,http://en.wikipedia.org/wiki/1998_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,22.5,0.0,81.13,Partially cloudy
+512,208,1997,18,Brazilian Grand Prix,1997-03-30,,http://en.wikipedia.org/wiki/1997_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,18.9,0.0,79.92,Partially cloudy
+513,225,1996,18,Brazilian Grand Prix,1996-03-31,,http://en.wikipedia.org/wiki/1996_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,25.1,0.0,74.88,Partially cloudy
+514,240,1995,18,Brazilian Grand Prix,1995-03-26,,http://en.wikipedia.org/wiki/1995_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,19.7,0.0,82.33,Partially cloudy
+515,257,1994,18,Brazilian Grand Prix,1994-03-27,,http://en.wikipedia.org/wiki/1994_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,19.3,7.0,82.5,"Rain, Partially cloudy"
+516,274,1993,18,Brazilian Grand Prix,1993-03-28,,http://en.wikipedia.org/wiki/1993_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,22.6,0.0,85.41,Partially cloudy
+517,291,1992,18,Brazilian Grand Prix,1992-04-05,,http://en.wikipedia.org/wiki/1992_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,23.2,,79.76,Partially cloudy
+518,306,1991,18,Brazilian Grand Prix,1991-03-24,,http://en.wikipedia.org/wiki/1991_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,20.5,1.7,89.92,"Rain, Overcast"
+519,322,1990,18,Brazilian Grand Prix,1990-03-25,,http://en.wikipedia.org/wiki/1990_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,23.4,0.0,77.21,Partially cloudy
+520,354,2010,18,Brazilian Grand Prix,2010-11-07,16:00:00,http://en.wikipedia.org/wiki/2010_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,21.099999999999998,0.0,73.5,Partially cloudy
+521,499,1980,18,Brazilian Grand Prix,1980-01-27,,http://en.wikipedia.org/wiki/1980_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,22.1,0.0,83.32,Partially cloudy
+522,513,1979,18,Brazilian Grand Prix,1979-02-04,,http://en.wikipedia.org/wiki/1979_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,21.1,0.0,80.67,Partially cloudy
+523,544,1977,18,Brazilian Grand Prix,1977-01-23,,http://en.wikipedia.org/wiki/1977_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,22.2,0.0,76.94,Partially cloudy
+524,560,1976,18,Brazilian Grand Prix,1976-01-25,,http://en.wikipedia.org/wiki/1976_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,25.6,0.0,67.67,Partially cloudy
+525,577,1975,18,Brazilian Grand Prix,1975-01-26,,http://en.wikipedia.org/wiki/1975_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,25.5,0.0,69.1,Partially cloudy
+526,591,1974,18,Brazilian Grand Prix,1974-01-27,,http://en.wikipedia.org/wiki/1974_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,22.3,0.0,83.51,Partially cloudy
+527,606,1973,18,Brazilian Grand Prix,1973-02-11,,http://en.wikipedia.org/wiki/1973_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,27.9,0.0,57.65,Partially cloudy
+528,859,2011,18,Brazilian Grand Prix,2011-11-27,16:00:00,http://en.wikipedia.org/wiki/2011_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,22.599999999999998,0.0,72.01666666666667,Partially cloudy
+529,879,2012,18,Brazilian Grand Prix,2012-11-25,16:00:00,http://en.wikipedia.org/wiki/2012_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,18.433333333333334,0.0,85.22666666666667,Overcast
+530,899,2013,18,Brazilian Grand Prix,2013-11-24,16:00:00,http://en.wikipedia.org/wiki/2013_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,19.433333333333334,0.0,86.62333333333333,Overcast
+531,917,2014,18,Brazilian Grand Prix,2014-11-09,16:00:00,http://en.wikipedia.org/wiki/2014_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,21.333333333333332,0.0,68.41666666666667,Partially cloudy
+532,944,2015,18,Brazilian Grand Prix,2015-11-15,16:00:00,http://en.wikipedia.org/wiki/2015_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,21.46666666666667,0.0,78.10000000000001,Overcast
+533,967,2016,18,Brazilian Grand Prix,2016-11-13,16:00:00,http://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,18.2,0.0,88.70666666666666,Overcast
+534,987,2017,18,Brazilian Grand Prix,2017-11-12,16:00:00,http://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,27.2,0.0,24.396666666666665,Clear
+535,1008,2018,18,Brazilian Grand Prix,2018-11-11,17:10:00,http://en.wikipedia.org/wiki/2018_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,20.599999999999998,0.0,82.29333333333334,Overcast
+536,1029,2019,18,Brazilian Grand Prix,2019-11-17,17:10:00,http://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix,,,,,-23.7036,-46.6997,17.266666666666666,0.0,71.18666666666667,Partially cloudy
+537,1071,2021,18,São Paulo Grand Prix,2021-11-14,17:00:00,http://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix,2021-11-12,,2021-11-13,,-23.7036,-46.6997,16.333333333333332,0.0,75.32666666666667,Clear
+539,17,2009,24,Abu Dhabi Grand Prix,2009-11-01,11:00:00,http://en.wikipedia.org/wiki/2009_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,35.266666666666666,,17.87,Clear
+540,355,2010,24,Abu Dhabi Grand Prix,2010-11-14,13:00:00,http://en.wikipedia.org/wiki/2010_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,29.933333333333334,0.0,47.53,Partially cloudy
+541,858,2011,24,Abu Dhabi Grand Prix,2011-11-13,13:00:00,http://en.wikipedia.org/wiki/2011_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,27.599999999999998,0.0,45.35999999999999,Clear
+542,877,2012,24,Abu Dhabi Grand Prix,2012-11-04,13:00:00,http://en.wikipedia.org/wiki/2012_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,31.666666666666668,0.0,36.69333333333333,Partially cloudy
+543,897,2013,24,Abu Dhabi Grand Prix,2013-11-03,13:00:00,http://en.wikipedia.org/wiki/2013_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,35.199999999999996,0.0,28.600000000000005,Clear
+544,918,2014,24,Abu Dhabi Grand Prix,2014-11-23,13:00:00,http://en.wikipedia.org/wiki/2014_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,28.933333333333334,0.0,44.00666666666667,Clear
+545,945,2015,24,Abu Dhabi Grand Prix,2015-11-29,13:00:00,http://en.wikipedia.org/wiki/2015_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,27.333333333333332,0.0,54.35666666666666,Partially cloudy
+546,968,2016,24,Abu Dhabi Grand Prix,2016-11-27,13:00:00,http://en.wikipedia.org/wiki/2016_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,28.0,0.0,44.133333333333326,Clear
+547,988,2017,24,Abu Dhabi Grand Prix,2017-11-26,13:00:00,http://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,25.7,0.0,51.04333333333333,Partially cloudy
+548,1009,2018,24,Abu Dhabi Grand Prix,2018-11-25,13:10:00,http://en.wikipedia.org/wiki/2018_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,33.46666666666667,0.0,32.53666666666667,Partially cloudy
+549,1030,2019,24,Abu Dhabi Grand Prix,2019-12-01,13:10:00,http://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,27.666666666666668,0.0,49.73333333333333,Partially cloudy
+550,1047,2020,24,Abu Dhabi Grand Prix,2020-12-13,13:10:00,http://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix,,,,,24.4672,54.6031,24.166666666666668,0.0,44.913333333333334,Partially cloudy
+551,1073,2021,24,Abu Dhabi Grand Prix,2021-12-12,13:00:00,http://en.wikipedia.org/wiki/2021_Abu_Dhabi_Grand_Prix,2021-12-11,,,,24.4672,54.6031,25.2,0.0,52.51666666666667,Partially cloudy
+553,24,2008,7,Canadian Grand Prix,2008-06-08,17:00:00,http://en.wikipedia.org/wiki/2008_Canadian_Grand_Prix,,,,,45.5,-73.5228,25.900000000000002,2.4533333333333336,73.55666666666667,Clear
+554,41,2007,7,Canadian Grand Prix,2007-06-10,17:00:00,http://en.wikipedia.org/wiki/2007_Canadian_Grand_Prix,,,,,45.5,-73.5228,25.2,0.0,54.13666666666666,Clear
+555,61,2006,7,Canadian Grand Prix,2006-06-25,13:00:00,http://en.wikipedia.org/wiki/2006_Canadian_Grand_Prix,,,,,45.5,-73.5228,27.3,0.0,34.68,Clear
+556,78,2005,7,Canadian Grand Prix,2005-06-12,13:00:00,http://en.wikipedia.org/wiki/2005_Canadian_Grand_Prix,,,,,45.5,-73.5228,30.53333333333333,0.0,58.60666666666666,Clear
+557,97,2004,7,Canadian Grand Prix,2004-06-13,,http://en.wikipedia.org/wiki/2004_Canadian_Grand_Prix,,,,,45.5,-73.5228,19.7,0.0,50.91,Clear
+558,115,2003,7,Canadian Grand Prix,2003-06-15,,http://en.wikipedia.org/wiki/2003_Canadian_Grand_Prix,,,,,45.5,-73.5228,16.5,0.0,71.56,Clear
+559,131,2002,7,Canadian Grand Prix,2002-06-09,,http://en.wikipedia.org/wiki/2002_Canadian_Grand_Prix,,,,,45.5,-73.5228,19.6,0.0,61.92,Clear
+560,148,2001,7,Canadian Grand Prix,2001-06-10,,http://en.wikipedia.org/wiki/2001_Canadian_Grand_Prix,,,,,45.5,-73.5228,21.0,0.0,51.01,Clear
+561,165,2000,7,Canadian Grand Prix,2000-06-18,,http://en.wikipedia.org/wiki/2000_Canadian_Grand_Prix,,,,,45.5,-73.5228,14.0,1.0,64.26,Rain
+562,180,1999,7,Canadian Grand Prix,1999-06-13,,http://en.wikipedia.org/wiki/1999_Canadian_Grand_Prix,,,,,45.5,-73.5228,24.4,0.0,55.24,Clear
+563,197,1998,7,Canadian Grand Prix,1998-06-07,,http://en.wikipedia.org/wiki/1998_Canadian_Grand_Prix,,,,,45.5,-73.5228,12.7,0.0,76.76,Partially cloudy
+564,213,1997,7,Canadian Grand Prix,1997-06-15,,http://en.wikipedia.org/wiki/1997_Canadian_Grand_Prix,,,,,45.5,-73.5228,16.6,0.07,46.23,"Rain, Partially cloudy"
+565,231,1996,7,Canadian Grand Prix,1996-06-16,,http://en.wikipedia.org/wiki/1996_Canadian_Grand_Prix,,,,,45.5,-73.5228,16.5,0.36,65.77,"Rain, Partially cloudy"
+566,245,1995,7,Canadian Grand Prix,1995-06-11,,http://en.wikipedia.org/wiki/1995_Canadian_Grand_Prix,,,,,45.5,-73.5228,18.4,1.23,79.55,"Rain, Partially cloudy"
+567,262,1994,7,Canadian Grand Prix,1994-06-12,,http://en.wikipedia.org/wiki/1994_Canadian_Grand_Prix,,,,,45.5,-73.5228,17.8,7.64,75.76,"Rain, Partially cloudy"
+568,279,1993,7,Canadian Grand Prix,1993-06-13,,http://en.wikipedia.org/wiki/1993_Canadian_Grand_Prix,,,,,45.5,-73.5228,22.4,0.0,58.15,Partially cloudy
+569,295,1992,7,Canadian Grand Prix,1992-06-14,,http://en.wikipedia.org/wiki/1992_Canadian_Grand_Prix,,,,,45.5,-73.5228,17.3,0.18,66.97,"Rain, Partially cloudy"
+570,309,1991,7,Canadian Grand Prix,1991-06-02,,http://en.wikipedia.org/wiki/1991_Canadian_Grand_Prix,,,,,45.5,-73.5228,18.6,0.0,49.07,Partially cloudy
+571,325,1990,7,Canadian Grand Prix,1990-06-10,,http://en.wikipedia.org/wiki/1990_Canadian_Grand_Prix,,,,,45.5,-73.5228,15.1,5.0,89.08,"Rain, Overcast"
+572,344,2010,7,Canadian Grand Prix,2010-06-13,16:00:00,http://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix,,,,,45.5,-73.5228,25.366666666666664,0.0,43.946666666666665,Clear
+573,361,1989,7,Canadian Grand Prix,1989-06-18,,http://en.wikipedia.org/wiki/1989_Canadian_Grand_Prix,,,,,45.5,-73.5228,13.2,5.0,78.51,"Rain, Partially cloudy"
+574,376,1988,7,Canadian Grand Prix,1988-06-12,,http://en.wikipedia.org/wiki/1988_Canadian_Grand_Prix,,,,,45.5,-73.5228,22.3,0.0,50.99,Partially cloudy
+575,409,1986,7,Canadian Grand Prix,1986-06-15,,http://en.wikipedia.org/wiki/1986_Canadian_Grand_Prix,,,,,45.5,-73.5228,19.3,0.0,60.78,Partially cloudy
+576,424,1985,7,Canadian Grand Prix,1985-06-16,,http://en.wikipedia.org/wiki/1985_Canadian_Grand_Prix,,,,,45.5,-73.5228,15.2,1.0,81.02,"Rain, Partially cloudy"
+577,442,1984,7,Canadian Grand Prix,1984-06-17,,http://en.wikipedia.org/wiki/1984_Canadian_Grand_Prix,,,,,45.5,-73.5228,20.3,0.2,60.56,"Rain, Partially cloudy"
+578,459,1983,7,Canadian Grand Prix,1983-06-12,,http://en.wikipedia.org/wiki/1983_Canadian_Grand_Prix,,,,,45.5,-73.5228,21.9,3.6,65.01,"Rain, Partially cloudy"
+579,474,1982,7,Canadian Grand Prix,1982-06-13,,http://en.wikipedia.org/wiki/1982_Canadian_Grand_Prix,,,,,45.5,-73.5228,15.8,0.2,73.17,"Rain, Overcast"
+580,496,1981,7,Canadian Grand Prix,1981-09-27,,http://en.wikipedia.org/wiki/1981_Canadian_Grand_Prix,,,,,45.5,-73.5228,16.0,18.0,86.02,"Rain, Overcast"
+581,510,1980,7,Canadian Grand Prix,1980-09-28,,http://en.wikipedia.org/wiki/1980_Canadian_Grand_Prix,,,,,45.5,-73.5228,7.1,1.0,69.45,"Rain, Partially cloudy"
+582,525,1979,7,Canadian Grand Prix,1979-09-30,,http://en.wikipedia.org/wiki/1979_Canadian_Grand_Prix,,,,,45.5,-73.5228,14.0,0.0,86.98,Partially cloudy
+583,542,1978,7,Canadian Grand Prix,1978-10-08,,http://en.wikipedia.org/wiki/1978_Canadian_Grand_Prix,,,,,45.5,-73.5228,4.1,0.0,63.24,Partially cloudy
+584,847,2011,7,Canadian Grand Prix,2011-06-12,17:00:00,http://en.wikipedia.org/wiki/2011_Canadian_Grand_Prix,,,,,45.5,-73.5228,16.633333333333336,7.866666666666667,93.45333333333333,Rain
+585,866,2012,7,Canadian Grand Prix,2012-06-10,18:00:00,http://en.wikipedia.org/wiki/2012_Canadian_Grand_Prix,,,,,45.5,-73.5228,24.53333333333333,0.0,35.63666666666666,Clear
+586,886,2013,7,Canadian Grand Prix,2013-06-09,18:00:00,http://en.wikipedia.org/wiki/2013_Canadian_Grand_Prix,,,,,45.5,-73.5228,20.8,0.0,52.36666666666667,Clear
+587,906,2014,7,Canadian Grand Prix,2014-06-08,18:00:00,http://en.wikipedia.org/wiki/2014_Canadian_Grand_Prix,,,,,45.5,-73.5228,24.96666666666667,0.0,38.5,Partially cloudy
+588,932,2015,7,Canadian Grand Prix,2015-06-07,18:00:00,http://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix,,,,,45.5,-73.5228,20.533333333333335,0.0,39.54333333333333,Clear
+589,954,2016,7,Canadian Grand Prix,2016-06-12,18:00:00,http://en.wikipedia.org/wiki/2016_Canadian_Grand_Prix,,,,,45.5,-73.5228,11.066666666666668,0.0,75.94666666666667,Clear
+590,975,2017,7,Canadian Grand Prix,2017-06-11,18:00:00,http://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix,,,,,45.5,-73.5228,27.166666666666668,0.0,54.080000000000005,Clear
+591,995,2018,7,Canadian Grand Prix,2018-06-10,18:10:00,http://en.wikipedia.org/wiki/2018_Canadian_Grand_Prix,,,,,45.5,-73.5228,18.566666666666666,0.0,34.02333333333333,Clear
+592,1016,2019,7,Canadian Grand Prix,2019-06-09,18:10:00,http://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix,,,,,45.5,-73.5228,26.633333333333336,0.0,23.34,Clear
+593,1082,2022,7,Canadian Grand Prix,2022-06-19,18:00:00,http://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix,2022-06-18,20:00:00,,,45.5,-73.5228,20.033333333333335,0.0,31.89333333333333,Clear
+594,25,2008,8,French Grand Prix,2008-06-22,12:00:00,http://en.wikipedia.org/wiki/2008_French_Grand_Prix,,,,,46.8642,3.16361,24.133333333333336,0.0033333333333333335,77.59666666666668,Partially cloudy
+595,43,2007,8,French Grand Prix,2007-07-01,12:00:00,http://en.wikipedia.org/wiki/2007_French_Grand_Prix,,,,,46.8642,3.16361,21.666666666666668,0.0,68.51333333333334,Overcast
+596,63,2006,8,French Grand Prix,2006-07-16,14:00:00,http://en.wikipedia.org/wiki/2006_French_Grand_Prix,,,,,46.8642,3.16361,32.86666666666667,0.0,37.720000000000006,Partially cloudy
+597,80,2005,8,French Grand Prix,2005-07-03,14:00:00,http://en.wikipedia.org/wiki/2005_French_Grand_Prix,,,,,46.8642,3.16361,29.46666666666667,0.0,42.166666666666664,Clear
+598,99,2004,8,French Grand Prix,2004-07-04,,http://en.wikipedia.org/wiki/2004_French_Grand_Prix,,,,,46.8642,3.16361,17.8,0.0,60.79,Partially cloudy
+599,117,2003,8,French Grand Prix,2003-07-06,,http://en.wikipedia.org/wiki/2003_French_Grand_Prix,,,,,46.8642,3.16361,17.0,0.16,68.34,"Rain, Partially cloudy"
+600,134,2002,8,French Grand Prix,2002-07-21,,http://en.wikipedia.org/wiki/2002_French_Grand_Prix,,,,,46.8642,3.16361,19.9,0.0,61.75,Partially cloudy
+601,150,2001,8,French Grand Prix,2001-07-01,,http://en.wikipedia.org/wiki/2001_French_Grand_Prix,,,,,46.8642,3.16361,19.5,0.0,61.55,Clear
+602,166,2000,8,French Grand Prix,2000-07-02,,http://en.wikipedia.org/wiki/2000_French_Grand_Prix,,,,,46.8642,3.16361,22.8,2.18,71.23,"Rain, Partially cloudy"
+603,181,1999,8,French Grand Prix,1999-06-27,,http://en.wikipedia.org/wiki/1999_French_Grand_Prix,,,,,46.8642,3.16361,16.5,19.03,85.91,"Rain, Partially cloudy"
+604,198,1998,8,French Grand Prix,1998-06-28,,http://en.wikipedia.org/wiki/1998_French_Grand_Prix,,,,,46.8642,3.16361,17.7,0.5,66.76,"Rain, Partially cloudy"
+605,214,1997,8,French Grand Prix,1997-06-29,,http://en.wikipedia.org/wiki/1997_French_Grand_Prix,,,,,46.8642,3.16361,14.7,27.12,85.96,"Rain, Partially cloudy"
+606,232,1996,8,French Grand Prix,1996-06-30,,http://en.wikipedia.org/wiki/1996_French_Grand_Prix,,,,,46.8642,3.16361,16.2,0.0,62.9,Partially cloudy
+607,246,1995,8,French Grand Prix,1995-07-02,,http://en.wikipedia.org/wiki/1995_French_Grand_Prix,,,,,46.8642,3.16361,20.5,2.57,78.16,"Rain, Partially cloudy"
+608,263,1994,8,French Grand Prix,1994-07-03,,http://en.wikipedia.org/wiki/1994_French_Grand_Prix,,,,,46.8642,3.16361,25.8,0.0,73.26,Clear
+609,280,1993,8,French Grand Prix,1993-07-04,,http://en.wikipedia.org/wiki/1993_French_Grand_Prix,,,,,46.8642,3.16361,22.7,0.0,67.76,Clear
+610,296,1992,8,French Grand Prix,1992-07-05,,http://en.wikipedia.org/wiki/1992_French_Grand_Prix,,,,,46.8642,3.16361,15.6,3.33,94.35,"Rain, Partially cloudy"
+611,311,1991,8,French Grand Prix,1991-07-07,,http://en.wikipedia.org/wiki/1991_French_Grand_Prix,,,,,46.8642,3.16361,21.8,0.01,73.42,"Rain, Partially cloudy"
+612,27,2008,10,German Grand Prix,2008-07-20,12:00:00,http://en.wikipedia.org/wiki/2008_German_Grand_Prix,,,,,49.3278,8.56583,20.1,0.0,48.20333333333334,Partially cloudy
+613,64,2006,10,German Grand Prix,2006-07-30,14:00:00,http://en.wikipedia.org/wiki/2006_German_Grand_Prix,,,,,49.3278,8.56583,29.76666666666667,0.0,38.416666666666664,Partially cloudy
+614,82,2005,10,German Grand Prix,2005-07-24,14:00:00,http://en.wikipedia.org/wiki/2005_German_Grand_Prix,,,,,49.3278,8.56583,22.100000000000005,0.0,54.276666666666664,Overcast
+615,101,2004,10,German Grand Prix,2004-07-25,,http://en.wikipedia.org/wiki/2004_German_Grand_Prix,,,,,49.3278,8.56583,18.3,0.0,62.58,Partially cloudy
+616,119,2003,10,German Grand Prix,2003-08-03,,http://en.wikipedia.org/wiki/2003_German_Grand_Prix,,,,,49.3278,8.56583,26.4,0.0,60.66,Partially cloudy
+617,135,2002,10,German Grand Prix,2002-07-28,,http://en.wikipedia.org/wiki/2002_German_Grand_Prix,,,,,49.3278,8.56583,22.5,0.0,63.65,Clear
+618,152,2001,10,German Grand Prix,2001-07-29,,http://en.wikipedia.org/wiki/2001_German_Grand_Prix,,,,,49.3278,8.56583,23.3,0.0,69.35,Partially cloudy
+619,168,2000,10,German Grand Prix,2000-07-30,,http://en.wikipedia.org/wiki/2000_German_Grand_Prix,,,,,49.3278,8.56583,18.1,0.0,76.34,Partially cloudy
+620,184,1999,10,German Grand Prix,1999-08-01,,http://en.wikipedia.org/wiki/1999_German_Grand_Prix,,,,,49.3278,8.56583,21.3,0.0,54.04,Partially cloudy
+621,201,1998,10,German Grand Prix,1998-08-02,,http://en.wikipedia.org/wiki/1998_German_Grand_Prix,,,,,49.3278,8.56583,15.4,13.0,86.05,"Rain, Overcast"
+622,216,1997,10,German Grand Prix,1997-07-27,,http://en.wikipedia.org/wiki/1997_German_Grand_Prix,,,,,49.3278,8.56583,21.4,0.5,64.89,"Rain, Overcast"
+623,234,1996,10,German Grand Prix,1996-07-28,,http://en.wikipedia.org/wiki/1996_German_Grand_Prix,,,,,49.3278,8.56583,21.1,0.0,62.7,Partially cloudy
+624,248,1995,10,German Grand Prix,1995-07-30,,http://en.wikipedia.org/wiki/1995_German_Grand_Prix,,,,,49.3278,8.56583,21.6,0.0,65.11,Clear
+625,265,1994,10,German Grand Prix,1994-07-31,,http://en.wikipedia.org/wiki/1994_German_Grand_Prix,,,,,49.3278,8.56583,24.1,0.0,62.95,Partially cloudy
+626,282,1993,10,German Grand Prix,1993-07-25,,http://en.wikipedia.org/wiki/1993_German_Grand_Prix,,,,,49.3278,8.56583,21.2,0.0,57.53,Partially cloudy
+627,298,1992,10,German Grand Prix,1992-07-26,,http://en.wikipedia.org/wiki/1992_German_Grand_Prix,,,,,49.3278,8.56583,20.4,0.0,59.65,Partially cloudy
+628,313,1991,10,German Grand Prix,1991-07-28,,http://en.wikipedia.org/wiki/1991_German_Grand_Prix,,,,,49.3278,8.56583,19.3,0.0,65.06,Clear
+629,329,1990,10,German Grand Prix,1990-07-29,,http://en.wikipedia.org/wiki/1990_German_Grand_Prix,,,,,49.3278,8.56583,23.4,0.0,65.11,Partially cloudy
+630,347,2010,10,German Grand Prix,2010-07-25,12:00:00,http://en.wikipedia.org/wiki/2010_German_Grand_Prix,,,,,49.3278,8.56583,20.1,0.0,56.169999999999995,Partially cloudy
+631,364,1989,10,German Grand Prix,1989-07-30,,http://en.wikipedia.org/wiki/1989_German_Grand_Prix,,,,,49.3278,8.56583,17.7,0.0,79.13,Partially cloudy
+632,380,1988,10,German Grand Prix,1988-07-24,,http://en.wikipedia.org/wiki/1988_German_Grand_Prix,,,,,49.3278,8.56583,18.8,9.0,81.7,"Rain, Partially cloudy"
+633,395,1987,10,German Grand Prix,1987-07-26,,http://en.wikipedia.org/wiki/1987_German_Grand_Prix,,,,,49.3278,8.56583,12.5,9.0,65.5,"Rain, Partially cloudy"
+634,413,1986,10,German Grand Prix,1986-07-27,,http://en.wikipedia.org/wiki/1986_German_Grand_Prix,,,,,49.3278,8.56583,18.8,0.3,70.84,"Rain, Partially cloudy"
+635,446,1984,10,German Grand Prix,1984-08-05,,http://en.wikipedia.org/wiki/1984_German_Grand_Prix,,,,,49.3278,8.56583,16.6,9.0,80.46,"Rain, Partially cloudy"
+636,461,1983,10,German Grand Prix,1983-08-07,,http://en.wikipedia.org/wiki/1983_German_Grand_Prix,,,,,49.3278,8.56583,17.3,2.0,74.59,"Rain, Partially cloudy"
+637,478,1982,10,German Grand Prix,1982-08-08,,http://en.wikipedia.org/wiki/1982_German_Grand_Prix,,,,,49.3278,8.56583,17.3,12.0,79.39,"Rain, Partially cloudy"
+638,492,1981,10,German Grand Prix,1981-08-02,,http://en.wikipedia.org/wiki/1981_German_Grand_Prix,,,,,49.3278,8.56583,20.1,0.0,72.99,Partially cloudy
+639,506,1980,10,German Grand Prix,1980-08-10,,http://en.wikipedia.org/wiki/1980_German_Grand_Prix,,,,,49.3278,8.56583,17.8,0.0,80.31,Partially cloudy
+640,521,1979,10,German Grand Prix,1979-07-29,,http://en.wikipedia.org/wiki/1979_German_Grand_Prix,,,,,49.3278,8.56583,21.8,0.5,66.79,"Rain, Partially cloudy"
+641,537,1978,10,German Grand Prix,1978-07-30,,http://en.wikipedia.org/wiki/1978_German_Grand_Prix,,,,,49.3278,8.56583,24.6,0.0,55.84,Clear
+642,553,1977,10,German Grand Prix,1977-07-31,,http://en.wikipedia.org/wiki/1977_German_Grand_Prix,,,,,49.3278,8.56583,19.4,0.0,61.24,Partially cloudy
+643,650,1970,10,German Grand Prix,1970-08-02,,http://en.wikipedia.org/wiki/1970_German_Grand_Prix,,,,,49.3278,8.56583,20.3,0.0,79.21,Clear
+644,869,2012,10,German Grand Prix,2012-07-22,12:00:00,http://en.wikipedia.org/wiki/2012_German_Grand_Prix,,,,,49.3278,8.56583,19.1,0.0,45.71666666666667,Partially cloudy
+645,909,2014,10,German Grand Prix,2014-07-20,12:00:00,http://en.wikipedia.org/wiki/2014_German_Grand_Prix,,,,,49.3278,8.56583,24.666666666666668,0.0,60.56,Clear
+646,959,2016,10,German Grand Prix,2016-07-31,12:00:00,http://en.wikipedia.org/wiki/2016_German_Grand_Prix,,,,,49.3278,8.56583,22.899999999999995,0.0,52.63666666666666,Clear
+647,999,2018,10,German Grand Prix,2018-07-22,13:10:00,http://en.wikipedia.org/wiki/2018_German_Grand_Prix,,,,,49.3278,8.56583,24.266666666666666,0.0,61.56,Partially cloudy
+648,1020,2019,10,German Grand Prix,2019-07-28,13:10:00,http://en.wikipedia.org/wiki/2019_German_Grand_Prix,,,,,49.3278,8.56583,20.766666666666666,1.54,89.43666666666667,"Rain, Overcast"
+649,33,2008,16,Japanese Grand Prix,2008-10-12,04:30:00,http://en.wikipedia.org/wiki/2008_Japanese_Grand_Prix,,,,,35.3717,138.927,11.25,0.0,76.945,Clear
+650,50,2007,16,Japanese Grand Prix,2007-09-30,04:30:00,http://en.wikipedia.org/wiki/2007_Japanese_Grand_Prix,,,,,35.3717,138.927,13.350000000000001,0.060000000000000005,90.63,Rain
+651,559,1977,16,Japanese Grand Prix,1977-10-23,,http://en.wikipedia.org/wiki/1977_Japanese_Grand_Prix,,,,,35.3717,138.927,16.2,0.0,66.0,Clear
+652,575,1976,16,Japanese Grand Prix,1976-10-24,,http://en.wikipedia.org/wiki/1976_Japanese_Grand_Prix,,,,,35.3717,138.927,16.8,9.08,93.5,"Rain, Partially cloudy"
+653,42,2007,19,United States Grand Prix,2007-06-17,17:00:00,http://en.wikipedia.org/wiki/2007_United_States_Grand_Prix,,,,,39.795,-86.2347,31.5,0.0,39.38999999999999,Partially cloudy
+654,62,2006,19,United States Grand Prix,2006-07-02,14:00:00,http://en.wikipedia.org/wiki/2006_United_States_Grand_Prix,,,,,39.795,-86.2347,31.933333333333334,0.0,44.696666666666665,Partially cloudy
+655,79,2005,19,United States Grand Prix,2005-06-19,14:00:00,http://en.wikipedia.org/wiki/2005_United_States_Grand_Prix,,,,,39.795,-86.2347,23.400000000000002,0.0,48.92000000000001,Overcast
+656,98,2004,19,United States Grand Prix,2004-06-20,,http://en.wikipedia.org/wiki/2004_United_States_Grand_Prix,,,,,39.795,-86.2347,17.4,0.0,62.6,Clear
+657,122,2003,19,United States Grand Prix,2003-09-28,,http://en.wikipedia.org/wiki/2003_United_States_Grand_Prix,,,,,39.795,-86.2347,10.0,1.8,80.77,"Rain, Partially cloudy"
+658,139,2002,19,United States Grand Prix,2002-09-29,,http://en.wikipedia.org/wiki/2002_United_States_Grand_Prix,,,,,39.795,-86.2347,19.6,0.0,77.74,Clear
+659,156,2001,19,United States Grand Prix,2001-09-30,,http://en.wikipedia.org/wiki/2001_United_States_Grand_Prix,,,,,39.795,-86.2347,14.7,0.0,67.95,Clear
+660,172,2000,19,United States Grand Prix,2000-09-24,,http://en.wikipedia.org/wiki/2000_United_States_Grand_Prix,,,,,39.795,-86.2347,14.4,5.9,88.45,"Rain, Overcast"
+661,748,1960,19,Indianapolis 500,1960-05-30,,http://en.wikipedia.org/wiki/1960_Indianapolis_500,,,,,39.795,-86.2347,,,,
+662,757,1959,19,Indianapolis 500,1959-05-30,,http://en.wikipedia.org/wiki/1959_Indianapolis_500,,,,,39.795,-86.2347,,,,
+663,768,1958,19,Indianapolis 500,1958-05-30,,http://en.wikipedia.org/wiki/1958_Indianapolis_500,,,,,39.795,-86.2347,,,,
+664,778,1957,19,Indianapolis 500,1957-05-30,,http://en.wikipedia.org/wiki/1957_Indianapolis_500,,,,,39.795,-86.2347,,,,
+665,786,1956,19,Indianapolis 500,1956-05-30,,http://en.wikipedia.org/wiki/1956_Indianapolis_500,,,,,39.795,-86.2347,,,,
+666,794,1955,19,Indianapolis 500,1955-05-30,,http://en.wikipedia.org/wiki/1955_Indianapolis_500,,,,,39.795,-86.2347,,,,
+667,800,1954,19,Indianapolis 500,1954-05-31,,http://en.wikipedia.org/wiki/1954_Indianapolis_500,,,,,39.795,-86.2347,,,,
+668,809,1953,19,Indianapolis 500,1953-05-30,,http://en.wikipedia.org/wiki/1953_Indianapolis_500,,,,,39.795,-86.2347,,,,
+669,818,1952,19,Indianapolis 500,1952-05-30,,http://en.wikipedia.org/wiki/1952_Indianapolis_500,,,,,39.795,-86.2347,,,,
+670,826,1951,19,Indianapolis 500,1951-05-30,,http://en.wikipedia.org/wiki/1951_Indianapolis_500,,,,,39.795,-86.2347,,,,
+671,835,1950,19,Indianapolis 500,1950-05-30,,http://en.wikipedia.org/wiki/1950_Indianapolis_500,,,,,39.795,-86.2347,,,,
+672,56,2006,21,San Marino Grand Prix,2006-04-23,14:00:00,http://en.wikipedia.org/wiki/2006_San_Marino_Grand_Prix,,,,,44.3439,11.7167,25.099999999999998,0.0,29.953333333333337,Clear
+673,74,2005,21,San Marino Grand Prix,2005-04-24,14:00:00,http://en.wikipedia.org/wiki/2005_San_Marino_Grand_Prix,,,,,44.3439,11.7167,16.23333333333333,0.0,68.10000000000001,Partially cloudy
+674,93,2004,21,San Marino Grand Prix,2004-04-25,,http://en.wikipedia.org/wiki/2004_San_Marino_Grand_Prix,,,,,44.3439,11.7167,12.5,13.59,71.78,"Rain, Partially cloudy"
+675,111,2003,21,San Marino Grand Prix,2003-04-20,,http://en.wikipedia.org/wiki/2003_San_Marino_Grand_Prix,,,,,44.3439,11.7167,12.6,0.44,79.67,"Rain, Partially cloudy"
+676,127,2002,21,San Marino Grand Prix,2002-04-14,,http://en.wikipedia.org/wiki/2002_San_Marino_Grand_Prix,,,,,44.3439,11.7167,12.3,5.5,85.34,"Rain, Partially cloudy"
+677,144,2001,21,San Marino Grand Prix,2001-04-15,,http://en.wikipedia.org/wiki/2001_San_Marino_Grand_Prix,,,,,44.3439,11.7167,8.4,0.0,57.17,Partially cloudy
+678,160,2000,21,San Marino Grand Prix,2000-04-09,,http://en.wikipedia.org/wiki/2000_San_Marino_Grand_Prix,,,,,44.3439,11.7167,11.2,0.0,73.08,Partially cloudy
+679,177,1999,21,San Marino Grand Prix,1999-05-02,,http://en.wikipedia.org/wiki/1999_San_Marino_Grand_Prix,,,,,44.3439,11.7167,17.7,0.0,80.57,Partially cloudy
+680,194,1998,21,San Marino Grand Prix,1998-04-26,,http://en.wikipedia.org/wiki/1998_San_Marino_Grand_Prix,,,,,44.3439,11.7167,17.5,0.0,69.62,Clear
+681,210,1997,21,San Marino Grand Prix,1997-04-27,,http://en.wikipedia.org/wiki/1997_San_Marino_Grand_Prix,,,,,44.3439,11.7167,14.2,1.76,80.6,"Rain, Partially cloudy"
+682,228,1996,21,San Marino Grand Prix,1996-05-05,,http://en.wikipedia.org/wiki/1996_San_Marino_Grand_Prix,,,,,44.3439,11.7167,15.1,0.0,74.16,Partially cloudy
+683,242,1995,21,San Marino Grand Prix,1995-04-30,,http://en.wikipedia.org/wiki/1995_San_Marino_Grand_Prix,,,,,44.3439,11.7167,13.5,2.83,80.05,"Rain, Partially cloudy"
+684,259,1994,21,San Marino Grand Prix,1994-05-01,,http://en.wikipedia.org/wiki/1994_San_Marino_Grand_Prix,,,,,44.3439,11.7167,17.6,0.0,69.65,Clear
+685,276,1993,21,San Marino Grand Prix,1993-04-25,,http://en.wikipedia.org/wiki/1993_San_Marino_Grand_Prix,,,,,44.3439,11.7167,14.0,0.0,91.69,Partially cloudy
+686,293,1992,21,San Marino Grand Prix,1992-05-17,,http://en.wikipedia.org/wiki/1992_San_Marino_Grand_Prix,,,,,44.3439,11.7167,21.9,0.0,62.69,Clear
+687,307,1991,21,San Marino Grand Prix,1991-04-28,,http://en.wikipedia.org/wiki/1991_San_Marino_Grand_Prix,,,,,44.3439,11.7167,11.4,6.31,82.4,"Rain, Partially cloudy"
+688,323,1990,21,San Marino Grand Prix,1990-05-13,,http://en.wikipedia.org/wiki/1990_San_Marino_Grand_Prix,,,,,44.3439,11.7167,17.9,0.0,79.48,Clear
+689,357,1989,21,San Marino Grand Prix,1989-04-23,,http://en.wikipedia.org/wiki/1989_San_Marino_Grand_Prix,,,,,44.3439,11.7167,11.0,0.0,66.65,Partially cloudy
+690,373,1988,21,San Marino Grand Prix,1988-05-01,,http://en.wikipedia.org/wiki/1988_San_Marino_Grand_Prix,,,,,44.3439,11.7167,14.9,0.06,83.91,"Rain, Partially cloudy"
+691,389,1987,21,San Marino Grand Prix,1987-05-03,,http://en.wikipedia.org/wiki/1987_San_Marino_Grand_Prix,,,,,44.3439,11.7167,18.9,0.0,53.17,Partially cloudy
+692,406,1986,21,San Marino Grand Prix,1986-04-27,,http://en.wikipedia.org/wiki/1986_San_Marino_Grand_Prix,,,,,44.3439,11.7167,13.9,1.09,84.37,"Rain, Partially cloudy"
+693,422,1985,21,San Marino Grand Prix,1985-05-05,,http://en.wikipedia.org/wiki/1985_San_Marino_Grand_Prix,,,,,44.3439,11.7167,11.0,3.49,86.12,"Rain, Partially cloudy"
+694,439,1984,21,San Marino Grand Prix,1984-05-06,,http://en.wikipedia.org/wiki/1984_San_Marino_Grand_Prix,,,,,44.3439,11.7167,17.1,0.0,82.05,Partially cloudy
+695,455,1983,21,San Marino Grand Prix,1983-05-01,,http://en.wikipedia.org/wiki/1983_San_Marino_Grand_Prix,,,,,44.3439,11.7167,18.8,0.04,61.55,"Rain, Partially cloudy"
+696,470,1982,21,San Marino Grand Prix,1982-04-25,,http://en.wikipedia.org/wiki/1982_San_Marino_Grand_Prix,,,,,44.3439,11.7167,8.8,0.0,70.4,Partially cloudy
+697,486,1981,21,San Marino Grand Prix,1981-05-03,,http://en.wikipedia.org/wiki/1981_San_Marino_Grand_Prix,,,,,44.3439,11.7167,12.5,4.79,88.85,"Rain, Partially cloudy"
+698,509,1980,21,Italian Grand Prix,1980-09-14,,http://en.wikipedia.org/wiki/1980_Italian_Grand_Prix,,,,,44.3439,11.7167,20.9,0.0,81.56,Partially cloudy
+699,1043,2020,21,Emilia Romagna Grand Prix,2020-11-01,12:10:00,http://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix,,,,,44.3439,11.7167,15.9,0.03333333333333333,83.74,"['Rain, Partially cloudy', 'Partially cloudy', 'Clear']"
+700,1053,2021,21,Emilia Romagna Grand Prix,2021-04-18,13:00:00,http://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix,2021-04-17,,,,44.3439,11.7167,13.733333333333334,0.12,50.84,Clear
+701,1077,2022,21,Emilia Romagna Grand Prix,2022-04-24,13:00:00,http://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix,2022-04-22,15:00:00,2022-04-23,14:30:00,44.3439,11.7167,14.733333333333334,0.77,74.75333333333333,Partially cloudy
+702,113,2003,70,Austrian Grand Prix,2003-05-18,,http://en.wikipedia.org/wiki/2003_Austrian_Grand_Prix,,,,,47.2197,14.7647,13.4,0.05,67.5,"Rain, Partially cloudy"
+703,129,2002,70,Austrian Grand Prix,2002-05-12,,http://en.wikipedia.org/wiki/2002_Austrian_Grand_Prix,,,,,47.2197,14.7647,15.3,1.8,69.93,"Rain, Partially cloudy"
+704,146,2001,70,Austrian Grand Prix,2001-05-13,,http://en.wikipedia.org/wiki/2001_Austrian_Grand_Prix,,,,,47.2197,14.7647,13.6,0.0,56.43,Clear
+705,167,2000,70,Austrian Grand Prix,2000-07-16,,http://en.wikipedia.org/wiki/2000_Austrian_Grand_Prix,,,,,47.2197,14.7647,13.8,0.2,62.8,"Rain, Partially cloudy"
+706,183,1999,70,Austrian Grand Prix,1999-07-25,,http://en.wikipedia.org/wiki/1999_Austrian_Grand_Prix,,,,,47.2197,14.7647,16.3,0.0,79.45,Partially cloudy
+707,200,1998,70,Austrian Grand Prix,1998-07-26,,http://en.wikipedia.org/wiki/1998_Austrian_Grand_Prix,,,,,47.2197,14.7647,20.9,1.82,78.21,"Rain, Partially cloudy"
+708,220,1997,70,Austrian Grand Prix,1997-09-21,,http://en.wikipedia.org/wiki/1997_Austrian_Grand_Prix,,,,,47.2197,14.7647,10.0,0.0,76.7,Partially cloudy
+709,397,1987,70,Austrian Grand Prix,1987-08-16,,http://en.wikipedia.org/wiki/1987_Austrian_Grand_Prix,,,,,47.2197,14.7647,17.2,0.0,65.33,Partially cloudy
+710,415,1986,70,Austrian Grand Prix,1986-08-17,,http://en.wikipedia.org/wiki/1986_Austrian_Grand_Prix,,,,,47.2197,14.7647,21.8,0.11,67.91,"Rain, Partially cloudy"
+711,429,1985,70,Austrian Grand Prix,1985-08-18,,http://en.wikipedia.org/wiki/1985_Austrian_Grand_Prix,,,,,47.2197,14.7647,15.1,9.14,75.92,"Rain, Partially cloudy"
+712,447,1984,70,Austrian Grand Prix,1984-08-19,,http://en.wikipedia.org/wiki/1984_Austrian_Grand_Prix,,,,,47.2197,14.7647,16.5,0.0,70.06,Partially cloudy
+713,462,1983,70,Austrian Grand Prix,1983-08-14,,http://en.wikipedia.org/wiki/1983_Austrian_Grand_Prix,,,,,47.2197,14.7647,15.2,0.0,60.04,Clear
+714,479,1982,70,Austrian Grand Prix,1982-08-15,,http://en.wikipedia.org/wiki/1982_Austrian_Grand_Prix,,,,,47.2197,14.7647,21.6,1.94,77.26,"Rain, Partially cloudy"
+715,493,1981,70,Austrian Grand Prix,1981-08-16,,http://en.wikipedia.org/wiki/1981_Austrian_Grand_Prix,,,,,47.2197,14.7647,20.2,0.0,71.16,Clear
+716,507,1980,70,Austrian Grand Prix,1980-08-17,,http://en.wikipedia.org/wiki/1980_Austrian_Grand_Prix,,,,,47.2197,14.7647,19.1,4.61,74.15,"Rain, Partially cloudy"
+717,522,1979,70,Austrian Grand Prix,1979-08-12,,http://en.wikipedia.org/wiki/1979_Austrian_Grand_Prix,,,,,47.2197,14.7647,13.2,0.08,75.28,"Rain, Partially cloudy"
+718,538,1978,70,Austrian Grand Prix,1978-08-13,,http://en.wikipedia.org/wiki/1978_Austrian_Grand_Prix,,,,,47.2197,14.7647,13.4,0.11,81.36,"Rain, Partially cloudy"
+719,554,1977,70,Austrian Grand Prix,1977-08-14,,http://en.wikipedia.org/wiki/1977_Austrian_Grand_Prix,,,,,47.2197,14.7647,15.1,3.5,85.47,"Rain, Partially cloudy"
+720,570,1976,70,Austrian Grand Prix,1976-08-15,,http://en.wikipedia.org/wiki/1976_Austrian_Grand_Prix,,,,,47.2197,14.7647,15.5,0.0,76.22,Partially cloudy
+721,587,1975,70,Austrian Grand Prix,1975-08-17,,http://en.wikipedia.org/wiki/1975_Austrian_Grand_Prix,,,,,47.2197,14.7647,18.2,0.0,80.87,Partially cloudy
+722,601,1974,70,Austrian Grand Prix,1974-08-18,,http://en.wikipedia.org/wiki/1974_Austrian_Grand_Prix,,,,,47.2197,14.7647,22.5,0.18,70.92,Rain
+723,616,1973,70,Austrian Grand Prix,1973-08-19,,http://en.wikipedia.org/wiki/1973_Austrian_Grand_Prix,,,,,47.2197,14.7647,20.6,0.0,64.17,Clear
+724,628,1972,70,Austrian Grand Prix,1972-08-13,,http://en.wikipedia.org/wiki/1972_Austrian_Grand_Prix,,,,,47.2197,14.7647,,,,
+725,639,1971,70,Austrian Grand Prix,1971-08-15,,http://en.wikipedia.org/wiki/1971_Austrian_Grand_Prix,,,,,47.2197,14.7647,,,,
+726,651,1970,70,Austrian Grand Prix,1970-08-16,,http://en.wikipedia.org/wiki/1970_Austrian_Grand_Prix,,,,,47.2197,14.7647,,,,
+727,907,2014,70,Austrian Grand Prix,2014-06-22,12:00:00,http://en.wikipedia.org/wiki/2014_Austrian_Grand_Prix,,,,,47.2197,14.7647,25.0,0.0,32.88666666666666,Partially cloudy
+728,933,2015,70,Austrian Grand Prix,2015-06-21,12:00:00,http://en.wikipedia.org/wiki/2015_Austrian_Grand_Prix,,,,,47.2197,14.7647,14.433333333333332,0.0,49.36666666666667,Partially cloudy
+729,956,2016,70,Austrian Grand Prix,2016-07-03,12:00:00,http://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix,,,,,47.2197,14.7647,15.200000000000001,0.0,69.24666666666667,Clear
+730,977,2017,70,Austrian Grand Prix,2017-07-09,12:00:00,http://en.wikipedia.org/wiki/2017_Austrian_Grand_Prix,,,,,47.2197,14.7647,28.0,0.0,41.19,Clear
+731,997,2018,70,Austrian Grand Prix,2018-07-01,13:10:00,http://en.wikipedia.org/wiki/2018_Austrian_Grand_Prix,,,,,47.2197,14.7647,18.633333333333336,0.0,50.576666666666675,Clear
+732,1018,2019,70,Austrian Grand Prix,2019-06-30,13:10:00,http://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix,,,,,47.2197,14.7647,32.733333333333334,0.0,25.19333333333333,Clear
+733,1031,2020,70,Austrian Grand Prix,2020-07-05,13:10:00,http://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix,,,,,47.2197,14.7647,26.633333333333336,0.0,37.836666666666666,Clear
+734,1032,2020,70,Styrian Grand Prix,2020-07-12,13:10:00,http://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix,,,,,47.2197,14.7647,18.366666666666664,0.0,42.04,Clear
+735,1058,2021,70,Styrian Grand Prix,2021-06-27,13:00:00,http://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix,2021-06-26,,,,47.2197,14.7647,26.133333333333336,0.0,40.129999999999995,Clear
+736,1060,2021,70,Austrian Grand Prix,2021-07-04,13:00:00,http://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix,2021-07-03,,,,47.2197,14.7647,20.400000000000002,0.0,54.98666666666667,Clear
+737,1084,2022,70,Austrian Grand Prix,2022-07-10,13:00:00,http://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix,2022-07-08,15:00:00,2022-07-09,14:30:00,47.2197,14.7647,20.466666666666665,0.0,40.673333333333325,Clear
+738,193,1998,25,Argentine Grand Prix,1998-04-12,,http://en.wikipedia.org/wiki/1998_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,18.7,0.05,94.33,"Rain, Overcast"
+739,209,1997,25,Argentine Grand Prix,1997-04-13,,http://en.wikipedia.org/wiki/1997_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,24.0,0.0,70.1,Partially cloudy
+740,226,1996,25,Argentine Grand Prix,1996-04-07,,http://en.wikipedia.org/wiki/1996_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,15.6,0.0,63.6,Partially cloudy
+741,241,1995,25,Argentine Grand Prix,1995-04-09,,http://en.wikipedia.org/wiki/1995_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,17.6,6.4,93.79,"Rain, Overcast"
+742,485,1981,25,Argentine Grand Prix,1981-04-12,,http://en.wikipedia.org/wiki/1981_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,18.9,0.92,88.5,"Rain, Partially cloudy"
+743,498,1980,25,Argentine Grand Prix,1980-01-13,,http://en.wikipedia.org/wiki/1980_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,25.5,0.0,61.54,Clear
+744,512,1979,25,Argentine Grand Prix,1979-01-21,,http://en.wikipedia.org/wiki/1979_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,25.4,0.0,60.57,Partially cloudy
+745,527,1978,25,Argentine Grand Prix,1978-01-15,,http://en.wikipedia.org/wiki/1978_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,23.8,0.0,46.29,Clear
+746,543,1977,25,Argentine Grand Prix,1977-01-09,,http://en.wikipedia.org/wiki/1977_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,30.2,0.0,65.49,Partially cloudy
+747,576,1975,25,Argentine Grand Prix,1975-01-12,,http://en.wikipedia.org/wiki/1975_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,23.0,0.98,64.03,"Rain, Partially cloudy"
+748,590,1974,25,Argentine Grand Prix,1974-01-13,,http://en.wikipedia.org/wiki/1974_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,25.3,5.99,55.25,"Rain, Partially cloudy"
+749,605,1973,25,Argentine Grand Prix,1973-01-28,,http://en.wikipedia.org/wiki/1973_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,22.6,0.0,76.25,Partially cloudy
+750,620,1972,25,Argentine Grand Prix,1972-01-23,,http://en.wikipedia.org/wiki/1972_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+751,746,1960,25,Argentine Grand Prix,1960-02-07,,http://en.wikipedia.org/wiki/1960_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+752,765,1958,25,Argentine Grand Prix,1958-01-19,,http://en.wikipedia.org/wiki/1958_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+753,776,1957,25,Argentine Grand Prix,1957-01-13,,http://en.wikipedia.org/wiki/1957_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+754,784,1956,25,Argentine Grand Prix,1956-01-22,,http://en.wikipedia.org/wiki/1956_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+755,792,1955,25,Argentine Grand Prix,1955-01-16,,http://en.wikipedia.org/wiki/1955_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+756,799,1954,25,Argentine Grand Prix,1954-01-17,,http://en.wikipedia.org/wiki/1954_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+757,808,1953,25,Argentine Grand Prix,1953-01-18,,http://en.wikipedia.org/wiki/1953_Argentine_Grand_Prix,,,,,-34.6943,-58.4593,,,,
+758,223,1997,26,European Grand Prix,1997-10-26,,http://en.wikipedia.org/wiki/1997_European_Grand_Prix,,,,,36.7083,-6.03417,21.5,0.0,73.85,Partially cloudy
+759,270,1994,26,European Grand Prix,1994-10-16,,http://en.wikipedia.org/wiki/1994_European_Grand_Prix,,,,,36.7083,-6.03417,20.5,0.0,74.53,Partially cloudy
+760,334,1990,26,Spanish Grand Prix,1990-09-30,,http://en.wikipedia.org/wiki/1990_Spanish_Grand_Prix,,,,,36.7083,-6.03417,22.9,2.0,79.39,"Rain, Partially cloudy"
+761,369,1989,26,Spanish Grand Prix,1989-10-01,,http://en.wikipedia.org/wiki/1989_Spanish_Grand_Prix,,,,,36.7083,-6.03417,24.0,0.0,58.34,Partially cloudy
+762,385,1988,26,Spanish Grand Prix,1988-10-02,,http://en.wikipedia.org/wiki/1988_Spanish_Grand_Prix,,,,,36.7083,-6.03417,23.9,0.0,60.2,Partially cloudy
+763,400,1987,26,Spanish Grand Prix,1987-09-27,,http://en.wikipedia.org/wiki/1987_Spanish_Grand_Prix,,,,,36.7083,-6.03417,22.3,0.0,77.31,Partially cloudy
+764,405,1986,26,Spanish Grand Prix,1986-04-13,,http://en.wikipedia.org/wiki/1986_Spanish_Grand_Prix,,,,,36.7083,-6.03417,10.6,0.0,54.72,Partially cloudy
+765,238,1996,27,Portuguese Grand Prix,1996-09-22,,http://en.wikipedia.org/wiki/1996_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,18.1,0.0,74.38,Partially cloudy
+766,252,1995,27,Portuguese Grand Prix,1995-09-24,,http://en.wikipedia.org/wiki/1995_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,20.5,0.0,50.38,Clear
+767,269,1994,27,Portuguese Grand Prix,1994-09-25,,http://en.wikipedia.org/wiki/1994_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,18.0,0.0,81.75,Partially cloudy
+768,286,1993,27,Portuguese Grand Prix,1993-09-26,,http://en.wikipedia.org/wiki/1993_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,17.5,0.0,61.44,Clear
+769,302,1992,27,Portuguese Grand Prix,1992-09-27,,http://en.wikipedia.org/wiki/1992_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,16.6,1.0,75.39,"Rain, Partially cloudy"
+770,317,1991,27,Portuguese Grand Prix,1991-09-22,,http://en.wikipedia.org/wiki/1991_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,22.9,7.0,70.42,Rain
+771,333,1990,27,Portuguese Grand Prix,1990-09-23,,http://en.wikipedia.org/wiki/1990_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,19.8,0.0,78.58,Partially cloudy
+772,368,1989,27,Portuguese Grand Prix,1989-09-24,,http://en.wikipedia.org/wiki/1989_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,19.0,0.0,63.16,Clear
+773,384,1988,27,Portuguese Grand Prix,1988-09-25,,http://en.wikipedia.org/wiki/1988_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,20.6,0.0,67.35,Clear
+774,399,1987,27,Portuguese Grand Prix,1987-09-20,,http://en.wikipedia.org/wiki/1987_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,22.3,5.1,66.44,"Rain, Partially cloudy"
+775,417,1986,27,Portuguese Grand Prix,1986-09-21,,http://en.wikipedia.org/wiki/1986_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,22.0,0.1,80.61,"Rain, Partially cloudy"
+776,421,1985,27,Portuguese Grand Prix,1985-04-21,,http://en.wikipedia.org/wiki/1985_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,12.8,0.0,83.73,Partially cloudy
+777,451,1984,27,Portuguese Grand Prix,1984-10-21,,http://en.wikipedia.org/wiki/1984_Portuguese_Grand_Prix,,,,,38.7506,-9.39417,15.0,0.0,68.5,Clear
+778,254,1995,28,Pacific Grand Prix,1995-10-22,,http://en.wikipedia.org/wiki/1995_Pacific_Grand_Prix,,,,,34.915,134.221,17.4,0.0,71.55,Clear
+779,258,1994,28,Pacific Grand Prix,1994-04-17,,http://en.wikipedia.org/wiki/1994_Pacific_Grand_Prix,,,,,34.915,134.221,16.4,0.0,50.68,Clear
+780,256,1995,29,Australian Grand Prix,1995-11-12,,http://en.wikipedia.org/wiki/1995_Australian_Grand_Prix,,,,,-34.9272,138.617,18.9,0.0,40.29,Clear
+781,272,1994,29,Australian Grand Prix,1994-11-13,,http://en.wikipedia.org/wiki/1994_Australian_Grand_Prix,,,,,-34.9272,138.617,13.8,0.0,65.04,Partially cloudy
+782,288,1993,29,Australian Grand Prix,1993-11-07,,http://en.wikipedia.org/wiki/1993_Australian_Grand_Prix,,,,,-34.9272,138.617,15.8,0.07,67.73,"Rain, Partially cloudy"
+783,304,1992,29,Australian Grand Prix,1992-11-08,,http://en.wikipedia.org/wiki/1992_Australian_Grand_Prix,,,,,-34.9272,138.617,20.7,2.6,45.02,"Rain, Partially cloudy"
+784,320,1991,29,Australian Grand Prix,1991-11-03,,http://en.wikipedia.org/wiki/1991_Australian_Grand_Prix,,,,,-34.9272,138.617,17.3,6.3,84.91,"Rain, Partially cloudy"
+785,336,1990,29,Australian Grand Prix,1990-11-04,,http://en.wikipedia.org/wiki/1990_Australian_Grand_Prix,,,,,-34.9272,138.617,23.2,0.01,51.27,Rain
+786,371,1989,29,Australian Grand Prix,1989-11-05,,http://en.wikipedia.org/wiki/1989_Australian_Grand_Prix,,,,,-34.9272,138.617,16.6,16.0,69.96,"Rain, Partially cloudy"
+787,387,1988,29,Australian Grand Prix,1988-11-13,,http://en.wikipedia.org/wiki/1988_Australian_Grand_Prix,,,,,-34.9272,138.617,22.8,0.0,43.88,Clear
+788,403,1987,29,Australian Grand Prix,1987-11-15,,http://en.wikipedia.org/wiki/1987_Australian_Grand_Prix,,,,,-34.9272,138.617,24.2,0.0,36.32,Partially cloudy
+789,419,1986,29,Australian Grand Prix,1986-10-26,,http://en.wikipedia.org/wiki/1986_Australian_Grand_Prix,,,,,-34.9272,138.617,11.0,0.3,83.11,"Rain, Partially cloudy"
+790,435,1985,29,Australian Grand Prix,1985-11-03,,http://en.wikipedia.org/wiki/1985_Australian_Grand_Prix,,,,,-34.9272,138.617,21.0,0.0,49.98,Clear
+791,273,1993,30,South African Grand Prix,1993-03-14,,http://en.wikipedia.org/wiki/1993_South_African_Grand_Prix,,,,,-25.9894,28.0767,19.9,,64.68,Partially cloudy
+792,289,1992,30,South African Grand Prix,1992-03-01,,http://en.wikipedia.org/wiki/1992_South_African_Grand_Prix,,,,,-25.9894,28.0767,21.6,,56.93,Partially cloudy
+793,434,1985,30,South African Grand Prix,1985-10-19,,http://en.wikipedia.org/wiki/1985_South_African_Grand_Prix,,,,,-25.9894,28.0767,18.7,,46.51,Clear
+794,437,1984,30,South African Grand Prix,1984-04-07,,http://en.wikipedia.org/wiki/1984_South_African_Grand_Prix,,,,,-25.9894,28.0767,21.9,,53.36,Partially cloudy
+795,466,1983,30,South African Grand Prix,1983-10-15,,http://en.wikipedia.org/wiki/1983_South_African_Grand_Prix,,,,,-25.9894,28.0767,18.1,,54.97,Clear
+796,467,1982,30,South African Grand Prix,1982-01-23,,http://en.wikipedia.org/wiki/1982_South_African_Grand_Prix,,,,,-25.9894,28.0767,18.8,,73.64,Partially cloudy
+797,500,1980,30,South African Grand Prix,1980-03-01,,http://en.wikipedia.org/wiki/1980_South_African_Grand_Prix,,,,,-25.9894,28.0767,20.1,,68.76,Partially cloudy
+798,514,1979,30,South African Grand Prix,1979-03-03,,http://en.wikipedia.org/wiki/1979_South_African_Grand_Prix,,,,,-25.9894,28.0767,18.7,,77.8,Partially cloudy
+799,529,1978,30,South African Grand Prix,1978-03-04,,http://en.wikipedia.org/wiki/1978_South_African_Grand_Prix,,,,,-25.9894,28.0767,19.6,,77.14,Partially cloudy
+800,545,1977,30,South African Grand Prix,1977-03-05,,http://en.wikipedia.org/wiki/1977_South_African_Grand_Prix,,,,,-25.9894,28.0767,17.7,,83.93,Partially cloudy
+801,561,1976,30,South African Grand Prix,1976-03-06,,http://en.wikipedia.org/wiki/1976_South_African_Grand_Prix,,,,,-25.9894,28.0767,19.0,,80.81,Partially cloudy
+802,578,1975,30,South African Grand Prix,1975-03-01,,http://en.wikipedia.org/wiki/1975_South_African_Grand_Prix,,,,,-25.9894,28.0767,18.1,,80.33,Partially cloudy
+803,592,1974,30,South African Grand Prix,1974-03-30,,http://en.wikipedia.org/wiki/1974_South_African_Grand_Prix,,,,,-25.9894,28.0767,16.6,,75.75,Partially cloudy
+804,607,1973,30,South African Grand Prix,1973-03-03,,http://en.wikipedia.org/wiki/1973_South_African_Grand_Prix,,,,,-25.9894,28.0767,21.6,,62.86,Partially cloudy
+805,621,1972,30,South African Grand Prix,1972-03-04,,http://en.wikipedia.org/wiki/1972_South_African_Grand_Prix,,,,,-25.9894,28.0767,,,,
+806,632,1971,30,South African Grand Prix,1971-03-06,,http://en.wikipedia.org/wiki/1971_South_African_Grand_Prix,,,,,-25.9894,28.0767,,,,
+807,643,1970,30,South African Grand Prix,1970-03-07,,http://en.wikipedia.org/wiki/1970_South_African_Grand_Prix,,,,,-25.9894,28.0767,,,,
+808,656,1969,30,South African Grand Prix,1969-03-01,,http://en.wikipedia.org/wiki/1969_South_African_Grand_Prix,,,,,-25.9894,28.0767,,,,
+809,667,1968,30,South African Grand Prix,1968-01-01,,http://en.wikipedia.org/wiki/1968_South_African_Grand_Prix,,,,,-25.9894,28.0767,,,,
+810,679,1967,30,South African Grand Prix,1967-01-02,,http://en.wikipedia.org/wiki/1967_South_African_Grand_Prix,,,,,-25.9894,28.0767,,,,
+811,275,1993,31,European Grand Prix,1993-04-11,,http://en.wikipedia.org/wiki/1993_European_Grand_Prix,,,,,52.8306,-1.37528,6.9,1.15,90.49,"Rain, Partially cloudy"
+812,290,1992,32,Mexican Grand Prix,1992-03-22,,http://en.wikipedia.org/wiki/1992_Mexican_Grand_Prix,,,,,19.4042,-99.0907,20.5,0.0,49.68,Partially cloudy
+813,310,1991,32,Mexican Grand Prix,1991-06-16,,http://en.wikipedia.org/wiki/1991_Mexican_Grand_Prix,,,,,19.4042,-99.0907,18.1,0.01,74.94,"Rain, Partially cloudy"
+814,326,1990,32,Mexican Grand Prix,1990-06-24,,http://en.wikipedia.org/wiki/1990_Mexican_Grand_Prix,,,,,19.4042,-99.0907,17.2,,63.19,Overcast
+815,359,1989,32,Mexican Grand Prix,1989-05-28,,http://en.wikipedia.org/wiki/1989_Mexican_Grand_Prix,,,,,19.4042,-99.0907,17.9,19.0,53.36,"Rain, Partially cloudy"
+816,375,1988,32,Mexican Grand Prix,1988-05-29,,http://en.wikipedia.org/wiki/1988_Mexican_Grand_Prix,,,,,19.4042,-99.0907,19.2,0.0,57.17,Partially cloudy
+817,401,1987,32,Mexican Grand Prix,1987-10-18,,http://en.wikipedia.org/wiki/1987_Mexican_Grand_Prix,,,,,19.4042,-99.0907,14.0,0.0,55.67,Clear
+818,418,1986,32,Mexican Grand Prix,1986-10-12,,http://en.wikipedia.org/wiki/1986_Mexican_Grand_Prix,,,,,19.4042,-99.0907,19.7,0.0,64.17,Partially cloudy
+819,655,1970,32,Mexican Grand Prix,1970-10-25,,http://en.wikipedia.org/wiki/1970_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+820,666,1969,32,Mexican Grand Prix,1969-10-19,,http://en.wikipedia.org/wiki/1969_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+821,678,1968,32,Mexican Grand Prix,1968-11-03,,http://en.wikipedia.org/wiki/1968_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+822,689,1967,32,Mexican Grand Prix,1967-10-22,,http://en.wikipedia.org/wiki/1967_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+823,698,1966,32,Mexican Grand Prix,1966-10-23,,http://en.wikipedia.org/wiki/1966_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+824,708,1965,32,Mexican Grand Prix,1965-10-24,,http://en.wikipedia.org/wiki/1965_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+825,718,1964,32,Mexican Grand Prix,1964-10-25,,http://en.wikipedia.org/wiki/1964_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+826,727,1963,32,Mexican Grand Prix,1963-10-27,,http://en.wikipedia.org/wiki/1963_Mexican_Grand_Prix,,,,,19.4042,-99.0907,,,,
+827,943,2015,32,Mexican Grand Prix,2015-11-01,19:00:00,http://en.wikipedia.org/wiki/2015_Mexican_Grand_Prix,,,,,19.4042,-99.0907,16.366666666666667,0.0,84.25999999999999,Partially cloudy
+828,966,2016,32,Mexican Grand Prix,2016-10-30,19:00:00,http://en.wikipedia.org/wiki/2016_Mexican_Grand_Prix,,,,,19.4042,-99.0907,13.9,0.0,81.06666666666666,Partially cloudy
+829,986,2017,32,Mexican Grand Prix,2017-10-29,19:00:00,http://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix,,,,,19.4042,-99.0907,14.1,0.0,79.02,Partially cloudy
+830,1007,2018,32,Mexican Grand Prix,2018-10-28,19:10:00,http://en.wikipedia.org/wiki/2018_Mexican_Grand_Prix,,,,,19.4042,-99.0907,15.766666666666666,0.0,72.65666666666667,Partially cloudy
+831,1027,2019,32,Mexican Grand Prix,2019-10-27,19:10:00,http://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix,,,,,19.4042,-99.0907,14.933333333333332,0.06666666666666667,84.36,"['Rain, Partially cloudy', 'Partially cloudy', 'Overcast']"
+832,1070,2021,32,Mexico City Grand Prix,2021-11-07,19:00:00,http://en.wikipedia.org/wiki/2021_Mexican_Grand_Prix,2021-11-06,,,,19.4042,-99.0907,13.333333333333334,0.0,71.41333333333334,Partially cloudy
+834,305,1991,33,United States Grand Prix,1991-03-10,,http://en.wikipedia.org/wiki/1991_United_States_Grand_Prix,,,,,33.4479,-112.075,20.7,0.0,23.2,Overcast
+835,321,1990,33,United States Grand Prix,1990-03-11,,http://en.wikipedia.org/wiki/1990_United_States_Grand_Prix,,,,,33.4479,-112.075,12.7,2.39,57.95,"Rain, Partially cloudy"
+836,360,1989,33,United States Grand Prix,1989-06-04,,http://en.wikipedia.org/wiki/1989_United_States_Grand_Prix,,,,,33.4479,-112.075,31.0,0.0,15.85,Clear
+837,327,1990,34,French Grand Prix,1990-07-08,,http://en.wikipedia.org/wiki/1990_French_Grand_Prix,,,,,43.2506,5.79167,23.9,0.0,59.53,Clear
+838,362,1989,34,French Grand Prix,1989-07-09,,http://en.wikipedia.org/wiki/1989_French_Grand_Prix,,,,,43.2506,5.79167,24.6,0.0,64.86,Clear
+839,378,1988,34,French Grand Prix,1988-07-03,,http://en.wikipedia.org/wiki/1988_French_Grand_Prix,,,,,43.2506,5.79167,21.2,0.0,69.49,Partially cloudy
+840,393,1987,34,French Grand Prix,1987-07-05,,http://en.wikipedia.org/wiki/1987_French_Grand_Prix,,,,,43.2506,5.79167,26.5,0.0,63.77,Clear
+841,411,1986,34,French Grand Prix,1986-07-06,,http://en.wikipedia.org/wiki/1986_French_Grand_Prix,,,,,43.2506,5.79167,23.9,0.0,67.57,Partially cloudy
+842,426,1985,34,French Grand Prix,1985-07-07,,http://en.wikipedia.org/wiki/1985_French_Grand_Prix,,,,,43.2506,5.79167,24.6,0.0,61.35,Clear
+843,454,1983,34,French Grand Prix,1983-04-17,,http://en.wikipedia.org/wiki/1983_French_Grand_Prix,,,,,43.2506,5.79167,13.3,0.0,63.64,Partially cloudy
+844,477,1982,34,French Grand Prix,1982-07-25,,http://en.wikipedia.org/wiki/1982_French_Grand_Prix,,,,,43.2506,5.79167,23.4,0.0,51.56,Clear
+845,504,1980,34,French Grand Prix,1980-06-29,,http://en.wikipedia.org/wiki/1980_French_Grand_Prix,,,,,43.2506,5.79167,20.3,0.0,60.99,Clear
+846,535,1978,34,French Grand Prix,1978-07-02,,http://en.wikipedia.org/wiki/1978_French_Grand_Prix,,,,,43.2506,5.79167,20.9,0.0,59.46,Clear
+847,567,1976,34,French Grand Prix,1976-07-04,,http://en.wikipedia.org/wiki/1976_French_Grand_Prix,,,,,43.2506,5.79167,24.8,0.0,68.51,Clear
+848,584,1975,34,French Grand Prix,1975-07-06,,http://en.wikipedia.org/wiki/1975_French_Grand_Prix,,,,,43.2506,5.79167,21.4,0.0,68.93,Clear
+849,612,1973,34,French Grand Prix,1973-07-01,,http://en.wikipedia.org/wiki/1973_French_Grand_Prix,,,,,43.2506,5.79167,24.1,0.0,68.93,Clear
+850,636,1971,34,French Grand Prix,1971-07-04,,http://en.wikipedia.org/wiki/1971_French_Grand_Prix,,,,,43.2506,5.79167,,,,
+851,996,2018,34,French Grand Prix,2018-06-24,14:10:00,http://en.wikipedia.org/wiki/2018_French_Grand_Prix,,,,,43.2506,5.79167,26.533333333333335,0.0,53.296666666666674,Partially cloudy
+852,1017,2019,34,French Grand Prix,2019-06-23,13:10:00,http://en.wikipedia.org/wiki/2019_French_Grand_Prix,,,,,43.2506,5.79167,28.46666666666667,0.0,44.876666666666665,Clear
+853,1059,2021,34,French Grand Prix,2021-06-20,13:00:00,http://en.wikipedia.org/wiki/2021_French_Grand_Prix,2021-06-19,,,,43.2506,5.79167,26.633333333333336,0.03333333333333333,64.27666666666666,Rain
+854,1085,2022,34,French Grand Prix,2022-07-24,13:00:00,http://en.wikipedia.org/wiki/2022_French_Grand_Prix,2022-07-23,14:00:00,,,43.2506,5.79167,32.46666666666667,0.0,47.18333333333334,Clear
+855,353,2010,35,Korean Grand Prix,2010-10-24,05:00:00,http://en.wikipedia.org/wiki/2010_Korean_Grand_Prix,,,,,34.7333,126.417,16.175,0.0,93.3125,Overcast
+856,856,2011,35,Korean Grand Prix,2011-10-16,06:00:00,http://en.wikipedia.org/wiki/2011_Korean_Grand_Prix,,,,,34.7333,126.417,16.35,0.0,55.8475,Partially cloudy
+857,875,2012,35,Korean Grand Prix,2012-10-14,06:00:00,http://en.wikipedia.org/wiki/2012_Korean_Grand_Prix,,,,,34.7333,126.417,14.575,0.0,76.745,"['Partially cloudy', 'Clear', 'Clear', 'Partially cloudy']"
+858,894,2013,35,Korean Grand Prix,2013-10-06,06:00:00,http://en.wikipedia.org/wiki/2013_Korean_Grand_Prix,,,,,34.7333,126.417,20.2,0.005,82.6325,Partially cloudy
+859,356,1989,36,Brazilian Grand Prix,1989-03-26,,http://en.wikipedia.org/wiki/1989_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,28.8,0.0,64.77,Clear
+860,372,1988,36,Brazilian Grand Prix,1988-04-03,,http://en.wikipedia.org/wiki/1988_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,23.9,0.0,87.36,Partially cloudy
+861,388,1987,36,Brazilian Grand Prix,1987-04-12,,http://en.wikipedia.org/wiki/1987_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,29.1,0.0,77.24,Clear
+862,404,1986,36,Brazilian Grand Prix,1986-03-23,,http://en.wikipedia.org/wiki/1986_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,26.7,0.0,75.94,Partially cloudy
+863,420,1985,36,Brazilian Grand Prix,1985-04-07,,http://en.wikipedia.org/wiki/1985_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,27.3,0.0,73.17,Clear
+864,436,1984,36,Brazilian Grand Prix,1984-03-25,,http://en.wikipedia.org/wiki/1984_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,25.9,0.0,75.33,Clear
+865,452,1983,36,Brazilian Grand Prix,1983-03-13,,http://en.wikipedia.org/wiki/1983_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,27.0,0.0,79.06,Partially cloudy
+866,468,1982,36,Brazilian Grand Prix,1982-03-21,,http://en.wikipedia.org/wiki/1982_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,26.8,0.0,78.65,Partially cloudy
+867,484,1981,36,Brazilian Grand Prix,1981-03-29,,http://en.wikipedia.org/wiki/1981_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,23.7,0.0,83.74,Overcast
+868,528,1978,36,Brazilian Grand Prix,1978-01-29,,http://en.wikipedia.org/wiki/1978_Brazilian_Grand_Prix,,,,,-22.9756,-43.395,30.6,0.0,61.64,Clear
+869,377,1988,37,Detroit Grand Prix,1988-06-19,,http://en.wikipedia.org/wiki/1988_Detroit_Grand_Prix,,,,,42.3298,-83.0401,26.2,0.0,45.19,Partially cloudy
+870,392,1987,37,Detroit Grand Prix,1987-06-21,,http://en.wikipedia.org/wiki/1987_Detroit_Grand_Prix,,,,,42.3298,-83.0401,22.0,29.18,86.72,"Rain, Overcast"
+871,410,1986,37,Detroit Grand Prix,1986-06-22,,http://en.wikipedia.org/wiki/1986_Detroit_Grand_Prix,,,,,42.3298,-83.0401,25.4,0.0,66.28,Partially cloudy
+872,425,1985,37,Detroit Grand Prix,1985-06-23,,http://en.wikipedia.org/wiki/1985_Detroit_Grand_Prix,,,,,42.3298,-83.0401,22.6,0.0,56.78,Partially cloudy
+873,443,1984,37,Detroit Grand Prix,1984-06-24,,http://en.wikipedia.org/wiki/1984_Detroit_Grand_Prix,,,,,42.3298,-83.0401,22.6,1.84,63.72,"Rain, Partially cloudy"
+874,458,1983,37,Detroit Grand Prix,1983-06-05,,http://en.wikipedia.org/wiki/1983_Detroit_Grand_Prix,,,,,42.3298,-83.0401,18.6,0.1,65.22,"Rain, Partially cloudy"
+875,473,1982,37,Detroit Grand Prix,1982-06-06,,http://en.wikipedia.org/wiki/1982_Detroit_Grand_Prix,,,,,42.3298,-83.0401,18.6,0.0,60.32,Partially cloudy
+876,412,1986,38,British Grand Prix,1986-07-13,,http://en.wikipedia.org/wiki/1986_British_Grand_Prix,,,,,51.3569,0.263056,17.0,0.86,78.63,"Rain, Partially cloudy"
+877,433,1985,38,European Grand Prix,1985-10-06,,http://en.wikipedia.org/wiki/1985_European_Grand_Prix,,,,,51.3569,0.263056,15.1,0.12,82.52,"Rain, Partially cloudy"
+878,445,1984,38,British Grand Prix,1984-07-22,,http://en.wikipedia.org/wiki/1984_British_Grand_Prix,,,,,51.3569,0.263056,18.7,0.0,70.65,Partially cloudy
+879,465,1983,38,European Grand Prix,1983-09-25,,http://en.wikipedia.org/wiki/1983_European_Grand_Prix,,,,,51.3569,0.263056,14.7,0.0,76.73,Partially cloudy
+880,476,1982,38,British Grand Prix,1982-07-18,,http://en.wikipedia.org/wiki/1982_British_Grand_Prix,,,,,51.3569,0.263056,18.4,0.0,70.01,Partially cloudy
+881,505,1980,38,British Grand Prix,1980-07-13,,http://en.wikipedia.org/wiki/1980_British_Grand_Prix,,,,,51.3569,0.263056,13.5,0.0,83.81,Overcast
+882,536,1978,38,British Grand Prix,1978-07-16,,http://en.wikipedia.org/wiki/1978_British_Grand_Prix,,,,,51.3569,0.263056,15.2,0.0,74.79,Partially cloudy
+883,568,1976,38,British Grand Prix,1976-07-18,,http://en.wikipedia.org/wiki/1976_British_Grand_Prix,,,,,51.3569,0.263056,19.5,0.0,68.18,Partially cloudy
+884,599,1974,38,British Grand Prix,1974-07-20,,http://en.wikipedia.org/wiki/1974_British_Grand_Prix,,,,,51.3569,0.263056,19.3,0.0,73.5,Partially cloudy
+885,626,1972,38,British Grand Prix,1972-07-15,,http://en.wikipedia.org/wiki/1972_British_Grand_Prix,,,,,51.3569,0.263056,,,,
+886,649,1970,38,British Grand Prix,1970-07-18,,http://en.wikipedia.org/wiki/1970_British_Grand_Prix,,,,,51.3569,0.263056,,,,
+887,673,1968,38,British Grand Prix,1968-07-20,,http://en.wikipedia.org/wiki/1968_British_Grand_Prix,,,,,51.3569,0.263056,,,,
+888,693,1966,38,British Grand Prix,1966-07-16,,http://en.wikipedia.org/wiki/1966_British_Grand_Prix,,,,,51.3569,0.263056,,,,
+889,713,1964,38,British Grand Prix,1964-07-11,,http://en.wikipedia.org/wiki/1964_British_Grand_Prix,,,,,51.3569,0.263056,,,,
+890,430,1985,39,Dutch Grand Prix,1985-08-25,,http://en.wikipedia.org/wiki/1985_Dutch_Grand_Prix,,,,,52.3888,4.54092,14.4,0.34,79.71,"Rain, Partially cloudy"
+891,448,1984,39,Dutch Grand Prix,1984-08-26,,http://en.wikipedia.org/wiki/1984_Dutch_Grand_Prix,,,,,52.3888,4.54092,17.5,0.0,85.2,Partially cloudy
+892,463,1983,39,Dutch Grand Prix,1983-08-28,,http://en.wikipedia.org/wiki/1983_Dutch_Grand_Prix,,,,,52.3888,4.54092,15.9,0.0,82.18,Partially cloudy
+893,475,1982,39,Dutch Grand Prix,1982-07-03,,http://en.wikipedia.org/wiki/1982_Dutch_Grand_Prix,,,,,52.3888,4.54092,16.4,1.11,80.11,"Rain, Partially cloudy"
+894,494,1981,39,Dutch Grand Prix,1981-08-30,,http://en.wikipedia.org/wiki/1981_Dutch_Grand_Prix,,,,,52.3888,4.54092,15.4,0.0,75.9,Partially cloudy
+895,508,1980,39,Dutch Grand Prix,1980-08-31,,http://en.wikipedia.org/wiki/1980_Dutch_Grand_Prix,,,,,52.3888,4.54092,15.3,7.45,86.42,"Rain, Partially cloudy"
+896,523,1979,39,Dutch Grand Prix,1979-08-26,,http://en.wikipedia.org/wiki/1979_Dutch_Grand_Prix,,,,,52.3888,4.54092,13.5,0.62,86.49,"Rain, Partially cloudy"
+897,539,1978,39,Dutch Grand Prix,1978-08-27,,http://en.wikipedia.org/wiki/1978_Dutch_Grand_Prix,,,,,52.3888,4.54092,14.1,20.78,68.82,"Rain, Partially cloudy"
+898,555,1977,39,Dutch Grand Prix,1977-08-28,,http://en.wikipedia.org/wiki/1977_Dutch_Grand_Prix,,,,,52.3888,4.54092,15.3,0.17,78.35,"Rain, Partially cloudy"
+899,571,1976,39,Dutch Grand Prix,1976-08-29,,http://en.wikipedia.org/wiki/1976_Dutch_Grand_Prix,,,,,52.3888,4.54092,18.6,0.62,79.05,"Rain, Partially cloudy"
+900,583,1975,39,Dutch Grand Prix,1975-06-22,,http://en.wikipedia.org/wiki/1975_Dutch_Grand_Prix,,,,,52.3888,4.54092,17.7,6.71,85.61,"Rain, Partially cloudy"
+901,597,1974,39,Dutch Grand Prix,1974-06-23,,http://en.wikipedia.org/wiki/1974_Dutch_Grand_Prix,,,,,52.3888,4.54092,18.4,0.0,80.41,Partially cloudy
+902,614,1973,39,Dutch Grand Prix,1973-07-29,,http://en.wikipedia.org/wiki/1973_Dutch_Grand_Prix,,,,,52.3888,4.54092,15.9,0.0,86.9,Overcast
+903,635,1971,39,Dutch Grand Prix,1971-06-20,,http://en.wikipedia.org/wiki/1971_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+904,647,1970,39,Dutch Grand Prix,1970-06-21,,http://en.wikipedia.org/wiki/1970_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+905,659,1969,39,Dutch Grand Prix,1969-06-21,,http://en.wikipedia.org/wiki/1969_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+906,671,1968,39,Dutch Grand Prix,1968-06-23,,http://en.wikipedia.org/wiki/1968_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+907,681,1967,39,Dutch Grand Prix,1967-06-04,,http://en.wikipedia.org/wiki/1967_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+908,694,1966,39,Dutch Grand Prix,1966-07-24,,http://en.wikipedia.org/wiki/1966_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+909,704,1965,39,Dutch Grand Prix,1965-07-18,,http://en.wikipedia.org/wiki/1965_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+910,710,1964,39,Dutch Grand Prix,1964-05-24,,http://en.wikipedia.org/wiki/1964_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+911,721,1963,39,Dutch Grand Prix,1963-06-23,,http://en.wikipedia.org/wiki/1963_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+912,729,1962,39,Dutch Grand Prix,1962-05-20,,http://en.wikipedia.org/wiki/1962_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+913,739,1961,39,Dutch Grand Prix,1961-05-22,,http://en.wikipedia.org/wiki/1961_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+914,749,1960,39,Dutch Grand Prix,1960-06-06,,http://en.wikipedia.org/wiki/1960_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+915,758,1959,39,Dutch Grand Prix,1959-05-31,,http://en.wikipedia.org/wiki/1959_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+916,767,1958,39,Dutch Grand Prix,1958-05-26,,http://en.wikipedia.org/wiki/1958_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+917,796,1955,39,Dutch Grand Prix,1955-06-19,,http://en.wikipedia.org/wiki/1955_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+918,810,1953,39,Dutch Grand Prix,1953-06-07,,http://en.wikipedia.org/wiki/1953_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+919,823,1952,39,Dutch Grand Prix,1952-08-17,,http://en.wikipedia.org/wiki/1952_Dutch_Grand_Prix,,,,,52.3888,4.54092,,,,
+920,1064,2021,39,Dutch Grand Prix,2021-09-05,13:00:00,http://en.wikipedia.org/wiki/2021_Dutch_Grand_Prix,2021-09-04,,,,52.3888,4.54092,21.033333333333335,0.0,59.830000000000005,Partially cloudy
+921,1088,2022,39,Dutch Grand Prix,2022-09-04,13:00:00,http://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix,2022-09-03,13:00:00,,,52.3888,4.54092,24.066666666666663,0.0,64.87333333333333,Partially cloudy
+922,438,1984,40,Belgian Grand Prix,1984-04-29,,http://en.wikipedia.org/wiki/1984_Belgian_Grand_Prix,,,,,50.9894,5.25694,7.9,0.0,51.49,Clear
+923,471,1982,40,Belgian Grand Prix,1982-05-09,,http://en.wikipedia.org/wiki/1982_Belgian_Grand_Prix,,,,,50.9894,5.25694,9.5,0.0,67.13,Partially cloudy
+924,487,1981,40,Belgian Grand Prix,1981-05-17,,http://en.wikipedia.org/wiki/1981_Belgian_Grand_Prix,,,,,50.9894,5.25694,11.3,0.4,74.96,"Rain, Partially cloudy"
+925,502,1980,40,Belgian Grand Prix,1980-05-04,,http://en.wikipedia.org/wiki/1980_Belgian_Grand_Prix,,,,,50.9894,5.25694,8.2,5.38,65.09,"Rain, Partially cloudy"
+926,517,1979,40,Belgian Grand Prix,1979-05-13,,http://en.wikipedia.org/wiki/1979_Belgian_Grand_Prix,,,,,50.9894,5.25694,14.1,0.0,79.47,Partially cloudy
+927,532,1978,40,Belgian Grand Prix,1978-05-21,,http://en.wikipedia.org/wiki/1978_Belgian_Grand_Prix,,,,,50.9894,5.25694,10.3,0.0,78.14,Overcast
+928,549,1977,40,Belgian Grand Prix,1977-06-05,,http://en.wikipedia.org/wiki/1977_Belgian_Grand_Prix,,,,,50.9894,5.25694,12.7,0.08,87.0,"Rain, Overcast"
+929,564,1976,40,Belgian Grand Prix,1976-05-16,,http://en.wikipedia.org/wiki/1976_Belgian_Grand_Prix,,,,,50.9894,5.25694,14.4,0.0,56.88,Partially cloudy
+930,581,1975,40,Belgian Grand Prix,1975-05-25,,http://en.wikipedia.org/wiki/1975_Belgian_Grand_Prix,,,,,50.9894,5.25694,11.4,0.0,67.25,Partially cloudy
+931,609,1973,40,Belgian Grand Prix,1973-05-20,,http://en.wikipedia.org/wiki/1973_Belgian_Grand_Prix,,,,,50.9894,5.25694,16.2,2.15,70.8,"Rain, Partially cloudy"
+932,440,1984,41,French Grand Prix,1984-05-20,,http://en.wikipedia.org/wiki/1984_French_Grand_Prix,,,,,47.3625,4.89913,11.8,0.01,74.56,"Rain, Partially cloudy"
+933,480,1982,41,Swiss Grand Prix,1982-08-29,,http://en.wikipedia.org/wiki/1982_Swiss_Grand_Prix,,,,,47.3625,4.89913,18.1,0.0,58.4,Clear
+934,490,1981,41,French Grand Prix,1981-07-05,,http://en.wikipedia.org/wiki/1981_French_Grand_Prix,,,,,47.3625,4.89913,18.8,0.0,80.8,Partially cloudy
+935,519,1979,41,French Grand Prix,1979-07-01,,http://en.wikipedia.org/wiki/1979_French_Grand_Prix,,,,,47.3625,4.89913,15.0,0.0,63.04,Partially cloudy
+936,551,1977,41,French Grand Prix,1977-07-03,,http://en.wikipedia.org/wiki/1977_French_Grand_Prix,,,,,47.3625,4.89913,22.1,0.0,71.93,Partially cloudy
+937,598,1974,41,French Grand Prix,1974-07-07,,http://en.wikipedia.org/wiki/1974_French_Grand_Prix,,,,,47.3625,4.89913,18.2,0.0,53.28,Clear
+938,444,1984,42,Dallas Grand Prix,1984-07-08,,http://en.wikipedia.org/wiki/1984_Dallas_Grand_Prix,,,,,32.7774,-96.7587,31.4,0.0,48.1,Clear
+939,453,1983,43,United States Grand Prix West,1983-03-27,,http://en.wikipedia.org/wiki/1983_United_States_Grand_Prix_West,,,,,33.7651,-118.189,14.9,0.02,70.83,"Rain, Partially cloudy"
+940,469,1982,43,United States Grand Prix West,1982-04-04,,http://en.wikipedia.org/wiki/1982_United_States_Grand_Prix_West,,,,,33.7651,-118.189,14.8,0.0,69.09,Partially cloudy
+941,483,1981,43,United States Grand Prix West,1981-03-15,,http://en.wikipedia.org/wiki/1981_United_States_Grand_Prix_West,,,,,33.7651,-118.189,14.2,0.0,67.79,Partially cloudy
+942,501,1980,43,United States Grand Prix West,1980-03-30,,http://en.wikipedia.org/wiki/1980_United_States_Grand_Prix_West,,,,,33.7651,-118.189,14.7,0.0,70.52,Clear
+943,515,1979,43,United States Grand Prix West,1979-04-08,,http://en.wikipedia.org/wiki/1979_United_States_Grand_Prix_West,,,,,33.7651,-118.189,15.7,0.0,71.86,Partially cloudy
+944,530,1978,43,United States Grand Prix West,1978-04-02,,http://en.wikipedia.org/wiki/1978_United_States_Grand_Prix_West,,,,,33.7651,-118.189,17.5,0.0,57.44,Partially cloudy
+945,546,1977,43,United States Grand Prix West,1977-04-03,,http://en.wikipedia.org/wiki/1977_United_States_Grand_Prix_West,,,,,33.7651,-118.189,14.5,0.0,68.33,Clear
+946,562,1976,43,United States Grand Prix West,1976-03-28,,http://en.wikipedia.org/wiki/1976_United_States_Grand_Prix_West,,,,,33.7651,-118.189,15.4,0.0,65.56,Partially cloudy
+947,482,1982,44,Caesars Palace Grand Prix,1982-09-25,,http://en.wikipedia.org/wiki/1982_Caesars_Palace_Grand_Prix,,,,,36.1162,-115.174,29.4,0.0,36.42,Overcast
+948,497,1981,44,Caesars Palace Grand Prix,1981-10-17,,http://en.wikipedia.org/wiki/1981_Caesars_Palace_Grand_Prix,,,,,36.1162,-115.174,16.0,0.0,36.79,Clear
+949,489,1981,45,Spanish Grand Prix,1981-06-21,,http://en.wikipedia.org/wiki/1981_Spanish_Grand_Prix,,,,,40.6171,-3.58558,24.2,0.0,42.45,Partially cloudy
+950,516,1979,45,Spanish Grand Prix,1979-04-29,,http://en.wikipedia.org/wiki/1979_Spanish_Grand_Prix,,,,,40.6171,-3.58558,10.1,0.0,60.54,Partially cloudy
+951,533,1978,45,Spanish Grand Prix,1978-06-04,,http://en.wikipedia.org/wiki/1978_Spanish_Grand_Prix,,,,,40.6171,-3.58558,20.1,0.0,62.38,Partially cloudy
+952,547,1977,45,Spanish Grand Prix,1977-05-08,,http://en.wikipedia.org/wiki/1977_Spanish_Grand_Prix,,,,,40.6171,-3.58558,15.3,0.0,60.21,Partially cloudy
+953,563,1976,45,Spanish Grand Prix,1976-05-02,,http://en.wikipedia.org/wiki/1976_Spanish_Grand_Prix,,,,,40.6171,-3.58558,12.1,0.0,56.44,Clear
+954,593,1974,45,Spanish Grand Prix,1974-04-28,,http://en.wikipedia.org/wiki/1974_Spanish_Grand_Prix,,,,,40.6171,-3.58558,10.1,1.46,77.56,"Rain, Partially cloudy"
+955,622,1972,45,Spanish Grand Prix,1972-05-01,,http://en.wikipedia.org/wiki/1972_Spanish_Grand_Prix,,,,,40.6171,-3.58558,9.2,,74.26,Partially cloudy
+956,644,1970,45,Spanish Grand Prix,1970-04-19,,http://en.wikipedia.org/wiki/1970_Spanish_Grand_Prix,,,,,40.6171,-3.58558,13.7,,43.32,Partially cloudy
+957,668,1968,45,Spanish Grand Prix,1968-05-12,,http://en.wikipedia.org/wiki/1968_Spanish_Grand_Prix,,,,,40.6171,-3.58558,,,,
+958,511,1980,46,United States Grand Prix,1980-10-05,,http://en.wikipedia.org/wiki/1980_United_States_Grand_Prix,,,,,42.3369,-76.9272,5.5,0.0,70.49,Partially cloudy
+959,526,1979,46,United States Grand Prix,1979-10-07,,http://en.wikipedia.org/wiki/1979_United_States_Grand_Prix,,,,,42.3369,-76.9272,10.5,0.63,75.44,"Rain, Overcast"
+960,541,1978,46,United States Grand Prix,1978-10-01,,http://en.wikipedia.org/wiki/1978_United_States_Grand_Prix,,,,,42.3369,-76.9272,16.6,0.0,76.88,Overcast
+961,557,1977,46,United States Grand Prix,1977-10-02,,http://en.wikipedia.org/wiki/1977_United_States_Grand_Prix,,,,,42.3369,-76.9272,12.0,0.3,77.03,"Rain, Overcast"
+962,574,1976,46,United States Grand Prix,1976-10-10,,http://en.wikipedia.org/wiki/1976_United_States_Grand_Prix,,,,,42.3369,-76.9272,6.5,0.0,61.52,Partially cloudy
+963,589,1975,46,United States Grand Prix,1975-10-05,,http://en.wikipedia.org/wiki/1975_United_States_Grand_Prix,,,,,42.3369,-76.9272,12.1,0.0,79.71,Partially cloudy
+964,604,1974,46,United States Grand Prix,1974-10-06,,http://en.wikipedia.org/wiki/1974_United_States_Grand_Prix,,,,,42.3369,-76.9272,17.0,0.0,55.57,Clear
+965,619,1973,46,United States Grand Prix,1973-10-07,,http://en.wikipedia.org/wiki/1973_United_States_Grand_Prix,,,,,42.3369,-76.9272,11.4,0.0,76.06,Partially cloudy
+966,631,1972,46,United States Grand Prix,1972-10-08,,http://en.wikipedia.org/wiki/1972_United_States_Grand_Prix,,,,,42.3369,-76.9272,7.2,,81.64,Partially cloudy
+967,642,1971,46,United States Grand Prix,1971-10-03,,http://en.wikipedia.org/wiki/1971_United_States_Grand_Prix,,,,,42.3369,-76.9272,18.2,,87.82,Partially cloudy
+968,654,1970,46,United States Grand Prix,1970-10-04,,http://en.wikipedia.org/wiki/1970_United_States_Grand_Prix,,,,,42.3369,-76.9272,6.6,,79.69,Partially cloudy
+969,665,1969,46,United States Grand Prix,1969-10-05,,http://en.wikipedia.org/wiki/1969_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+970,677,1968,46,United States Grand Prix,1968-10-06,,http://en.wikipedia.org/wiki/1968_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+971,688,1967,46,United States Grand Prix,1967-10-01,,http://en.wikipedia.org/wiki/1967_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+972,697,1966,46,United States Grand Prix,1966-10-02,,http://en.wikipedia.org/wiki/1966_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+973,707,1965,46,United States Grand Prix,1965-10-03,,http://en.wikipedia.org/wiki/1965_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+974,717,1964,46,United States Grand Prix,1964-10-04,,http://en.wikipedia.org/wiki/1964_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+975,726,1963,46,United States Grand Prix,1963-10-06,,http://en.wikipedia.org/wiki/1963_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+976,736,1962,46,United States Grand Prix,1962-10-07,,http://en.wikipedia.org/wiki/1962_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+977,745,1961,46,United States Grand Prix,1961-10-08,,http://en.wikipedia.org/wiki/1961_United_States_Grand_Prix,,,,,42.3369,-76.9272,,,,
+978,534,1978,47,Swedish Grand Prix,1978-06-17,,http://en.wikipedia.org/wiki/1978_Swedish_Grand_Prix,,,,,57.2653,13.6042,10.0,0.0,54.17,Clear
+979,550,1977,47,Swedish Grand Prix,1977-06-19,,http://en.wikipedia.org/wiki/1977_Swedish_Grand_Prix,,,,,57.2653,13.6042,19.2,,62.95,Clear
+980,566,1976,47,Swedish Grand Prix,1976-06-13,,http://en.wikipedia.org/wiki/1976_Swedish_Grand_Prix,,,,,57.2653,13.6042,13.4,,82.17,Partially cloudy
+981,582,1975,47,Swedish Grand Prix,1975-06-08,,http://en.wikipedia.org/wiki/1975_Swedish_Grand_Prix,,,,,57.2653,13.6042,14.8,,68.25,Clear
+982,596,1974,47,Swedish Grand Prix,1974-06-09,,http://en.wikipedia.org/wiki/1974_Swedish_Grand_Prix,,,,,57.2653,13.6042,9.7,,75.19,Partially cloudy
+983,611,1973,47,Swedish Grand Prix,1973-06-17,,http://en.wikipedia.org/wiki/1973_Swedish_Grand_Prix,,,,,57.2653,13.6042,12.1,,57.8,Clear
+984,558,1977,48,Canadian Grand Prix,1977-10-09,,http://en.wikipedia.org/wiki/1977_Canadian_Grand_Prix,,,,,44.0481,-78.6756,2.1,0.0,87.08,Partially cloudy
+985,573,1976,48,Canadian Grand Prix,1976-10-03,,http://en.wikipedia.org/wiki/1976_Canadian_Grand_Prix,,,,,44.0481,-78.6756,34.2,,62.8,Clear
+986,603,1974,48,Canadian Grand Prix,1974-09-22,,http://en.wikipedia.org/wiki/1974_Canadian_Grand_Prix,,,,,44.0481,-78.6756,7.9,,66.86,Partially cloudy
+987,618,1973,48,Canadian Grand Prix,1973-09-23,,http://en.wikipedia.org/wiki/1973_Canadian_Grand_Prix,,,,,44.0481,-78.6756,14.1,,86.27,Partially cloudy
+988,630,1972,48,Canadian Grand Prix,1972-09-24,,http://en.wikipedia.org/wiki/1972_Canadian_Grand_Prix,,,,,44.0481,-78.6756,,,,
+989,641,1971,48,Canadian Grand Prix,1971-09-19,,http://en.wikipedia.org/wiki/1971_Canadian_Grand_Prix,,,,,44.0481,-78.6756,,,,
+990,664,1969,48,Canadian Grand Prix,1969-09-20,,http://en.wikipedia.org/wiki/1969_Canadian_Grand_Prix,,,,,44.0481,-78.6756,,,,
+991,686,1967,48,Canadian Grand Prix,1967-08-27,,http://en.wikipedia.org/wiki/1967_Canadian_Grand_Prix,,,,,44.0481,-78.6756,,,,
+992,579,1975,49,Spanish Grand Prix,1975-04-27,,http://en.wikipedia.org/wiki/1975_Spanish_Grand_Prix,,,,,41.3664,2.15167,14.4,0.0,74.05,Clear
+993,608,1973,49,Spanish Grand Prix,1973-04-29,,http://en.wikipedia.org/wiki/1973_Spanish_Grand_Prix,,,,,41.3664,2.15167,15.3,0.0,75.32,Clear
+994,633,1971,49,Spanish Grand Prix,1971-04-18,,http://en.wikipedia.org/wiki/1971_Spanish_Grand_Prix,,,,,41.3664,2.15167,,,,
+995,657,1969,49,Spanish Grand Prix,1969-05-04,,http://en.wikipedia.org/wiki/1969_Spanish_Grand_Prix,,,,,41.3664,2.15167,,,,
+996,594,1974,50,Belgian Grand Prix,1974-05-12,,http://en.wikipedia.org/wiki/1974_Belgian_Grand_Prix,,,,,50.6211,4.32694,13.6,6.51,65.4,"Rain, Partially cloudy"
+997,624,1972,50,Belgian Grand Prix,1972-06-04,,http://en.wikipedia.org/wiki/1972_Belgian_Grand_Prix,,,,,50.6211,4.32694,17.5,0.0,66.08,Partially cloudy
+998,625,1972,51,French Grand Prix,1972-07-02,,http://en.wikipedia.org/wiki/1972_French_Grand_Prix,,,,,45.7472,3.03889,,,,
+999,648,1970,51,French Grand Prix,1970-07-05,,http://en.wikipedia.org/wiki/1970_French_Grand_Prix,,,,,45.7472,3.03889,,,,
+1000,660,1969,51,French Grand Prix,1969-07-06,,http://en.wikipedia.org/wiki/1969_French_Grand_Prix,,,,,45.7472,3.03889,,,,
+1001,702,1965,51,French Grand Prix,1965-06-27,,http://en.wikipedia.org/wiki/1965_French_Grand_Prix,,,,,45.7472,3.03889,,,,
+1002,653,1970,52,Canadian Grand Prix,1970-09-20,,http://en.wikipedia.org/wiki/1970_Canadian_Grand_Prix,,,,,46.1877,-74.6099,,,,
+1003,676,1968,52,Canadian Grand Prix,1968-09-22,,http://en.wikipedia.org/wiki/1968_Canadian_Grand_Prix,,,,,46.1877,-74.6099,,,,
+1004,672,1968,53,French Grand Prix,1968-07-07,,http://en.wikipedia.org/wiki/1968_French_Grand_Prix,,,,,49.3306,1.00458,,,,
+1005,712,1964,53,French Grand Prix,1964-06-28,,http://en.wikipedia.org/wiki/1964_French_Grand_Prix,,,,,49.3306,1.00458,,,,
+1006,732,1962,53,French Grand Prix,1962-07-08,,http://en.wikipedia.org/wiki/1962_French_Grand_Prix,,,,,49.3306,1.00458,,,,
+1007,779,1957,53,French Grand Prix,1957-07-07,,http://en.wikipedia.org/wiki/1957_French_Grand_Prix,,,,,49.3306,1.00458,,,,
+1008,820,1952,53,French Grand Prix,1952-07-06,,http://en.wikipedia.org/wiki/1952_French_Grand_Prix,,,,,49.3306,1.00458,,,,
+1009,683,1967,54,French Grand Prix,1967-07-02,,http://en.wikipedia.org/wiki/1967_French_Grand_Prix,,,,,47.95,0.224231,,,,
+1010,692,1966,55,French Grand Prix,1966-07-03,,http://en.wikipedia.org/wiki/1966_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1011,722,1963,55,French Grand Prix,1963-06-30,,http://en.wikipedia.org/wiki/1963_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1012,741,1961,55,French Grand Prix,1961-07-02,,http://en.wikipedia.org/wiki/1961_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1013,751,1960,55,French Grand Prix,1960-07-03,,http://en.wikipedia.org/wiki/1960_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1014,759,1959,55,French Grand Prix,1959-07-05,,http://en.wikipedia.org/wiki/1959_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1015,770,1958,55,French Grand Prix,1958-07-06,,http://en.wikipedia.org/wiki/1958_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1016,788,1956,55,French Grand Prix,1956-07-01,,http://en.wikipedia.org/wiki/1956_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1017,802,1954,55,French Grand Prix,1954-07-04,,http://en.wikipedia.org/wiki/1954_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1018,812,1953,55,French Grand Prix,1953-07-05,,http://en.wikipedia.org/wiki/1953_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1019,828,1951,55,French Grand Prix,1951-07-01,,http://en.wikipedia.org/wiki/1951_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1020,838,1950,55,French Grand Prix,1950-07-02,,http://en.wikipedia.org/wiki/1950_French_Grand_Prix,,,,,49.2542,3.93083,,,,
+1021,699,1965,56,South African Grand Prix,1965-01-01,,http://en.wikipedia.org/wiki/1965_South_African_Grand_Prix,,,,,-33.0486,27.8736,,,,
+1022,728,1963,56,South African Grand Prix,1963-12-28,,http://en.wikipedia.org/wiki/1963_South_African_Grand_Prix,,,,,-33.0486,27.8736,,,,
+1023,737,1962,56,South African Grand Prix,1962-12-29,,http://en.wikipedia.org/wiki/1962_South_African_Grand_Prix,,,,,-33.0486,27.8736,,,,
+1024,715,1964,57,Austrian Grand Prix,1964-08-23,,http://en.wikipedia.org/wiki/1964_Austrian_Grand_Prix,,,,,47.2039,14.7478,,,,
+1025,733,1962,58,British Grand Prix,1962-07-21,,http://en.wikipedia.org/wiki/1962_British_Grand_Prix,,,,,53.4769,-2.94056,,,,
+1026,742,1961,58,British Grand Prix,1961-07-15,,http://en.wikipedia.org/wiki/1961_British_Grand_Prix,,,,,53.4769,-2.94056,,,,
+1027,760,1959,58,British Grand Prix,1959-07-18,,http://en.wikipedia.org/wiki/1959_British_Grand_Prix,,,,,53.4769,-2.94056,,,,
+1028,780,1957,58,British Grand Prix,1957-07-20,,http://en.wikipedia.org/wiki/1957_British_Grand_Prix,,,,,53.4769,-2.94056,,,,
+1029,797,1955,58,British Grand Prix,1955-07-16,,http://en.wikipedia.org/wiki/1955_British_Grand_Prix,,,,,53.4769,-2.94056,,,,
+1030,753,1960,59,Portuguese Grand Prix,1960-08-14,,http://en.wikipedia.org/wiki/1960_Portuguese_Grand_Prix,,,,,41.1705,-8.67325,,,,
+1031,773,1958,59,Portuguese Grand Prix,1958-08-24,,http://en.wikipedia.org/wiki/1958_Portuguese_Grand_Prix,,,,,41.1705,-8.67325,,,,
+1032,755,1960,60,United States Grand Prix,1960-11-20,,http://en.wikipedia.org/wiki/1960_United_States_Grand_Prix,,,,,33.937,-117.273,,,,
+1033,761,1959,61,German Grand Prix,1959-08-02,,http://en.wikipedia.org/wiki/1959_German_Grand_Prix,,,,,52.4806,13.2514,,,,
+1034,762,1959,62,Portuguese Grand Prix,1959-08-23,,http://en.wikipedia.org/wiki/1959_Portuguese_Grand_Prix,,,,,38.7197,-9.20306,,,,
+1035,764,1959,63,United States Grand Prix,1959-12-12,,http://en.wikipedia.org/wiki/1959_United_States_Grand_Prix,,,,,27.4547,-81.3483,,,,
+1036,775,1958,64,Moroccan Grand Prix,1958-10-19,,http://en.wikipedia.org/wiki/1958_Moroccan_Grand_Prix,,,,,33.5786,-7.6875,,,,
+1037,782,1957,65,Pescara Grand Prix,1957-08-18,,http://en.wikipedia.org/wiki/1957_Pescara_Grand_Prix,,,,,42.475,14.1508,,,,
+1038,805,1954,66,Swiss Grand Prix,1954-08-22,,http://en.wikipedia.org/wiki/1954_Swiss_Grand_Prix,,,,,46.9589,7.40194,,,,
+1039,815,1953,66,Swiss Grand Prix,1953-08-23,,http://en.wikipedia.org/wiki/1953_Swiss_Grand_Prix,,,,,46.9589,7.40194,,,,
+1040,817,1952,66,Swiss Grand Prix,1952-05-18,,http://en.wikipedia.org/wiki/1952_Swiss_Grand_Prix,,,,,46.9589,7.40194,,,,
+1041,825,1951,66,Swiss Grand Prix,1951-05-27,,http://en.wikipedia.org/wiki/1951_Swiss_Grand_Prix,,,,,46.9589,7.40194,,,,
+1042,836,1950,66,Swiss Grand Prix,1950-06-04,,http://en.wikipedia.org/wiki/1950_Swiss_Grand_Prix,,,,,46.9589,7.40194,,,,
+1043,807,1954,67,Spanish Grand Prix,1954-10-24,,http://en.wikipedia.org/wiki/1954_Spanish_Grand_Prix,,,,,41.3903,2.11667,,,,
+1044,832,1951,67,Spanish Grand Prix,1951-10-28,,http://en.wikipedia.org/wiki/1951_Spanish_Grand_Prix,,,,,41.3903,2.11667,,,,
+1045,857,2011,68,Indian Grand Prix,2011-10-30,09:30:00,http://en.wikipedia.org/wiki/2011_Indian_Grand_Prix,,,,,28.3487,77.5331,24.225,0.0,44.6525,Clear
+1046,876,2012,68,Indian Grand Prix,2012-10-28,09:30:00,http://en.wikipedia.org/wiki/2012_Indian_Grand_Prix,,,,,28.3487,77.5331,23.075,0.0,50.975,Clear
+1047,896,2013,68,Indian Grand Prix,2013-10-27,09:30:00,http://en.wikipedia.org/wiki/2013_Indian_Grand_Prix,,,,,28.3487,77.5331,23.55,0.0,70.17250000000001,Clear
+1048,878,2012,69,United States Grand Prix,2012-11-18,19:00:00,http://en.wikipedia.org/wiki/2012_United_States_Grand_Prix,,,,,30.1328,-97.6411,14.866666666666667,0.0,69.36333333333334,Partially cloudy
+1049,898,2013,69,United States Grand Prix,2013-11-17,19:00:00,http://en.wikipedia.org/wiki/2013_United_States_Grand_Prix,,,,,30.1328,-97.6411,19.233333333333334,0.0,92.31333333333333,Clear
+1050,916,2014,69,United States Grand Prix,2014-11-02,20:00:00,http://en.wikipedia.org/wiki/2014_United_States_Grand_Prix,,,,,30.1328,-97.6411,17.299999999999997,0.0,64.75,Partially cloudy
+1051,942,2015,69,United States Grand Prix,2015-10-25,19:00:00,http://en.wikipedia.org/wiki/2015_United_States_Grand_Prix,,,,,30.1328,-97.6411,17.599999999999998,0.0,76.55666666666667,Overcast
+1052,965,2016,69,United States Grand Prix,2016-10-23,19:00:00,http://en.wikipedia.org/wiki/2016_United_States_Grand_Prix,,,,,30.1328,-97.6411,23.400000000000002,0.0,60.56,Partially cloudy
+1053,985,2017,69,United States Grand Prix,2017-10-22,19:00:00,http://en.wikipedia.org/wiki/2017_United_States_Grand_Prix,,,,,30.1328,-97.6411,14.866666666666667,0.0,83.35333333333334,Clear
+1054,1006,2018,69,United States Grand Prix,2018-10-21,18:10:00,http://en.wikipedia.org/wiki/2018_United_States_Grand_Prix,,,,,30.1328,-97.6411,16.266666666666666,0.0,59.59333333333333,Partially cloudy
+1055,1028,2019,69,United States Grand Prix,2019-11-03,19:10:00,http://en.wikipedia.org/wiki/2019_United_States_Grand_Prix,,,,,30.1328,-97.6411,16.0,0.0,70.09,Partially cloudy
+1056,1069,2021,69,United States Grand Prix,2021-10-24,19:00:00,http://en.wikipedia.org/wiki/2021_United_States_Grand_Prix,2021-10-23,,,,30.1328,-97.6411,23.133333333333336,0.0,85.22666666666667,Partially cloudy
+1058,915,2014,71,Russian Grand Prix,2014-10-12,11:00:00,http://en.wikipedia.org/wiki/2014_Russian_Grand_Prix,,,,,43.4057,39.9578,21.666666666666668,0.0,55.67000000000001,Partially cloudy
+1059,941,2015,71,Russian Grand Prix,2015-10-11,11:00:00,http://en.wikipedia.org/wiki/2015_Russian_Grand_Prix,,,,,43.4057,39.9578,18.333333333333332,0.0,41.02333333333333,Clear
+1060,951,2016,71,Russian Grand Prix,2016-05-01,12:00:00,http://en.wikipedia.org/wiki/2016_Russian_Grand_Prix,,,,,43.4057,39.9578,16.2,0.0,69.74333333333334,Partially cloudy
+1061,972,2017,71,Russian Grand Prix,2017-04-30,12:00:00,http://en.wikipedia.org/wiki/2017_Russian_Grand_Prix,,,,,43.4057,39.9578,23.933333333333334,0.0,39.873333333333335,Partially cloudy
+1062,1004,2018,71,Russian Grand Prix,2018-09-30,11:10:00,http://en.wikipedia.org/wiki/2018_Russian_Grand_Prix,,,,,43.4057,39.9578,22.566666666666666,0.0,68.63333333333334,Overcast
+1063,1025,2019,71,Russian Grand Prix,2019-09-29,11:10:00,http://en.wikipedia.org/wiki/2019_Russian_Grand_Prix,,,,,43.4057,39.9578,20.866666666666664,0.0,66.16,Partially cloudy
+1064,1040,2020,71,Russian Grand Prix,2020-09-27,11:10:00,http://en.wikipedia.org/wiki/2020_Russian_Grand_Prix,,,,,43.4057,39.9578,28.333333333333332,0.0,49.550000000000004,Clear
+1065,1066,2021,71,Russian Grand Prix,2021-09-26,12:00:00,http://en.wikipedia.org/wiki/2021_Russian_Grand_Prix,2021-09-25,,,,43.4057,39.9578,18.099999999999998,0.0,61.97,Partially cloudy
+1066,955,2016,73,European Grand Prix,2016-06-19,13:00:00,http://en.wikipedia.org/wiki/2016_European_Grand_Prix,,,,,40.3725,49.8533,32.300000000000004,0.0,38.24,Partially cloudy
+1067,976,2017,73,Azerbaijan Grand Prix,2017-06-25,13:00:00,http://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix,,,,,40.3725,49.8533,29.400000000000002,0.0,59.10666666666666,Partially cloudy
+1068,992,2018,73,Azerbaijan Grand Prix,2018-04-29,12:10:00,http://en.wikipedia.org/wiki/2018_Azerbaijan_Grand_Prix,,,,,40.3725,49.8533,15.766666666666666,0.0,60.096666666666664,Clear
+1069,1013,2019,73,Azerbaijan Grand Prix,2019-04-28,12:10:00,http://en.wikipedia.org/wiki/2019_Azerbaijan_Grand_Prix,,,,,40.3725,49.8533,19.633333333333333,0.0,50.196666666666665,Clear
+1070,1057,2021,73,Azerbaijan Grand Prix,2021-06-06,12:00:00,http://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix,2021-06-05,,,,40.3725,49.8533,24.0,0.0,55.68000000000001,Partially cloudy
+1071,1081,2022,73,Azerbaijan Grand Prix,2022-06-12,11:00:00,http://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix,2022-06-11,14:00:00,,,40.3725,49.8533,28.03333333333333,0.0,35.86333333333334,Clear
+1072,1039,2020,76,Tuscan Grand Prix,2020-09-13,13:10:00,http://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix,,,,,43.9975,11.3719,31.53333333333333,0.0,37.37,Clear
+1073,1042,2020,75,Portuguese Grand Prix,2020-10-25,12:10:00,http://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix,,,,,37.227,-8.6267,19.766666666666666,0.0,79.96,Clear
+1074,1054,2021,75,Portuguese Grand Prix,2021-05-02,14:00:00,http://en.wikipedia.org/wiki/2021_Portuguese_Grand_Prix,2021-05-01,,,,37.227,-8.6267,18.166666666666668,0.0,49.096666666666664,Clear
+1075,1051,2021,78,Qatar Grand Prix,2021-11-21,14:00:00,http://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix,2021-11-20,,,,25.49,51.4542,27.53333333333333,0.0,63.00666666666666,Clear
+1076,1072,2021,77,Saudi Arabian Grand Prix,2021-12-05,17:30:00,http://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix,2021-12-04,,,,21.6319,39.1044,29.0,0.0,66.46666666666668,Clear
+1077,1075,2022,77,Saudi Arabian Grand Prix,2022-03-27,17:00:00,http://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix,2022-03-26,17:00:00,,,21.6319,39.1044,27.366666666666664,0.0,37.026666666666664,Clear
+1078,1078,2022,79,Miami Grand Prix,2022-05-08,19:30:00,http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix,2022-05-07,20:00:00,,,25.9581,-80.2389,26.666666666666668,0.0,77.02666666666667,Clear
