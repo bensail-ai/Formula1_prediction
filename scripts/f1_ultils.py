@@ -2,6 +2,19 @@ import numpy as np
 import math
 import pandas as pd
 from scipy.interpolate import interp1d
+import os
+from scripts.ds_ultils import *
+
+def read_ergast_files(directory):
+    f1_data={}
+    for file in os.listdir(directory):
+        if file.endswith('.csv'):            
+            f1_data[f"df_{file.split('.')[0]}"]=pd.read_csv(os.path.join(directory,file))
+            
+    return f1_data
+
+
+
 def convert_time_miliseconds(x):
     if x == 'nan':
         return None
@@ -23,6 +36,15 @@ def find_fastest_lap(x,y,z):
 
     
     return min(speeds)
+
+
+
+def clean_q3_times(df, q1,q2,q3,col_out):
+    df[col_out]=np.NaN
+    df.loc[(df[q2].isna()) & (df[q3].isna()),col_out]=df.loc[(df[q2].isna()) & (df[q3].isna()),q1]
+    df.loc[(df[q3].isna()) & (~df[q2].isna()),col_out]=df.loc[(df[q3].isna())& (~df[q2].isna()),q2]
+    df.loc[(~df[q3].isna()) & (~df[q2].isna()),col_out]=df.loc[(~df[q3].isna())& (~df[q2].isna()),q3]
+    return df
 
 
 def fill_mean_parameter(df,parameter):
