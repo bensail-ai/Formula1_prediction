@@ -1,9 +1,9 @@
+#!/usr/bin/env python3
 import numpy as np
 import math
 import pandas as pd
 from scipy.interpolate import interp1d
 import os
-from scripts.ds_ultils import *
 
 def read_ergast_files(directory):
     f1_data={}
@@ -60,6 +60,19 @@ def fill_mean_parameter(df,parameter):
             query2= (df['qualifying_lapId']==ind[0])&(df['raceId']==ind[1]) & (df['qualifying_DriverNumber'] ==ind[2])
             df.loc[query2,[parameter]] = mean_para.values
     return df
+
+
+def fill_mean_parameter_fastf1(df,parameter):
+    indexes = df.loc[df[parameter].isna()].groupby(['qualifying_Stint'])['qualifying_lapId'].unique().index
+    values = df.loc[df[parameter].isna()].groupby(['qualifying_Stint'])['qualifying_lapId'].unique().values
+    for i,ind in enumerate(indexes):
+        for val in values[i]:
+            query = (df['qualifying_Stint']==ind)
+            mean_para = df.loc[query,[parameter]].mean()
+            query2= (df['qualifying_lapId']==val)& (df['qualifying_Stint'] == ind)
+            df.loc[query2,[parameter]] = mean_para.values
+    return df
+   
 
 
 def flag_corners(df,curvature=0.0005,interval=10,smoothing=10):
@@ -182,8 +195,13 @@ def speed_data(df):
 
     return max_speed,std_speed,min_speed,mean_straight_speed,var_straight_speed
 
+def throttle_bin(df):
+    df['Throttle_bin'] =np.where(df['qualifying_Throttle'] < 98,'off_full_throttle','full_throttle')
+
+    return df
 
 def acceleration(x,distance=100):
+    x= throttle_bin(x)
     df = x[x['Throttle_bin']=='full_throttle'].copy()    
     indices = df.index.to_series()
     df['Group'] = ((indices - indices.shift(1)) != 1).cumsum()
