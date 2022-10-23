@@ -114,7 +114,7 @@ def plot_numerical_variables_hist(df,columns=5,**kwargs):
         figsize=(14,12)
     fig, axes = plt.subplots(math.ceil(len(df[num_col_list].columns)/columns), columns, figsize=figsize,**kwargs)
     for col, axs in zip(df[num_col_list].columns, axes.flatten()): # axes are a numpy array need to flatten to be able to iterate over it easily
-        sns.histplot(df[col],ax=axs)
+        sns.histplot(df[col],ax=axs,bins=100)
         axs.set_title(col)
     plt.tight_layout()
     plt.show()

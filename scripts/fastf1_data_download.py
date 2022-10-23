@@ -143,7 +143,7 @@ def session_lap_driver(data,driver,session='qualifying'):
             pass
     if len(frames) >=1:    
         df_tele= pd.concat(frames)
-        laps_combined = laps_weather.merge(df_tele,on='lapId',how='left')
+        laps_combined = laps_weather.merge(df_tele,on='lapId',how='right')
         laps_combined= laps_combined.add_prefix(f'{session}_')
         laps_combined[f'{session}_DriverNumber']=laps_combined[f'{session}_DriverNumber'].astype('float')
         laps_combined.drop(columns=[f'{session}_PitOutTime',f'{session}_PitInTime'],inplace=True)
@@ -210,9 +210,12 @@ def clean_laps(lap_df):
     lapIds = lap_df['qualifying_lapId'].unique()
     laps=[]
     for lap in lapIds:
-        if lap_df.loc[lap_df['qualifying_lapId']==lap,'qualifying_Distance'].max() == 0:
+        if lap_df.loc[lap_df['qualifying_lapId']==lap,'qualifying_Distance'].max() < 100:
+            laps.append(lap)
+        elif lap_df.loc[lap_df['qualifying_lapId']==lap,'qualifying_Distance'].min() <= 0:
             laps.append(lap)
     lap_df=lap_df[~(lap_df['qualifying_lapId'].isin(laps))]
+    lap_df= lap_df[lap_df['qualifying_Distance'].notnull()]
     return lap_df
 
 
@@ -233,12 +236,13 @@ def clean_lap_df(lap_df):
     lap_df = fill_mean_parameter_fastf1(lap_df,'qualifying_SpeedST')
     lap_df=lap_df[lap_df.index.isin(lap_df['qualifying_Compound'].dropna(axis=0).index)]
     lap_df=clean_time(lap_df)
-
+    lap_df=clean_laps(lap_df)
+    
     return lap_df
 
 def pick_fastest_lap(lap_df):
 
-    fast_lap = lap_df['qualifying_LapTime'].min()/1000
+    fast_lap = lap_df['qualifying_LapTime'].min()*1000
 
     return fast_lap
 
@@ -664,21 +668,24 @@ def pull_clean_aggregate_telemetry(file,fast_time='ergast'):
         df_race=df[(df['year'] == year) & (df['name'] == name)].copy()
         for index, row in df_race.iterrows():           
             lap_df= session_lap_driver(data,int(row['number']))
-            if len(lap_df) >0 :
+            
+            if len(lap_df) >0 :# no lap data available for the driver pass
                 try:
                     lap_df = clean_lap_df(lap_df)
-                    lap_df = clean_laps(lap_df)
-                    if fast_time == 'ergast':
-                        lap_df = add_col(lap_df,'fastest_lap_milliseconds',row['fastest_lap_milliseconds'])
-                    elif fast_time == 'telemetry':
-                        lap_df['fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
-                            
-                    lap_df = replace_fast_nan(lap_df)
-                    lap_df = laps_corners(lap_df)
-                    lap_df_aggr= row.copy()
-                    lap_df_aggr=all_aggregations(lap_df_aggr,lap_df)
-                    lap_df_aggr=clean_aggregations(lap_df_aggr,lap_df)
-                    lap_dfs.append(lap_df_aggr.to_frame().T)
+
+                    if len(lap_df) >0 : # bad data means cleaning removes all data therefore pass
+                        lap_df_aggr= row.copy()
+                        if (fast_time == 'ergast') & (pd.notnull(row['fastest_lap_milliseconds']) == True):
+                            lap_df = add_col(lap_df,'fastest_lap_milliseconds',row['fastest_lap_milliseconds'])
+                        else:
+                            lap_df['fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
+                            lap_df_aggr['fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
+                        lap_df = replace_fast_nan(lap_df)
+                        lap_df = laps_corners(lap_df)
+                        
+                        lap_df_aggr=all_aggregations(lap_df_aggr,lap_df)
+                        lap_df_aggr=clean_aggregations(lap_df_aggr,lap_df)
+                        lap_dfs.append(lap_df_aggr.to_frame().T)
                 except:
                     pass
             else:
@@ -686,8 +693,8 @@ def pull_clean_aggregate_telemetry(file,fast_time='ergast'):
             print(f"completed driver {row['number']} ", end='\r')
     print(f'completed {year} {name}')
     Lap_aggr_combined=pd.concat(lap_dfs)
-    df = df.merge(Lap_aggr_combined,how='left',left_index=True, right_index=True)
-    return df
+    
+    return Lap_aggr_combined
 
 
 #%%
