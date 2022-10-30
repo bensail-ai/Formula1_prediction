@@ -9,15 +9,15 @@ import pandas as pd
 from scipy.interpolate import interp1d
 
 
-def engineer_target_bin(df):
+def engineer_target_bin(df,fast_lap='fastest_all_sessions_milliseconds'):    
     df['quali_position_binned'] = pd.cut(df['quali_position'],bins=4,labels=['0_to_5','5_to_10','eleven_to_15','fifteen_&_above'])
     races = df['raceId'].unique()
     for race in races:
         query = (df['raceId'] == race)
-        fastesttime= df.loc[(query),'fastest_lap_milliseconds'].min()
+        fastesttime= df.loc[(query),fast_lap].min()
         
-        df.loc[query,'lap_timedelta_milliseconds']=(np.where(df.loc[query,'quali_position']==1,0,(fastesttime-df.loc[query,'fastest_lap_milliseconds'])))
-    df['lap_timedelta_seconds_binned'] = pd.qcut(df['lap_timedelta_milliseconds'],q=4,labels=['>2.4s','2.4-1.6s','1.6-0.9s','0.9-0s'])
+        df.loc[query,'lap_timedelta_milliseconds']=(np.where(df.loc[query,'quali_position']==1,0,(fastesttime-df.loc[query,fast_lap])))
+    df['lap_timedelta_seconds_binned'] = pd.qcut(df['lap_timedelta_milliseconds'],q=4,labels=['>2.3s','2.3-1.6s','1.6-0.9s','0.9-0s'])
     return df
 
 def convert_object_to_float(df):
@@ -47,8 +47,12 @@ def clean_df(df,columns=['number','name','dob']):
 
     return df
 
-def prepare_modelling_df(df):
-    df = engineer_target_bin(df)
+def prepare_modelling_df(df,fast_lap='all'):
+    df = convert_object_to_float(df)
+    if fast_lap=='all':
+        df = engineer_target_bin(df,fast_lap='fastest_all_sessions_milliseconds')
+    else:
+        df = engineer_target_bin(df,fast_lap='fastest_lap_milliseconds')
     df = convert_object_to_float(df)
     df = feature_engineer_country(df)
     df=clean_df(df)
@@ -63,10 +67,10 @@ def prepare_modelling_df(df):
         b=b+2
     test_r =list(np.array(test_r).flatten())
     query = (df['raceId'].isin(test_r))
-    X_test = df[query].drop(columns=['fastest_lap_milliseconds', 'lap_timedelta_milliseconds','quali_position','raceId','quali_position_binned','lap_timedelta_seconds_binned']).copy()
-    X_train = df[~query].drop(columns=['fastest_lap_milliseconds', 'lap_timedelta_milliseconds','quali_position','raceId','quali_position_binned','lap_timedelta_seconds_binned']).copy()
-    y_test=df.loc[query,['lap_timedelta_seconds_binned','quali_position_binned','fastest_lap_milliseconds','quali_position']].copy()
-    y_train=df.loc[~query,['lap_timedelta_seconds_binned','quali_position_binned','fastest_lap_milliseconds','quali_position']].copy()
+    X_test = df[query].drop(columns=['fastest_lap_milliseconds', 'lap_timedelta_milliseconds','quali_position','raceId','quali_position_binned','lap_timedelta_seconds_binned','fastest_all_sessions_milliseconds']).copy()
+    X_train = df[~query].drop(columns=['fastest_lap_milliseconds', 'lap_timedelta_milliseconds','quali_position','raceId','quali_position_binned','lap_timedelta_seconds_binned','fastest_all_sessions_milliseconds']).copy()
+    y_test=df.loc[query,['lap_timedelta_seconds_binned','quali_position_binned','lap_timedelta_milliseconds','quali_position']].copy()
+    y_train=df.loc[~query,['lap_timedelta_seconds_binned','quali_position_binned','lap_timedelta_milliseconds','quali_position']].copy()
     
     return X_test, X_train, y_test, y_train
 

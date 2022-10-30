@@ -4,9 +4,10 @@ import fastf1
 import pandas as pd
 import time
 import os
-
+from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore') # lots of warnings for fastf1
+#%%
 from scripts.f1_ultils import *
 #from f1_ultils import *
 #%%
@@ -172,6 +173,7 @@ def clean_quali_times(df):
     df['q2_milliseconds']=df['q2'].apply(convert_time_miliseconds)
     df['q3_milliseconds']=df['q3'].apply(convert_time_miliseconds)
     df=clean_q3_times(df,'q1_milliseconds','q2_milliseconds','q3_milliseconds','fastest_lap_milliseconds')
+    df['fastest_all_sessions_milliseconds'] = df.apply(lambda x: find_fastest_lap(x['q1_milliseconds'],x['q2_milliseconds'],x['q3_milliseconds']),axis=1)
     df.drop( columns=['q1_milliseconds',
     'q2_milliseconds',
     'q3_milliseconds',
@@ -248,7 +250,7 @@ def pick_fastest_lap(lap_df):
 
 def replace_fast_nan(lap_df):
     
-    lap_df.loc[lap_df['fastest_lap_milliseconds'].isna(),'fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
+    lap_df.loc[lap_df['fastest_all_sessions_milliseconds'].isna(),'fastest_all_sessions_milliseconds'] = pick_fastest_lap(lap_df)
 
     return lap_df
 
@@ -352,8 +354,8 @@ def car_avg_speed(lap_df):
 
 
 def car_fast_lap_speed(lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     max_fastest_lap_speed= int(lap_df.loc[query,'qualifying_Speed'].max())
     var_fastest_lap_speed = int(lap_df.loc[query,'qualifying_Speed'].std())
     min_fastest_lap_speed = int(lap_df.loc[query,'qualifying_Speed'].min())
@@ -376,8 +378,8 @@ def car_accleration(lap_df):
     return int(np.mean(top_accleration)),int(np.mean(var_accleration)),int(np.mean(min_accleration))
 
 def car_fast_lap_accleration(lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     max_fastest_accleration= int(np.max(acceleration(lap_df.loc[query].copy())))
     var_fastest_accleration= int(np.std(acceleration(lap_df.loc[query].copy())))
     min_fastest_accleration= int(np.min(acceleration(lap_df.loc[query].copy())))
@@ -400,8 +402,8 @@ def car_rpm(lap_df):
  
 
 def car_fast_lap_rpm(lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     max_rpm_fl,mean_straight_rpm_fl, var_straight_rpm_fl= rpm(lap_df.loc[query].copy())
     return int(max_rpm_fl), int(np.mean(var_straight_rpm_fl)), int(np.mean(mean_straight_rpm_fl))
 
@@ -467,8 +469,8 @@ def gear_laps(lap_df):
 
 
 def gear_fast_lap(lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     gear_dict_fl= gear_data(lap_df.loc[query].copy())
     return int(np.mean(gear_dict_fl['gear_1'])), int(np.mean(gear_dict_fl['gear_2'])),int(np.mean(gear_dict_fl['gear_3'])),int(np.mean(gear_dict_fl['gear_4'])),int(np.mean(gear_dict_fl['gear_5'])),int(np.mean(gear_dict_fl['gear_6'])),int(np.mean(gear_dict_fl['gear_7'])),int(np.mean(gear_dict_fl['gear_8']))
 
@@ -520,8 +522,8 @@ def driver_lap_aggregations(lap_df):
     return int(np.mean(lap_time_on_brakes)),int(np.mean(lap_distance_on_brakes)),int(np.mean(drs_open_time)),int(np.mean(drs_open_distance)),int(np.mean(lap_bottom_speed)),int(np.mean(lap_max_corner_speed)),int(np.mean(lap_bottom_speed_tightness_corner))
 
 def driver_fast_lap_aggregations(lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity 
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity 
     fl_time_on_brakes, fl_distance_on_brakes=driver_brake(lap_df.loc[query].copy())
     fl_drs_time,fl_drs_distance=DRS_open(lap_df.loc[query].copy())
     fl_bottom_speed,fl_max_corner_speed,bottom_speed_tightness_corner=driver_corners(lap_df.loc[query].copy())
@@ -550,8 +552,8 @@ def driver_aggregations(lap_df_aggr,lap_df):
 
 
 def tyre_aggregations(lap_df_aggr,lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity    
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity    
     fastestlap_tyre = (lap_df.loc[query,'qualifying_Compound'].mode().values[0])
     fastestlap_tyre_life=(lap_df.loc[query,'qualifying_TyreLife'].mean())
     lap_df_aggr['fl_tyre'] =fastestlap_tyre
@@ -573,8 +575,8 @@ def sector_laps(lap_df):
     return np.mean(avg_Sector1),np.mean(avg_Sector2),np.mean(avg_Sector3)
 
 def sector_fast_lap(lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     
     fastestlap_Sector1 = (lap_df.loc[query,'qualifying_Sector1Time'].mean())
     fastestlap_Sector2=(lap_df.loc[query,'qualifying_Sector2Time'].mean())
@@ -612,8 +614,8 @@ def weather_laps(lap_df):
     return np.mean(avg_lap_percentagerainfall),np.mean(avg_lap_track_temperature),np.mean(avg_lap_humidty)
     
 def weather_fast_lap(lap_df):
-    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']).unique().min()
-    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_lap_milliseconds']) == similarity
+    similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
+    query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     fastestlap_percentagerainfall = (lap_df.loc[query,'qualifying_Rainfall'].sum()/len(lap_df.loc[query,'qualifying_Rainfall'])*100)
     fastestlap_track_temperature=(lap_df.loc[query,'qualifying_TrackTemp'].mean())
     fastestlap_humidity=(lap_df.loc[query,'qualifying_Humidity'].mean())
@@ -677,9 +679,14 @@ def pull_clean_aggregate_telemetry(file,fast_time='ergast'):
                         lap_df_aggr= row.copy()
                         if (fast_time == 'ergast') & (pd.notnull(row['fastest_lap_milliseconds']) == True):
                             lap_df = add_col(lap_df,'fastest_lap_milliseconds',row['fastest_lap_milliseconds'])
+                            lap_df = add_col(lap_df,'fastest_all_sessions_milliseconds',row['fastest_all_sessions_milliseconds'])
+                            lap_df['fastest_lap_milliseconds'] =lap_df['fastest_lap_milliseconds'].astype('float')
+                            lap_df['fastest_lap_milliseconds'] =lap_df['fastest_lap_milliseconds'].astype('float')
                         else:
                             lap_df['fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
+                            lap_df['fastest_all_sessions_milliseconds'] = pick_fastest_lap(lap_df)
                             lap_df_aggr['fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
+                            lap_df_aggr['fastest_all_sessions_milliseconds'] = pick_fastest_lap(lap_df)
                         lap_df = replace_fast_nan(lap_df)
                         lap_df = laps_corners(lap_df)
                         
@@ -698,3 +705,59 @@ def pull_clean_aggregate_telemetry(file,fast_time='ergast'):
 
 
 #%%
+
+
+def get_year_quali():
+    season_fast1_df = fastf1.get_event_schedule(year=datetime.today().year,include_testing=False)
+    circuit_mapper={
+    'Sakhir': 'bahrain',
+    'Jeddah': 'jeddah',
+    'Melbourne':'albert_park',
+    'Imola':'imola',
+    'Miami':'miami',
+    'Barcelona': 'catalunya',
+    'Monaco': 'monaco',
+    'Baku': 'baku',
+    'Montréal' : 'villeneuve',
+    'Silverstone':'silverstone',
+    'Spielberg': 'red_bull_ring',
+    'Le Castellet':'ricard',
+    'Budapest':'hungaroring',
+    'Spa-Francorchamps':'spa',
+    'Zandvoort':'zandvoort',
+    'Monza':'monza',
+    'Marina Bay': 'marina_bay',
+    'Suzuka': 'suzuka',
+    'Austin': 'americas',
+    'Mexico City': 'rodriguez',
+    'São Paulo': 'interlagos',
+    'Yas Island': 'yas_marina'
+    }
+    season_fast1_df['Location'] = season_fast1_df['Location'].map(circuit_mapper)
+    season_fast1_df['quali_date']=''
+    for i,row in season_fast1_df.iterrows():
+        if row['Session1']=='Qualifying':
+            season_fast1_df.loc[i,'quali_date']= row['Session1Date']
+        elif row['Session2']=='Qualifying':
+            season_fast1_df.loc[i,'quali_date']= row['Session2Date']
+        elif row['Session3']=='Qualifying':
+            season_fast1_df.loc[i,'quali_date']= row['Session3Date']
+        elif row['Session4']=='Qualifying':
+            season_fast1_df.loc[i,'quali_date']= row['Session4Date']
+        elif row['Session5']=='Qualifying':
+            season_fast1_df.loc[i,'quali_date']= row['Session5Date']
+    event_df= season_fast1_df[['RoundNumber','Location','quali_date']].copy()
+    return event_df
+
+def new_sessions(data,season_df):
+
+    existingquery = season_df['Location'].isin(list(data.loc[data['year']==datetime.today().year,'circuitRef'].unique()))
+    datequery = season_df['quali_date']< datetime.today()
+
+    return event_df[(~existingquery) & (datequery)]
+
+
+
+
+
+# %%
