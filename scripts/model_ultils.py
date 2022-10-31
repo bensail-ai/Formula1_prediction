@@ -47,7 +47,7 @@ def clean_df(df,columns=['number','name','dob']):
 
     return df
 
-def prepare_modelling_df(df,fast_lap='all'):
+def prepare_modelling_df(df,fast_lap='all',test_raceids=None):
     df = convert_object_to_float(df)
     if fast_lap=='all':
         df = engineer_target_bin(df,fast_lap='fastest_all_sessions_milliseconds')
@@ -56,16 +56,20 @@ def prepare_modelling_df(df,fast_lap='all'):
     df = convert_object_to_float(df)
     df = feature_engineer_country(df)
     df=clean_df(df)
-    r = np.random.RandomState(13)
-    rand_races = r.randint(0,16,10)
-    years=[2018,2019,2020,2021,2022]
-    test_r=[]
-    b= 0
-    for i,year in enumerate(years):
-        races = df.loc[df['year']==year,'raceId'].unique()
-        test_r.append(list(races[rand_races[b:b+2]]))    
-        b=b+2
-    test_r =list(np.array(test_r).flatten())
+    df= fix_zero_DRS(df)
+    if test_raceids == None:
+        r = np.random.RandomState(13)
+        rand_races = r.randint(0,16,10)
+        years=[2018,2019,2020,2021,2022]
+        test_r=[]
+        b= 0
+        for i,year in enumerate(years):
+            races = df.loc[df['year']==year,'raceId'].unique()
+            test_r.append(list(races[rand_races[b:b+2]]))    
+            b=b+2
+        test_r =list(np.array(test_r).flatten())
+    else:
+        test_r=test_raceids
     query = (df['raceId'].isin(test_r))
     X_test = df[query].drop(columns=['fastest_lap_milliseconds', 'lap_timedelta_milliseconds','quali_position','raceId','quali_position_binned','lap_timedelta_seconds_binned','fastest_all_sessions_milliseconds']).copy()
     X_train = df[~query].drop(columns=['fastest_lap_milliseconds', 'lap_timedelta_milliseconds','quali_position','raceId','quali_position_binned','lap_timedelta_seconds_binned','fastest_all_sessions_milliseconds']).copy()
@@ -102,8 +106,31 @@ def apply_manual_features(X_train,X_test,features=[]):
     
     return X_train_manual, X_test_manual
 
+def fix_zero_DRS(df):
+    query = df['avg_lap_time_on_DRS'] == 0
+    zero_drs= df.loc[query, ['circuitRef','driverRef','year']]
+    for ind,row in zero_drs.iterrows():
+        circuit = df['circuitRef']== row['circuitRef']
+        driver = df['driverRef'] == row['driverRef']
+        year = df['year'] == row['year']
+        not_zero = df['avg_lap_time_on_DRS'] != 0
+        if len(df.loc[(circuit)&(driver)&(not_zero),'avg_lap_time_on_DRS'])>0:
+            avg_drs_time = df.loc[(circuit)&(driver)&(not_zero),'avg_lap_time_on_DRS'].mean()
+            avg_drs_dist = df.loc[(circuit)&(driver)&(not_zero),'avg_lap_distance_on_DRS'].mean()
+            fl_drs_time = df.loc[(circuit)&(driver)&(not_zero),'fl_lap_time_on_DRS'].mean()
+            fl_drs_distance = df.loc[(circuit)&(driver)&(not_zero),'fl_lap_distance_on_DRS'].mean()
+        else:
+            avg_drs_time = df.loc[(circuit)&(not_zero),'avg_lap_time_on_DRS'].mean()
+            avg_drs_dist = df.loc[(circuit)&(not_zero),'avg_lap_distance_on_DRS'].mean()
+            fl_drs_time = df.loc[(circuit)&(not_zero),'fl_lap_time_on_DRS'].mean()
+            fl_drs_distance = df.loc[(circuit)&(not_zero),'fl_lap_distance_on_DRS'].mean()
+        df.loc[(circuit)&(driver)&(year),'avg_lap_time_on_DRS'] = avg_drs_time
+        df.loc[(circuit)&(driver)&(year),'avg_lap_distance_on_DRS'] = avg_drs_dist
+        df.loc[(circuit)&(driver)&(year),'fl_lap_time_on_DRS'] = fl_drs_time
+        df.loc[(circuit)&(driver)&(year),'fl_lap_distance_on_DRS'] = fl_drs_distance
 
-# %%
+    return df
+    # %%
 
 
 

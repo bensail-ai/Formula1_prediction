@@ -212,9 +212,10 @@ def clean_laps(lap_df):
     lapIds = lap_df['qualifying_lapId'].unique()
     laps=[]
     for lap in lapIds:
-        if lap_df.loc[lap_df['qualifying_lapId']==lap,'qualifying_Distance'].max() < 100:
+        distance = lap_df.loc[lap_df['qualifying_lapId']==lap,'qualifying_Distance']
+        if distance.max() < 100:
             laps.append(lap)
-        elif lap_df.loc[lap_df['qualifying_lapId']==lap,'qualifying_Distance'].min() <= 0:
+        elif (distance.min() <= 0) & (((distance.max()/4) - distance.describe()['25%'])>250):
             laps.append(lap)
     lap_df=lap_df[~(lap_df['qualifying_lapId'].isin(laps))]
     lap_df= lap_df[lap_df['qualifying_Distance'].notnull()]
@@ -708,6 +709,11 @@ def pull_clean_aggregate_telemetry(file,fast_time='ergast'):
 
 
 def get_year_quali():
+    if os.path.exists('./f1_cache'):
+        pass
+    else:
+        os.mkdir('./f1_cache')
+    fastf1.Cache.enable_cache('./f1_cache')
     season_fast1_df = fastf1.get_event_schedule(year=datetime.today().year,include_testing=False)
     circuit_mapper={
     'Sakhir': 'bahrain',
@@ -749,15 +755,138 @@ def get_year_quali():
     event_df= season_fast1_df[['RoundNumber','Location','quali_date']].copy()
     return event_df
 
-def new_sessions(data,season_df):
+def new_sessions(data,event_df):
 
-    existingquery = season_df['Location'].isin(list(data.loc[data['year']==datetime.today().year,'circuitRef'].unique()))
-    datequery = season_df['quali_date']< datetime.today()
+    existingquery = event_df['Location'].isin(list(data.loc[data['year']==datetime.today().year,'circuitRef'].unique()))
+    datequery = event_df['quali_date']< datetime.today()
 
     return event_df[(~existingquery) & (datequery)]
 
 
 
+def get_new_results_dataframe(file,event_df):
+    df = prepare_results_dataframe(file)
+    df = clean_quali_times(df)
+    driver_mapper={
+    'Charles Leclerc': 'leclerc',
+    'Sergio Perez': 'perez',
+    'Lewis Hamilton': 'hamilton',
+    'Carlos Sainz': 'sainz',
+    'Fernando Alonso': 'alonso',
+    'Lando Norris': 'norris',
+    'Pierre Gasly': 'gasly',
+    'Max Verstappen': 'max_verstappen',
+    'Kevin Magnussen':'kevin_magnussen',
+    'Yuki Tsunoda': 'tsunoda',
+    'George Russell': 'russell',
+    'Lance Stroll': 'stroll',
+    'Mick Schumacher': 'mick_schumacher',
+    'Sebastian Vettel': 'vettel',
+    'Guanyu Zhou': 'zhou',
+    'Valtteri Bottas':'bottas',
+    'Daniel Ricciardo': 'ricciardo',
+    'Esteban Ocon': 'ocon',
+    'Alexander Albon': 'albon',
+    'Nicholas Latifi': 'latifi'
+    }
+    constructor_mapper={
+    'Ferrari':'ferrari',
+    'Red Bull Racing':'red_bull',
+    'AlphaTauri':'alphatauri',
+    'Mercedes':'mercedes',
+    'Haas F1 Team':'haas',
+    'Aston Martin':'aston_martin',
+    'Alfa Romeo':'alfa',
+    'McLaren':'mclaren',
+    'Alpine':'alpine',
+    'Williams':'williams'
 
+    }
+    raceid=df['raceId'].max()+1
+    results_dataframes=[]
+    for i, row in event_df.iterrows():
+        event=fastf1.get_event(2022,row['RoundNumber'])
+        session = event.get_qualifying()
+        session.load()
+        results_df = session.results
+        results_df['driverRef']= results_df['FullName'].map(driver_mapper)
+        results_df['circuitRef']=row['Location']
+        results_df['q1_milliseconds'] = results_df['Q1'].dt.total_seconds()*1000
+        results_df['q2_milliseconds'] = results_df['Q2'].dt.total_seconds()*1000
+        results_df['q3_milliseconds'] = results_df['Q3'].dt.total_seconds()*1000
+        results_df=clean_q3_times(results_df,'q1_milliseconds','q2_milliseconds','q3_milliseconds','fastest_lap_milliseconds')
+        results_df['fastest_all_sessions_milliseconds'] = results_df.apply(lambda x: find_fastest_lap(x['q1_milliseconds'],x['q2_milliseconds'],x['q3_milliseconds']),axis=1)
+        results_df['constructorRef'] = results_df['TeamName'].map(constructor_mapper)
+        new_races_df=results_df[['driverRef','constructorRef','circuitRef','fastest_all_sessions_milliseconds','fastest_lap_milliseconds']].copy()
+        new_races_df['quali_position'] = results_df['Position'].copy()
+        new_races_df['number']=results_df['DriverNumber'].astype('float').copy()
+        query = df['circuitRef']==new_races_df['circuitRef'].unique()[0]
+        new_races_df['country']=df.loc[query,'country'].unique()[0]
+        new_races_df['name']=df.loc[query,'name'].unique()[0]
+        new_races_df['lat_x']=df.loc[query,'lat_x'].unique()[0]
+        new_races_df['lng_x']=df.loc[query,'lng_x'].unique()[0]
+        new_races_df['alt']=df.loc[query,'alt'].unique()[0]
+        new_races_df['year']=event_df['quali_date'].astype('datetime64').dt.year.unique()[0]
+        drivers = new_races_df['driverRef'].unique()
+        for driver in drivers:
+            query2= df['driverRef']==driver
+            driver_query=new_races_df['driverRef']==driver
+            new_races_df.loc[driver_query,'nationality_drivers']=df.loc[query2,'nationality_drivers'].unique()[0]
+            new_races_df.loc[driver_query,'dob']=df.loc[query2,'dob'].unique()[0]
+        constructors= new_races_df['constructorRef'].unique()
+        for cons in constructors:
+            query3=df['constructorRef']==cons
+            query4=new_races_df['constructorRef']==cons
+            new_races_df.loc[query4,'nationality_constructors']=df.loc[query3,'nationality_constructors'].unique()[0]
 
-# %%
+        new_races_df['raceId']=raceid
+        results_dataframes.append(new_races_df)
+        raceid+=1
+
+    new_results_df=pd.concat(results_dataframes)
+    new_results_df.reset_index(drop=True,inplace=True)
+    return new_results_df
+#%%         
+
+def pull_new_races_aggregate_telemetry(df,fast_time='ergast'):
+
+     
+    lap_dfs=[]
+    indexes = df.groupby(['year','name'])['raceId'].unique().index
+    for year,name in indexes:        
+        data = get_fastf1_session(year,name)
+        print(f'Loaded data for {year} {name} ')
+        df_race=df[(df['year'] == year) & (df['name'] == name)].copy()
+        for index, row in df_race.iterrows():           
+            lap_df= session_lap_driver(data,int(row['number']))
+            
+            if len(lap_df) >0 :# no lap data available for the driver pass
+                
+                lap_df = clean_lap_df(lap_df)
+
+                if len(lap_df) >0 : # bad data means cleaning removes all data therefore pass
+                    lap_df_aggr= row.copy()
+                    if (fast_time == 'ergast') & (pd.notnull(row['fastest_lap_milliseconds']) == True):
+                        lap_df = add_col(lap_df,'fastest_lap_milliseconds',row['fastest_lap_milliseconds'])
+                        lap_df = add_col(lap_df,'fastest_all_sessions_milliseconds',row['fastest_all_sessions_milliseconds'])
+                        lap_df['fastest_lap_milliseconds'] =lap_df['fastest_lap_milliseconds'].astype('float')
+                        lap_df['fastest_lap_milliseconds'] =lap_df['fastest_lap_milliseconds'].astype('float')
+                    else:
+                        lap_df['fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
+                        lap_df['fastest_all_sessions_milliseconds'] = pick_fastest_lap(lap_df)
+                        lap_df_aggr['fastest_lap_milliseconds'] = pick_fastest_lap(lap_df)
+                        lap_df_aggr['fastest_all_sessions_milliseconds'] = pick_fastest_lap(lap_df)
+                    lap_df = replace_fast_nan(lap_df)
+                    lap_df = laps_corners(lap_df)
+                    
+                    lap_df_aggr=all_aggregations(lap_df_aggr,lap_df)
+                    lap_df_aggr=clean_aggregations(lap_df_aggr,lap_df)
+                    lap_dfs.append(lap_df_aggr.to_frame().T)
+            
+            else:
+                pass
+            print(f"completed driver {row['number']} ", end='\r')
+    print(f'completed {year} {name}')
+    Lap_aggr_combined=pd.concat(lap_dfs)
+    
+    return Lap_aggr_combined

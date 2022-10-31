@@ -103,16 +103,18 @@ def variables_explore(df):
         print("----------------\n")
 
 
-def plot_numerical_variables_hist(df,columns=5,**kwargs):
-
-    num_col_list = list(df.select_dtypes("number").columns)
+def plot_numerical_variables_hist(df,num_columns=5,columns=None,**kwargs):
+    if columns == None:
+        num_col_list = list(df.select_dtypes("number").columns)
+    else:
+        num_col_list = columns
     if len(num_col_list) > 50:
         figsize=(14,50)
     elif len(num_col_list) > 20:
         figsize=(14,20)
     else:
         figsize=(14,12)
-    fig, axes = plt.subplots(math.ceil(len(df[num_col_list].columns)/columns), columns, figsize=figsize,**kwargs)
+    fig, axes = plt.subplots(math.ceil(len(df[num_col_list].columns)/num_columns), num_columns, figsize=figsize,**kwargs)
     for col, axs in zip(df[num_col_list].columns, axes.flatten()): # axes are a numpy array need to flatten to be able to iterate over it easily
         sns.histplot(df[col],ax=axs,bins=100)
         axs.set_title(col)
@@ -341,6 +343,32 @@ def linear_regression(df,variables,target):
     
     
     return df_results_summary
+
+
+def homoscedasticity_test(residuals,predictions,**kwargs):
+
+    plt.subplots(1, 2, figsize=(10,5),**kwargs)
+
+    
+    plt.subplot(1,2,1)
+    sm.ProbPlot(residuals).qqplot(line='s')
+    plt.title('Q-Q plot of residuals')
+
+    plt.subplot(1,2,2)
+    plt.plot(predictions,residuals,marker='o',linestyle = 'None')
+    plt.title('Plot of residuals against predictions')
+    plt.ylabel('Residuals')
+    plt.xlabel('Predictions')
+    plt.show()
+    
+    print("Shaprio-Wilk test of Residuals is: \n ", stats.shapiro(residuals))
+
+    if float(stats.shapiro(residuals)[1]) < 0.05:
+        print("can reject null hypothesis and residuals may not be normally distributed")
+    else:
+        print("can not reject null hypothesis and the residuals are likely normally distributed")
+    print("---------------------------")
+    
 
 
 def logistic_regression(df,variables,target):
