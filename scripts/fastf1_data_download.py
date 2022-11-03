@@ -755,9 +755,9 @@ def get_year_quali():
     event_df= season_fast1_df[['RoundNumber','Location','quali_date']].copy()
     return event_df
 
-def new_sessions(data,event_df):
-
-    existingquery = event_df['Location'].isin(list(data.loc[data['year']==datetime.today().year,'circuitRef'].unique()))
+def new_sessions(file,event_df):
+    df = prepare_results_dataframe(file)
+    existingquery = event_df['Location'].isin(list(df.loc[df['year']==datetime.today().year,'circuitRef'].unique()))
     datequery = event_df['quali_date']< datetime.today()
 
     return event_df[(~existingquery) & (datequery)]
