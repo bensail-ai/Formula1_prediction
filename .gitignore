@@ -5,3 +5,8 @@ data/clean/2019_telemetry_subsetcircuits_data.csv
 data/clean/years_18_19_telemetry_subsetcircuits_cleaned.csv
 data/clean/years_18_19_telemetry_subsetcircuits_data.csv
 data/clean/2018_telemetry_subsetcircuits_data.csv
+scripts/f1_cache/
+.ipynb_checkpoints/
+images/
+scripts/__pycache__/
+Tableau_workbook.twb
