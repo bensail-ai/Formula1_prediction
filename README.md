@@ -3,7 +3,7 @@
 Welcome to the project on predicting Formula 1 qualifying performance prediction as part of Brain Station's Data Science Diploma program. 
 
 ### Brain Station Capstone Project
-Author : Ben Palmer - [LinkedIn](https://www.linkedin.com/in/benpalmer470/)
+Author : Ben Palmer - [LinkedIn](https://www.linkedin.com/in/benpalmer470/)\
 Date: November 2022
 
 ## Project Overview:
@@ -16,12 +16,12 @@ Formula1 is the pinnacle of motorsport where drivers and teams compete against e
 If you wish to run this project yourself, you can setup your the conda environment used to run this project by running this bash script:
 <insert bash script>
 
-Alternativily create your own conda environment using the requirements.txt file. 
+Alternatively create your own conda environment using the requirements.txt file. 
 
 ### Data Sources:
 
 The data comes from 3 main sources: 
-- [Ergast API](http://ergast.com/mrd/)database historical result data from 1950 to present day
+- [Ergast API](http://ergast.com/mrd/) database historical result data from 1950 to present day
 - Weather data from Visual Crossings API -[Visual Crossings API](https://www.visualcrossing.com/)
 - [F1 Live](https://www.formula1.com/en/f1-live.html) python package which acts as a link to the [F1 Live](https://www.formula1.com/en/f1-live.html) telemetry data from 2018 to present day 
 

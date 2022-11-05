@@ -104,6 +104,14 @@ def variables_explore(df):
 
 
 def plot_numerical_variables_hist(df,num_columns=5,columns=None,**kwargs):
+    """
+    Plots the histograms of all the numerical values in a dataframe
+
+    Args:
+        df (pd.DataFrame): the dataframe to plot
+        num_columns (int, optional): number of columns of output. Defaults to 5.
+        columns (_type_, optional): column names to pass if None uses all the number columns. Defaults to None.
+    """
     if columns == None:
         num_col_list = list(df.select_dtypes("number").columns)
     else:
@@ -346,6 +354,16 @@ def linear_regression(df,variables,target):
 
 
 def homoscedasticity_test(residuals,predictions,**kwargs):
+    """Plot the Q-Q plot for residuals
+
+    Plot the predictions against the reisduals on a scatter plot
+
+    Calculate and print the Shaprio-Wilk homoscedasticity result
+
+    Args:
+        residuals (np.array): array of residuals
+        predictions (np.array): array of predictions
+    """
 
     plt.subplots(1, 2, figsize=(10,5),**kwargs)
 
@@ -485,6 +503,13 @@ def plot_dist_by_dim(data, column, dim):
 
 
 def plot_categorical_cols_by_dim(df,dim,columns=5,**kwargs):
+    """Plots the bars of all the categorical variable coloured by a dimension in a DataFrame
+
+    Args:
+        df (pd.DataFrame): the DataFrame with the categorical variables
+        dim (str): the column name by which to color the stacked bars by
+        columns (int, optional): number of columns in the subplot. Defaults to 5.
+    """
     figsize=(14,12)
     cat_list = list(df.select_dtypes("object").columns)+list(df.select_dtypes("category").columns)
     fig,axes=plt.subplots(math.ceil(len(df[cat_list].columns)/columns), columns, figsize=figsize)
@@ -526,6 +551,15 @@ def check_column_encoding(data,col1,col2):
         print('Series are not equal')
 
 def convert_time_miliseconds(x):
+    """
+    Converts a string with time data formated 00:00 of minutes:seconds to total seconds
+
+    Args:
+        x (str): string of time data MM:SS
+
+    Returns:
+        float: total seconds of string
+    """
     if x == 'nan':
         return None
     else:    
