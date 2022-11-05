@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import requests
+from constants import key
 
 def weather_api_call(Location,StartDate):
 
@@ -18,7 +19,7 @@ def weather_api_call(Location,StartDate):
     # This is the core of our weather query URL
     BaseURL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/'
 
-    ApiKey='CD9PVKSU42B7LXYDT3R7S3863'
+    ApiKey=key # add your visual crossing key here
     #UnitGroup sets the units of the output - us or metric
     UnitGroup='metric'
 
@@ -97,7 +98,7 @@ def weather_api_call_day(Location,StartDate):
     # This is the core of our weather query URL
     BaseURL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/'
 
-    ApiKey='CD9PVKSU42B7LXYDT3R7S3863'
+    ApiKey=key
     #UnitGroup sets the units of the output - us or metric
     UnitGroup='metric'
 

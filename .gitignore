@@ -3,5 +3,7 @@ Report/
 f1_cache/
 scripts/f1_cache/
 images/
-scripts/__pycache__/
-Tableau_workbook.twb
+./scripts/__pycache__/*
+*.twb
+scripts/constants.py
+*.pyc
