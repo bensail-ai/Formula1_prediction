@@ -148,8 +148,8 @@ def clean_ergast(f1_data,save = False):
     df_combined_clean['nationality_drivers']=df_combined_clean.nationality_drivers.map(nationality_to_nation)
     if save == True:
         df_combined_clean.to_csv('./data/clean/combined_ergast_clean.csv',index=False)
-        df_lap_times_clean.to_csv('../data/clean/df_lap_times_clean.csv', index=False)
-        df_pit_stops_clean.to_csv('../data/clean/df_pit_stops_clean.csv',index=False)
+        #df_lap_times_clean.to_csv('../data/clean/df_lap_times_clean.csv', index=False) # do not need to keep race lap times as not used in further analysis 
+        #df_pit_stops_clean.to_csv('../data/clean/df_pit_stops_clean.csv',index=False) # do not need  to keep pit stops as not used in further analysis
         return None
     else:
         return df_combined_clean
