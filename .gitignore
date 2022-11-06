@@ -10,7 +10,7 @@ images/feature_selection_data_full.jpg
 images/newplot.png
 images/spa21_variables.png
 images/telemtry.png
-
+./.ipynb_checkpoints/*
 ./scripts/__pycache__/*
 *.twb
 scripts/constants.py
