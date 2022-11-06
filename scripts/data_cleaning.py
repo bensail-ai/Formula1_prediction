@@ -24,13 +24,13 @@ def get_elevation(lat: float, long: float):
 
 
 def convert_string_tonan(df:pd.DataFrame):
-    """Replace all \N in a dataframe withe np.NaN
+    """Replace all N in a dataframe withe np.NaN
 
     Args:
         df (pd.DataFrame): input dataframe
 
     Returns:
-        pd.DataFrane: DataFrame with \N replaced
+        pd.DataFrane: DataFrame with N replaced
     """
     df.replace("\\N",np.NaN,inplace=True)
     return df

@@ -365,18 +365,18 @@ def homoscedasticity_test(residuals,predictions,**kwargs):
         predictions (np.array): array of predictions
     """
 
-    plt.subplots(1, 2, figsize=(10,5),**kwargs)
+    fig, axes = plt.subplots(1, 2, figsize=(10,5),**kwargs)
 
     
-    plt.subplot(1,2,1)
-    sm.ProbPlot(residuals).qqplot(line='s')
-    plt.title('Q-Q plot of residuals')
+    #plt.subplot(1,2,1)
+    sm.ProbPlot(residuals).qqplot(line='s',ax=axes[0])
+    axes[0].set_title('Q-Q plot of residuals')
 
-    plt.subplot(1,2,2)
-    plt.plot(predictions,residuals,marker='o',linestyle = 'None')
-    plt.title('Plot of residuals against predictions')
-    plt.ylabel('Residuals')
-    plt.xlabel('Predictions')
+    #plt.subplot(1,2,2)
+    axes[1].plot(predictions,residuals,marker='o',linestyle = 'None')
+    axes[1].set_title('Plot of residuals against predictions')
+    axes[1].set_ylabel('Residuals')
+    axes[1].set_xlabel('Predictions')
     plt.show()
     
     print("Shaprio-Wilk test of Residuals is: \n ", stats.shapiro(residuals))
