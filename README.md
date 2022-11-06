@@ -15,7 +15,7 @@ Formula1 is the pinnacle of motorsport where drivers and teams compete against e
 
 If you wish to run this project yourself, you can setup your the conda environment used to run this project by running 
 
-conda create env --file ./environment.yml
+conda env create --file ./environment.yml
 conda activate formula1
 
 ### Data Sources:
