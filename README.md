@@ -33,6 +33,8 @@ All the data needed to run this project is contained inside [./data/](./data/):
 - [./data/clean/](./data/clean/) : contains the cleaned and aggregated Ergast Database in a wide format. Plus the raw telemetry data downloaded from FastF1 packaged for 10 GrandPrix's over 2018 and 2019
 - [./data/model_data](./data/model_data/) : contains the complete dataset for modeling, the aggregated telemetry features from all the GrandPrix's 2018 to present. Plus summary dataframes of the modelling results as .pkl files
 
+### Report:
+[Report](./Ben_Palmer_Formula1_Qualifying_Result_Prediction_Report.pdf) - Executive Summary Report of the project
 ### Notebooks:
 **The notebooks are labelled in the order they should be run 1 to 9.**
 - [1_Ben_Palmer_Formula1_Ergast_database_combination](./1_Ben_Palmer_Formula1_Ergast_database_combination.ipynb) : Downloads, cleans and merges the relational Ergast database
