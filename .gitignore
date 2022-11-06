@@ -2,7 +2,15 @@
 Report/
 f1_cache/
 scripts/f1_cache/
-images/
+images/all_variables.png
+images/categorical_variables.png
+images/correlation_raw.png
+images/feature_selection_full.jpg
+images/feature_selection_data_full.jpg
+images/newplot.png
+images/spa21_variables.png
+images/telemtry.png
+
 ./scripts/__pycache__/*
 *.twb
 scripts/constants.py

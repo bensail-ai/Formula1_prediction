@@ -11,7 +11,22 @@ warnings.filterwarnings('ignore') # lots of warnings for fastf1
 from scripts.f1_ultils import *
 #from f1_ultils import *
 #%%
-def f1_telemetry_data(year,round,session=['qualifying']):
+def f1_telemetry_data(year:float,round:float,session=['qualifying']):
+    """
+    This function returns the pandas dataframe Fastf1 telemetry for all the drivers
+    in the specified session in  GrandPrix 
+
+    Function loads the session, returns the laps, weather and telemetry.
+
+    Combined the lap results, weather and telemtry data into one dataframe. 
+    Args:
+        year (float): year of the GrandPrix
+        round (float): round number of the GrandPrix
+        session (list, optional): options are "qualifying" or "practice3". Defaults to ['qualifying'].
+
+    Returns:
+        dict: key is session and value is the combined dataframe
+    """
     if os.path.exists('./f1_cache'):
         pass
     else:
@@ -55,7 +70,7 @@ def f1_telemetry_data(year,round,session=['qualifying']):
                 frames.append(df)
                 print('got telemetry data')
             except:
-                try:
+                try: # sometimes telemetry data doesn't exist so try to download just car data for that driver
                     df= laps_weather.iloc[i].get_car_data()
                     df['lapId'] = i
                     df[f'{session}_DistanceToDriverAhead']=' '
@@ -88,7 +103,22 @@ def f1_telemetry_data(year,round,session=['qualifying']):
 
 
 
-def combine_telemetry(event_data,ergast_df,session='qualifying',year=2018):
+def combine_telemetry(event_data:dict,ergast_df:pd.DataFrame,session='qualifying',year=2018):
+    """
+    This Function combines the lap telemetry data with Ergast result Dataframe
+
+    Inputs are nested dictionary of circuits and sessions
+
+    Args:
+        event_data (dict): this is a dataframe of lap telemetry data, keys are the circuits and values is another dictionary where key
+        is session name and value pandas DataFrame of lap telemetry data
+        ergast_df (pd.DataFrame): Ergast cleaned results DataFrame
+        session (str, optional): options are "qualifying" or "practice3". Defaults to 'qualifying'.
+        year (int, optional): year of the races. Defaults to 2018.
+
+    Returns:
+        pd.DataFrame: DataFrame of merged Telemetry Data with Ergast result DataFrame
+    """
     frames=[]
     for event in event_data:
         ergast_df_event = ergast_df[(ergast_df['year']==year) & (ergast_df['name']==event)]
@@ -100,7 +130,18 @@ def combine_telemetry(event_data,ergast_df,session='qualifying',year=2018):
     data.reset_index(drop=True,inplace=True)
     return data
 
-def get_fastf1_session(year,round,session='qualifying'):
+def get_fastf1_session(year:int,round:int,session='qualifying'):
+    """
+    Function returns the FastF1 session object loaded for the inputs
+
+    Args:
+        year (int): year of the GrandPrix
+        round (int): round number of the GrandPrix
+        session (str, optional): session name options are "qualifying" or "practice3". Defaults to 'qualifying'.
+
+    Returns:
+        session: FastF1 session object
+    """
 
     if os.path.exists('./f1_cache'):
         pass
@@ -122,7 +163,17 @@ def get_fastf1_session(year,round,session='qualifying'):
 
 
 def session_lap_driver(data,driver,session='qualifying'):
-    
+    """
+    Creates the pandas dataframe of lap telemetry data for a driver from a specified FastF1 session object
+
+    Args:
+        data (FastF1 session): Fastf1 session object already loaded
+        driver (int): driver number
+        session (str, optional): session name. Defaults to 'qualifying'.
+
+    Returns:
+        pd.DataFrame: DataFrame of Fastf1 lap telemetry data merged with weather data
+    """
 
     lap_df= data.laps.pick_wo_box().pick_driver(driver)
     lap_df.reset_index(drop=True, inplace=True)
@@ -155,8 +206,19 @@ def session_lap_driver(data,driver,session='qualifying'):
     return laps_combined
 
 
-def prepare_results_dataframe(file):
+def prepare_results_dataframe(file:str):
+    """
+    This function reads the combined and clean Ergast results dataframe and retains the columns required to merge with
+    FastF1 telemetry data
 
+    The file should be located ./data/clean
+
+    Args:
+        file (str): file path to the Ergast cleaned csv file
+
+    Returns:
+        pd.DataFrame: cleaned Ergast results DataFrame
+    """
     ergast_combined_df=pd.read_csv(file)
     qualify_df= ergast_combined_df[['raceId', 'driverRef', 'number','name','circuitRef', 'country', 'nationality_drivers',
        'constructorRef', 'nationality_constructors', 'year', 'lat_x', 'lng_x',
@@ -165,7 +227,18 @@ def prepare_results_dataframe(file):
     qualify_df.reset_index(drop=True, inplace=True)
     return qualify_df
 
-def clean_quali_times(df):
+def clean_quali_times(df:pd.DataFrame):
+    """
+    Function that cleans the Qualifying results in the Ergast DataFrame
+    Converts objects to milliseconds
+    Combines Q1,Q2,Q3 into one column and finds the fastest times of all sessions
+
+    Args:
+        df (pd.DataFrame): Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: cleaned qualifying times of Ergast results DataFrame
+    """
     df['q1'].fillna('nan',inplace=True)
     df['q2'].fillna('nan',inplace=True)
     df['q3'].fillna('nan',inplace=True)
@@ -184,16 +257,39 @@ def clean_quali_times(df):
     
     return df
 
-def add_col(df,col,value):
+def add_col(df:pd.DataFrame,col:str,value):
+    """
+    Adding a column and a value to pandas DataFrame
 
+    Args:
+        df (pd.DataFrame): DataFrame
+        col (str): column name
+        value (float): value of column
+
+    Returns:
+        pd.DataFrame: pandas DataFrame
+    """
     df[col] = value
 
     return df
 
 
-def clean_time(df, columns =['qualifying_end_lap_sessiontime','qualifying_LapTime'
+def clean_time(df:pd.DataFrame, columns =['qualifying_end_lap_sessiontime','qualifying_LapTime'
 ,'qualifying_Sector1Time','qualifying_Sector2Time','qualifying_Sector3Time',
 'qualifying_lap_timedelta']):
+    """
+    Function cleans the time columns of lap telemetry data from FastF1
+
+    returns the columns as total seconds not pandas time delta objects
+
+    Args:
+        df (pd.DataFrame): dataframe lap telemetry data merged with Ergast results DataFrame
+        columns (list, optional): list of columns to clean. Defaults to ['qualifying_end_lap_sessiontime','qualifying_LapTime' ,
+        'qualifying_Sector1Time','qualifying_Sector2Time','qualifying_Sector3Time', 'qualifying_lap_timedelta'].
+
+    Returns:
+        pd.DataFrame: cleaned DataFrame
+    """
 
     df.rename(columns ={'qualifying_Time_x':'qualifying_end_lap_sessiontime','qualifying_Time_y':'qualifying_lap_timedelta'},inplace=True)
     
@@ -208,7 +304,24 @@ def clean_time(df, columns =['qualifying_end_lap_sessiontime','qualifying_LapTim
     return df
 
 
-def clean_laps(lap_df):
+def clean_laps(lap_df:pd.DataFrame):
+    """
+    Function cleans the lap telemetry data before feature aggregation
+
+    It checks the distance columns and removes laps with poor distance data
+    by looking for laps that are too short or
+    the distance data is an exponetial curve and not linear as expected
+    it does this by checking that the max is less than 100
+    and checking that the difference between quarter of the maximum and 25% quartile is small (exponential check)
+
+    returns the clean laps
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: cleaned laps
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     laps=[]
     for lap in lapIds:
@@ -223,7 +336,18 @@ def clean_laps(lap_df):
 
 
 
-def clean_lap_df(lap_df):
+def clean_lap_df(lap_df:pd.DataFrame):
+    """
+    Cleans the FastF1 telemetry laps, fills nans by the mean of that qualifying stint
+    removes not necessary columns 
+    cleans the time and the distance column
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: cleaned laps
+    """
     lap_df['qualifying_lapId'].dropna(inplace=True)
     lap_df = lap_df[lap_df['qualifying_IsAccurate']]
     lap_df.drop(columns=['qualifying_DriverAhead',
@@ -243,19 +367,45 @@ def clean_lap_df(lap_df):
     
     return lap_df
 
-def pick_fastest_lap(lap_df):
+def pick_fastest_lap(lap_df:pd.DataFrame):
+    """
+    Finds the fastest lap in the FastF1 lap telemetry data
 
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data
+
+    Returns:
+        float: the fast lap in milliseconds
+    """
     fast_lap = lap_df['qualifying_LapTime'].min()*1000
 
     return fast_lap
 
-def replace_fast_nan(lap_df):
-    
+def replace_fast_nan(lap_df:pd.DataFrame):
+    """
+    Fills in NaN values of the fastest lap from the Ergast Results dataframe with
+    the fastest lap from the FastF1 lap telemtry data for a driver
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: combined DataFrame with NaNs filled
+    """
     lap_df.loc[lap_df['fastest_all_sessions_milliseconds'].isna(),'fastest_all_sessions_milliseconds'] = pick_fastest_lap(lap_df)
 
     return lap_df
 
-def laps_corners(lap_df):
+def laps_corners(lap_df:pd.DataFrame):
+    """
+    Flags the corners for all laps in the FastF1 lap telemtry data
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: lap telemetry DataFrame with corner flag added
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     for lap in lapIds:
         
@@ -263,7 +413,16 @@ def laps_corners(lap_df):
     return lap_df
 
 
-def circuit_length(lap_df):
+def circuit_length(lap_df:pd.DataFrame):
+    """
+    Calculates the circuit length for a lap in FastF1 lap telemetry data
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: mean circuit length (m)
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     lengths=[]
     for lap in lapIds:
@@ -273,7 +432,18 @@ def circuit_length(lap_df):
     return int(np.mean(lengths))
 
 
-def circuit_straight(lap_df):
+def circuit_straight(lap_df:pd.DataFrame):
+    """
+    Runs Feature aggregations on FastF1 lap telemetry data
+    Calculates features on the circuit straight lengths
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+    Returns:
+        int: mean total length of straights in the lap
+        int: mean length of straights in the lap
+        int: max length of straight in the lap
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     total_=[]
     mean_=[]
@@ -289,7 +459,23 @@ def circuit_straight(lap_df):
     return int(np.mean(total_)), int(np.mean(mean_)), int(np.mean(max_))
     
 
-def circuit_corner(lap_df):
+def circuit_corner(lap_df:pd.DataFrame):
+    """
+    Calculates the corner feature aggregations for every lap in FastF1 combined DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: total corner length
+        int: mean corner length
+        int: max corner length
+        int: sum of all corner curvatures
+        int: mean corner curvature
+        int: max corner curvature
+        int: variance in corner curvature
+        int: number of corners in the lap
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     total_=[]
     mean_=[]
@@ -301,7 +487,7 @@ def circuit_corner(lap_df):
     num_=[]
     for lap in lapIds:
         lap_query=(lap_df['qualifying_lapId'] == lap)
-        if lap_df.loc[lap_query,'qualifying_TrackStatus'].all() == 1:
+        if lap_df.loc[lap_query,'qualifying_TrackStatus'].all() == 1: #ensures it is a clear lap for driver
             total_straight, mean_straight, max_straight,total_curv,mean_curv,max_curv,std_curv,num_corners = corners(lap_df[lap_query].copy())
             total_.append(total_straight)
             mean_.append(mean_straight)
@@ -315,7 +501,18 @@ def circuit_corner(lap_df):
     return int(np.mean(total_)), int(np.mean(mean_)), int(np.mean(max_)), (np.mean(total_curv_)), (np.mean(mean_curv_)), (np.mean(max_curv_)), (np.mean(std_curv_)),int(np.mean(num_))
 
 
-def circuit_aggregations(lap_df_aggr,lap_df):
+def circuit_aggregations(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    Function runs the Feature Aggregations for Circuit characteristics and saves it to the aggregated
+    Dataframe
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: DataFrame of aggregated lap features at a driver record level
+    """
     lap_df_aggr['circuit_length'] = circuit_length(lap_df)
     circuit_total_straight, circuit_mean_straight, circuit_max_straight= circuit_straight(lap_df)
     lap_df_aggr['circuit_total_straight'] = circuit_total_straight
@@ -334,7 +531,20 @@ def circuit_aggregations(lap_df_aggr,lap_df):
     return lap_df_aggr
 
 
-def car_avg_speed(lap_df):
+def car_avg_speed(lap_df:pd.DataFrame):
+    """
+    Function calculates car speed features
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: mean top speed of the laps
+        int: mean variance in speed of the laps
+        int: mean minimum speed of the laps
+        int: mean speed on the straights
+        int: mean variance in speed on the straights
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     top_speed=[]
     var_speed=[]
@@ -354,7 +564,18 @@ def car_avg_speed(lap_df):
     return int(np.mean(top_speed)),int(np.mean(var_speed)),int(np.mean(bottom_speed_lap)),int(np.mean(mean_straight_speed)),int(np.mean(var_straight_speed))
 
 
-def car_fast_lap_speed(lap_df):
+def car_fast_lap_speed(lap_df:pd.DataFrame):
+    """
+    Finds the feature aggregations of speed of the fastest lap per driver in FastF1 lap telemetry data
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        max_fastest_lap_speed (int): maximum speed on the fastest lap
+        var_fastest_lap_speed (int): variance of speed on the fastest lap
+        min_fastest_lap_speed (int): minimum speed on the fastest lap
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     max_fastest_lap_speed= int(lap_df.loc[query,'qualifying_Speed'].max())
@@ -363,7 +584,18 @@ def car_fast_lap_speed(lap_df):
 
     return max_fastest_lap_speed, var_fastest_lap_speed, min_fastest_lap_speed
 
-def car_accleration(lap_df):
+def car_accleration(lap_df:pd.DataFrame):
+    """
+    Calculates the cars acceleration for all the laps in the FastF1 lap telemetry dataframe
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: mean of fastest acceleration of the laps
+        int: mean of variance of accleration of the laps
+        int: minimum accleration of the laps
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     top_accleration=[]
     var_accleration=[]
@@ -378,7 +610,18 @@ def car_accleration(lap_df):
                 min_accleration.append(np.min(acc_))
     return int(np.mean(top_accleration)),int(np.mean(var_accleration)),int(np.mean(min_accleration))
 
-def car_fast_lap_accleration(lap_df):
+def car_fast_lap_accleration(lap_df:pd.DataFrame):
+    """
+    Calculates the accleration features for the fastest lap of the combined FastF1 lap telemetry DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        max_fastest_accleration (int): maximum acceleration on the fastest lap
+        var_fastest_accleration (int): variance in acceleration on the fastest lap
+        min_fastest_accleration (int): minimum acceleration on the fastest lap
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     max_fastest_accleration= int(np.max(acceleration(lap_df.loc[query].copy())))
@@ -387,7 +630,18 @@ def car_fast_lap_accleration(lap_df):
     return max_fastest_accleration,var_fastest_accleration,min_fastest_accleration
 
 
-def car_rpm(lap_df):
+def car_rpm(lap_df: pd.DataFrame):
+    """
+    Calculates the features of RPM on the combined FastF1 lap telemetry DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: the maximum of the maximum RPM on all the laps
+        int: the mean variance in RPM on the straights
+        int: the mean straight RPM on all the laps
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     max_max_rpm=[]     
     straight_var_rpm=[]
@@ -402,7 +656,18 @@ def car_rpm(lap_df):
     return int(np.max(max_max_rpm)), int(np.mean(straight_var_rpm)), int(np.mean(straight_mean_rpm))    
  
 
-def car_fast_lap_rpm(lap_df):
+def car_fast_lap_rpm(lap_df:pd.DataFrame):
+    """
+    Calculates the features of RPM on the combined FastF1 lap telemetry DataFrame for the fastest laps only
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: the maximum of the maximum RPM on the fastest lap
+        int: the mean variance in RPM on the straights on the fastest lap
+        int: the mean straight RPM on the fastest lap
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     max_rpm_fl,mean_straight_rpm_fl, var_straight_rpm_fl= rpm(lap_df.loc[query].copy())
@@ -411,8 +676,17 @@ def car_fast_lap_rpm(lap_df):
 
 
 
-def car_aggregations(lap_df_aggr,lap_df):
+def car_aggregations(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    Calculates all the car charactersitics features and saves the features to the aggregate DataFrame
 
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     lap_df_aggr['max_max_speed'] = int(lap_df['qualifying_Speed'].max())
 
     max_fastest_lap_speed, var_fastest_lap_speed, min_fastest_lap_speed = car_fast_lap_speed(lap_df)
@@ -444,7 +718,25 @@ def car_aggregations(lap_df_aggr,lap_df):
 
     return lap_df_aggr
 
-def gear_laps(lap_df):
+def gear_laps(lap_df:pd.DataFrame):
+    """
+    Calculates the features of gear times for every lap in the FastF1 lap telemetry data merged with Ergast results DataFrame
+
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: mean of gear 1 time seconds
+        int: mean of gear 2 time seconds
+        int: mean of gear 3 time seconds
+        int: mean of gear 4 time seconds
+        int: mean of gear 5 time seconds
+        int: mean of gear 6 time seconds
+        int: mean of gear 7 time seconds
+        int: mean of gear 8 time seconds
+ 
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     gear_1_times=[]
     gear_2_times=[]  
@@ -469,14 +761,40 @@ def gear_laps(lap_df):
     return int(np.mean(gear_1_times)),int(np.mean(gear_2_times)),int(np.mean(gear_3_times)),int(np.mean(gear_4_times)),int(np.mean(gear_5_times)),int(np.mean(gear_6_times)),int(np.mean(gear_7_times)),int(np.mean(gear_8_times))
 
 
-def gear_fast_lap(lap_df):
+def gear_fast_lap(lap_df:pd.DataFrame):
+    """
+    Calculates the gear times for the fastest lap only in the FastF1 lap telemetry DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: mean of gear 1 time seconds
+        int: mean of gear 2 time seconds
+        int: mean of gear 3 time seconds
+        int: mean of gear 4 time seconds
+        int: mean of gear 5 time seconds
+        int: mean of gear 6 time seconds
+        int: mean of gear 7 time seconds
+        int: mean of gear 8 time seconds
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     gear_dict_fl= gear_data(lap_df.loc[query].copy())
     return int(np.mean(gear_dict_fl['gear_1'])), int(np.mean(gear_dict_fl['gear_2'])),int(np.mean(gear_dict_fl['gear_3'])),int(np.mean(gear_dict_fl['gear_4'])),int(np.mean(gear_dict_fl['gear_5'])),int(np.mean(gear_dict_fl['gear_6'])),int(np.mean(gear_dict_fl['gear_7'])),int(np.mean(gear_dict_fl['gear_8']))
 
   
-def gear_aggregations(lap_df_aggr,lap_df):
+def gear_aggregations(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    Calculates all the gear charactersitics features and saves the features to the aggregate DataFrame
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     avg_gear1_time,avg_gear2_time,avg_gear3_time,avg_gear4_time,avg_gear5_time,avg_gear6_time,avg_gear7_time,avg_gear8_time = gear_laps(lap_df)
     avg_gear1_time_fl,avg_gear2_time_fl,avg_gear3_time_fl,avg_gear4_time_fl,avg_gear5_time_fl,avg_gear6_time_fl,avg_gear7_time_fl,avg_gear8_time_fl = gear_fast_lap(lap_df)
     lap_df_aggr['avg_gear1_time'] =avg_gear1_time
@@ -498,7 +816,22 @@ def gear_aggregations(lap_df_aggr,lap_df):
 
     return lap_df_aggr
 
-def driver_lap_aggregations(lap_df):
+def driver_lap_aggregations(lap_df:pd.DataFrame):
+    """
+    Calculates the driver features of DRS time & Distance, Braking time & distance, Speed in the corners
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: mean lap time on the bakes of all the laps
+        int: mean lap distance on the brakes of all the laps
+        int: mean drs open time of all the laps
+        int: mean drs open distance of all the laps
+        int: mean minimum speed of all the laps
+        int: mean maximum speed in the corners of all the laps
+        int: mean speed in the tightest corner of all the laps
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     lap_time_on_brakes=[]
     lap_distance_on_brakes=[]
@@ -522,7 +855,22 @@ def driver_lap_aggregations(lap_df):
             lap_distance_on_brakes.append(distance_on_brakes)
     return int(np.mean(lap_time_on_brakes)),int(np.mean(lap_distance_on_brakes)),int(np.mean(drs_open_time)),int(np.mean(drs_open_distance)),int(np.mean(lap_bottom_speed)),int(np.mean(lap_max_corner_speed)),int(np.mean(lap_bottom_speed_tightness_corner))
 
-def driver_fast_lap_aggregations(lap_df):
+def driver_fast_lap_aggregations(lap_df:pd.DataFrame):
+    """
+    Calculate the driver features of DRS time & Distance, Braking time & distance, Speed in the corners for the fastest lap only
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        int: mean lap time on the bakes of the fastest lap
+        int: mean lap distance on the brakes of the fastest lap
+        int: mean drs open time of the fastest lap
+        int: mean drs open distance of the fastest lap
+        int: mean minimum speed of the fastest lap
+        int: mean maximum speed in the corners of the fastest lap
+        int: mean speed in the tightest corner of the fastest lap
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity 
     fl_time_on_brakes, fl_distance_on_brakes=driver_brake(lap_df.loc[query].copy())
@@ -530,7 +878,17 @@ def driver_fast_lap_aggregations(lap_df):
     fl_bottom_speed,fl_max_corner_speed,bottom_speed_tightness_corner=driver_corners(lap_df.loc[query].copy())
     return int(fl_time_on_brakes),int(fl_distance_on_brakes),int(fl_drs_time),int(fl_drs_distance),int(np.mean(fl_bottom_speed)),int(np.max(fl_max_corner_speed)),int(bottom_speed_tightness_corner)
 
-def driver_aggregations(lap_df_aggr,lap_df):
+def driver_aggregations(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    Calculates all the driver charactersitics features and saves the features to the aggregate DataFrame
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     avg_lap_time_on_brake,avg_lap_distance_on_brake, avg_lap_time_on_DRS, avg_lap_distance_on_DRS,avg_lap_bottom_speed_corner, avg_lap_max_speed_corner,  avg_lap_bottom_speed_tightest_corner  =driver_lap_aggregations(lap_df)
     lap_df_aggr['avg_lap_time_on_brake'] =avg_lap_time_on_brake
     lap_df_aggr['avg_lap_distance_on_brake'] = avg_lap_distance_on_brake
@@ -552,7 +910,17 @@ def driver_aggregations(lap_df_aggr,lap_df):
 
 
 
-def tyre_aggregations(lap_df_aggr,lap_df):
+def tyre_aggregations(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    Calculates the tyre feature aggregations on the fastest lap and saves it to the aggregate DataFrame
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity    
     fastestlap_tyre = (lap_df.loc[query,'qualifying_Compound'].mode().values[0])
@@ -562,7 +930,18 @@ def tyre_aggregations(lap_df_aggr,lap_df):
 
     return lap_df_aggr
 
-def sector_laps(lap_df):
+def sector_laps(lap_df:pd.DataFrame):
+    """
+    Returns the average lap sector times from the FastF1 lap telemetry combined DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        float: avgerage time for sector 1
+        float: average time for sector 2
+        float: average time for sector 3
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     avg_Sector1=[]
     avg_Sector2=[]
@@ -575,7 +954,18 @@ def sector_laps(lap_df):
             avg_Sector3.append(lap_df.loc[lap_query,'qualifying_Sector3Time'].mean())
     return np.mean(avg_Sector1),np.mean(avg_Sector2),np.mean(avg_Sector3)
 
-def sector_fast_lap(lap_df):
+def sector_fast_lap(lap_df:pd.DataFrame):
+    """
+    Returns the fastest lap sector times from the FastF1 lap telemetry combined DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        float: fastest lap time for sector 1
+        float: fastest lap time for sector 2
+        float: fastest lap time for sector 3
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     
@@ -587,7 +977,18 @@ def sector_fast_lap(lap_df):
  
     
 
-def sector_aggregations(lap_df_aggr,lap_df):
+def sector_aggregations(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    Calculates the sector feature times and takes the average for all the laps. 
+    Adds the features to the aggregate DataFrame
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     fastestlap_Sector1,fastestlap_Sector2, fastestlap_Sector3= sector_fast_lap(lap_df)
     lap_df_aggr['fastestlap_Sector1'] =fastestlap_Sector1
     lap_df_aggr['fastestlap_Sector2'] = fastestlap_Sector2
@@ -601,7 +1002,18 @@ def sector_aggregations(lap_df_aggr,lap_df):
     return lap_df_aggr
 
 
-def weather_laps(lap_df):
+def weather_laps(lap_df:pd.DataFrame):
+    """
+    Calculates the average rainfall, track temperature and humidty for all the laps in the combined FastF1 lap telemetry DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        float: average fraction of rainfall for all the laps
+        float: average track temperature for all the laps
+        float: average humidity for all the laps
+    """
     lapIds = lap_df['qualifying_lapId'].unique()
     avg_lap_percentagerainfall=[]
     avg_lap_track_temperature=[]
@@ -614,7 +1026,18 @@ def weather_laps(lap_df):
             avg_lap_humidty.append(lap_df.loc[lap_query,'qualifying_Humidity'].mean())
     return np.mean(avg_lap_percentagerainfall),np.mean(avg_lap_track_temperature),np.mean(avg_lap_humidty)
     
-def weather_fast_lap(lap_df):
+def weather_fast_lap(lap_df: pd.DataFrame):
+    """
+    Calculates the average rainfall, track temperature and humidty for the fastest lap per driver in the combined FastF1 lap telemetry DataFrame
+
+    Args:
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        float: fraction of rainfall for the fastest lap
+        float: track temperature for all the fastest lap
+        float: humidity for all the fastest lap
+    """
     similarity = (lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']).unique().min()
     query=(lap_df['qualifying_LapTime']*1000-lap_df['fastest_all_sessions_milliseconds']) == similarity
     fastestlap_percentagerainfall = (lap_df.loc[query,'qualifying_Rainfall'].sum()/len(lap_df.loc[query,'qualifying_Rainfall'])*100)
@@ -626,7 +1049,18 @@ def weather_fast_lap(lap_df):
 
 
 
-def weather_aggregations(lap_df_aggr,lap_df):    
+def weather_aggregations(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    Calculates the weather features for average laps and fastest laps. 
+    Adds the features to the aggregate DataFrame
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """    
     fastestlap_percentagerainfall, fastestlap_track_temperature, fastestlap_humidity = weather_fast_lap(lap_df)
     lap_df_aggr['fastestlap_percentagerainfall'] =fastestlap_percentagerainfall
     lap_df_aggr['fastestlap_track_temperature'] = fastestlap_track_temperature
@@ -638,11 +1072,38 @@ def weather_aggregations(lap_df_aggr,lap_df):
 
     return lap_df_aggr
 
-def get_age(lap_df_aggr,lap_df):
+def get_age(lap_df_aggr:pd.DataFrame,lap_df:pd.DataFrame):
+    """
+    calculates the age of the driver for every record in the aggregate DataFrame
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     age = (lap_df['qualifying_Date'] - pd.to_datetime(lap_df_aggr['dob'])).astype('<m8[Y]').mean()
     return age
    
-def all_aggregations(lap_df_aggr, lap_df):
+def all_aggregations(lap_df_aggr:pd.DataFrame, lap_df:pd.DataFrame):
+    """
+    Runs all the aggregate feature functions for:
+    Circuit
+    Car
+    Gear
+    Driver
+    Tyre
+    Weather
+    and Age
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        lap_df (pd.DataFrame): FastF1 lap telemetry data merged with Ergast results DataFrame
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     lap_df_aggr= circuit_aggregations(lap_df_aggr,lap_df)
     lap_df_aggr = car_aggregations(lap_df_aggr,lap_df)
     lap_df_aggr= gear_aggregations(lap_df_aggr,lap_df)
@@ -653,12 +1114,37 @@ def all_aggregations(lap_df_aggr, lap_df):
     lap_df_aggr['age']= get_age(lap_df_aggr,lap_df)
     return lap_df_aggr
 
-def clean_aggregations(lap_df_aggr, columns=['name','dob']):
+def clean_aggregations(lap_df_aggr:pd.DataFrame, columns=['name','dob']):
+    """
+    Function removes the columns from the input in the aggregate DataFrame
+
+    Args:
+        lap_df_aggr (pd.DataFrame): Driver race record DataFrame with aggregated features
+        columns (list, optional): list of columns to remove. Defaults to ['name','dob'].
+
+    Returns:
+        pd.DataFrame: Driver race record DataFrame with aggregated features
+    """
     lap_df_aggr.drop(columns =columns,axis=1, inplace=True)
     return lap_df_aggr
 
 
-def pull_clean_aggregate_telemetry(file,fast_time='ergast'):
+def pull_clean_aggregate_telemetry(file:str,fast_time='ergast'):
+    """
+    Function to download and create aggregate features for all the races in the Ergast results dataframe from 2018.
+
+    The function loads the Ergast DataFrame and for each driver race record, pulls the telemetry from FastF1 and completes
+    the feature aggregations 
+
+    The file should be located ./data/clean for the ergast clean combined .csv file
+
+    Args:
+        file (str): file path to the Ergast cleaned csv file    
+        fast_time (str, optional): Which fast time to use if "Ergast" uses the fastest lap time from the Ergast DataFrame. Defaults to 'ergast'.
+
+    Returns:
+        pd.DataFrame: The complete driver race record DataFrame with aggregated features
+    """
 
     df = prepare_results_dataframe(file)
     df = clean_quali_times(df)
@@ -709,6 +1195,15 @@ def pull_clean_aggregate_telemetry(file,fast_time='ergast'):
 
 
 def get_year_quali():
+    """
+
+    Gets all the qualifying sessions as a DataFrame for this years season as a DataFrame, of circuit, Round and date from FastF1 API
+
+    The the circuit names are mapped to match the Ergast DataFrame format
+
+    Returns:
+        pd.DataFrame: Summary DataFrame of this years Qualifying sessions
+    """
     if os.path.exists('./f1_cache'):
         pass
     else:
@@ -756,14 +1251,15 @@ def get_year_quali():
     return event_df
 
 def new_sessions(file: str,event_df: pd.DataFrame):
-    """_summary_
+    """
+    For the qualifying sessions for this year it returns the dataframe of the ones which are not in the Ergast cleaned file
 
     Args:
-        file (str): _description_
-        event_df (pd.DataFrame): _description_
+        file (str): file path to the Ergast cleaned csv file    
+        event_df (pd.DataFrame): event DataFrame of qualifying events this year
 
     Returns:
-        _type_: _description_
+        pd.DataFrame: The event DataFrame of the events which are not in the Ergast DataFrame
     """
    
     df = prepare_results_dataframe(file)
@@ -774,8 +1270,17 @@ def new_sessions(file: str,event_df: pd.DataFrame):
 
 
 
-def get_new_results_dataframe(file,event_df):
+def get_new_results_dataframe(file:str,event_df:pd.DataFrame):
     """
+    Pull the Qualifying Results for the events in the event_df DataFrame. It returns a DataFrame matching the Ergast Results DataFrame for those
+    events.
+
+    Args:
+        file (str): file path to the Ergast cleaned csv file    
+        event_df (pd.DataFrame): The event DataFrame of the events which are not in the Ergast DataFrame
+
+    Returns:
+        pd.DataFrame: The qualifying results for the races in the event DataFrame
     """
     df = prepare_results_dataframe(file)
     df = clean_quali_times(df)
@@ -860,8 +1365,20 @@ def get_new_results_dataframe(file,event_df):
     return new_results_df
 #%%         
 
-def pull_new_races_aggregate_telemetry(df,fast_time='ergast'):
+def pull_new_races_aggregate_telemetry(df:pd.DataFrame,fast_time='ergast'):
+    """
+    Function to download and create aggregate features for all the races which are not included for this year in the Ergast results dataframe.
 
+    The function uses the qualifying results dataframe for the get_new_function_results_dataframe function and gets the telemetry data for each
+    driver and runs thethe feature aggregations 
+
+    Args:
+        df (pd.DataFrame): The qualifying results for the races not included in Ergast DataFrame
+        fast_time (str, optional): Which fast time to use if "Ergast" uses the fastest lap time from the Ergast DataFrame. Defaults to 'ergast'.
+
+    Returns:
+        pd.DataFrame: The complete driver race record DataFrame with aggregated features for the new races
+    """
      
     lap_dfs=[]
     indexes = df.groupby(['year','name'])['raceId'].unique().index

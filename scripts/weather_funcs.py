@@ -10,10 +10,27 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import requests
-from constants import key
+from constants import key # you need your own Visual Crossing API key
+
+"""
+   Functions in this file are used in the Weather_data_collection.py script file 
+
+
+"""
 
 def weather_api_call(Location,StartDate):
+    """
+    Calls the visual crossing api with the Location and StartDate
+    Retrives weather data as a json file for every hour
+    Creates a dataframe from the json file for that day
 
+    Args:
+        Location (str): Location of weather combined latitudea and longitude
+        StartDate (str): Date of weather information
+
+    Returns:
+        pd.DataFrame: DataFrame of weather data for that day
+    """
     context = ssl._create_unverified_context()
 
     # This is the core of our weather query URL
@@ -92,7 +109,18 @@ def weather_api_call(Location,StartDate):
 
 
 def weather_api_call_day(Location,StartDate):
+    """
+    Calls the visual crossing api with the Location and StartDate
+    Retrives weather data as a json file as averages for a day
+    Creates a Series from the json file for that day
 
+    Args:
+        Location (str): Location of weather combined lat and longitude
+        StartDate (str): Date of weather information
+
+    Returns:
+        pd.Series: Series of weather data for that day
+    """
     context = ssl._create_unverified_context()
 
     # This is the core of our weather query URL
@@ -172,7 +200,24 @@ def weather_api_call_day(Location,StartDate):
 
 
 def get_weather_data(Lat,Lng,StartDate,time): 
+    """
+    Calls the visual crossing api with a latitude and longitude point, date and time
 
+    if the time is present and non a NaN value it will do the hourly data call and average the data for the 4 hours either side of that time
+
+    if time is a NaN value and not a string it will take the daily averages for that date.
+   
+    Creates a Series from the json file for that day
+
+    Args:
+        Lat (float): Latitude of location
+        Lng (float): Longitude of location
+        StartDate (str): Date of interest
+        time (str): Time of event
+
+    Returns:
+        pd.Series: Series of summary weather infomration for that event
+    """
 
     Location=str(Lat)+','+str(Lng)    
     
@@ -206,7 +251,26 @@ def get_weather_data(Lat,Lng,StartDate,time):
 
 
 def get_weather_data_quali(Lat,Lng,qualiDate,qualitime,raceDate,racetime):
+    """
+    
+    Retrive weather data for qualifying events, if qualifying date and time not present it takes the race date and time and subtracts 1 day
 
+    if the time is present and non a NaN value it will do the hourly data call and average the data for the 4 hours either side of that time
+
+    if time is a NaN value and not a string it will take the daily averages for that date.
+   
+    Creates a Series from the json file for that day
+    Args:
+        Lat (float): Latitude of location
+        Lng (float): Longitude of location
+        qualiDate (str): Qualifying Date from Ergast Database
+        qualitime (str): Qualifying time from Ergast Database
+        raceDate (str): Race Date from Ergast Database
+        racetime (str): Race time from Ergast Database
+
+    Returns:
+        pd.Series: Series of summary weather infomration for that event
+    """
     Location=str(Lat)+','+str(Lng)    
 
     if str(qualiDate) != 'nan':
@@ -251,7 +315,19 @@ def get_weather_data_quali(Lat,Lng,qualiDate,qualitime,raceDate,racetime):
 
 
 def get_url_weather(url):
+    """
+    Runs webscraping function to retrive the weather condition text from wikipedia for a GrandPrix Race.
 
+    If the weather data is not included in the summary table it switches to Italian version where it is present
+
+    Returns the string of weather condition from wikipedia
+
+    Args:
+        url (str): url of wikipedia GrandPrix page
+
+    Returns:
+        str: weather condition string scraped from the page
+    """
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     tables = soup.find_all('tr')

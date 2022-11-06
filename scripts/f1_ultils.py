@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
+#%%
 import numpy as np
 import math
 import pandas as pd
 from scipy.interpolate import interp1d
 import os
+#%%
 
 def read_ergast_files(directory:str):
     """Read all the .csv files from a particular folder save the results in a dictionary object

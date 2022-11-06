@@ -13,10 +13,10 @@ Formula1 is the pinnacle of motorsport where drivers and teams compete against e
 
 ## Important Project Setup:
 
-If you wish to run this project yourself, you can setup your the conda environment used to run this project by running this bash script:
-<insert bash script>
+If you wish to run this project yourself, you can setup your the conda environment used to run this project by running 
 
-Alternatively create your own conda environment using the requirements.txt file. 
+conda create env --file ./environment.yml
+conda activate formula1
 
 ### Data Sources:
 
